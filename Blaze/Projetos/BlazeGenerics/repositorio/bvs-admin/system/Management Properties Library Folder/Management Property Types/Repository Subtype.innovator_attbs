@@ -1,0 +1,15 @@
+#Extended attributes for Innovator file-based repository (directory: 'Repository Subtype')
+#Fri Sep 28 16:44:26 BRT 2018
+contentType=Provider
+entryLastCheckInTime=9/28/18 4\:43 PM
+entryLastCheckInUser=admin
+guid=1QvduR6kCVc2COKUBU2dErAo7IQ
+innovatorDisplayName=repository subtype
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=Repository Subtype
+isSystemTemplate=true
+subType=None
+target=Repository
+type=Generic

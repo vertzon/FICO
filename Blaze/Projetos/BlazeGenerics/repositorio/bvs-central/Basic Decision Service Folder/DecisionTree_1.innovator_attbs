@@ -1,0 +1,22 @@
+#Atributos estendidos para repositório com base em arquivo do Innovator (diretório: 'DecisionTree_1')
+#Wed Oct 03 11:38:14 BRT 2018
+contentType=Instance
+entryLastCheckInTime=10/3/18 11\:38 AM
+entryLastCheckInUser=admin
+guid=3mN3kMZRah8H6p0xZykbLwl6oBG
+innovatorDisplayName=DecisionTree
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=DecisionTree_1
+innovatorTemplateRef=GZ4ltXPwEu7TdtwoQXRqanVPg9L
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=Decision JS Tree
+target=SRL
+type=SRL Ruleset

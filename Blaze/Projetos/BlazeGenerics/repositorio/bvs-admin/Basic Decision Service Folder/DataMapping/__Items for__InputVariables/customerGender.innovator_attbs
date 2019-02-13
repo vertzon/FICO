@@ -1,0 +1,22 @@
+#Extended attributes for Eclipse file-based repository (directory: 'customerGender')
+#Tue Oct 02 19:17:22 BRT 2018
+contentType=Instance
+entryLastCheckInTime=10/2/18 7\:17 PM
+entryLastCheckInUser=admin
+guid=J3zMOMnG0zwP1l1t5hY2dFYiUVx
+innovatorDisplayName=customerGender
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorTemplateRef=DSG71szD5AH5G0pcZCfjmcoPvq0
+isSeparateStoredSubInstance=true
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=Business Term
+target=SRL
+type=SRL Project Items

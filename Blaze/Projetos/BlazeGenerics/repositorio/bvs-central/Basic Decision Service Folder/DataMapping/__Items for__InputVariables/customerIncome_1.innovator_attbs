@@ -1,0 +1,23 @@
+#Extended attributes for Innovator file-based repository (directory: 'customerIncome_1')
+#Tue Oct 02 19:17:22 BRT 2018
+contentType=Instance
+entryLastCheckInTime=10/2/18 7\:17 PM
+entryLastCheckInUser=admin
+guid=Dudwi3igLSEdNs5H5jNx0BiDyWT
+innovatorDisplayName=customerIncome
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=customerIncome_1
+innovatorTemplateRef=DSG71szD5AH5G0pcZCfjmcoPvq0
+isSeparateStoredSubInstance=true
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=Business Term
+target=SRL
+type=SRL Project Items

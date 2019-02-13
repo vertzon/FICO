@@ -1,0 +1,20 @@
+#Atributos estendidos para repositório com base em arquivo do Innovator (diretório: 'customesEnderco')
+#Tue Feb 12 14:09:55 BRST 2019
+com.blazesoft.repository.local.locallycreated=true
+contentType=Instance
+guid=ZORv0MuEr8H0geSg7IdgdHQk09
+innovatorDisplayName=customesEnderco
+innovatorItemCreationId=admin
+innovatorLastModifiedUser=admin
+innovatorTemplateRef=DSG71szD5AH5G0pcZCfjmcoPvq0
+isSeparateStoredSubInstance=true
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=Business Term
+target=SRL
+type=SRL Project Items

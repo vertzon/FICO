@@ -1,0 +1,290 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<template xmlns='http://www.blazesoft.com/template' name='SimpleVarsMapping_DecisionTableTemplate_Output'>
+ <ide-name>SimpleVarsMapping_DecisionTableTemplate_Output</ide-name>
+ <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1aXVBoGeVoNneBc7JEvYqSwVYVH' name='Decision Table' id='UXmrAsjrTEPhwzZBP6XrnwvisSc'>
+ </instantiation>
+ <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1ryqjy2wlawpW8dy391IVawONdo' name='Template' id='Template'>
+ </instantiation>
+ <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1DRDrpW6ok6ZGNee0wO8XQa1Qwc' name='SRL Variable' id='1YIq4eY9U0T6pnL5kxO9CsUmElX'>
+ </instantiation>
+ <instantiation xmlns='http://www.blazesoft.com/instantiation' template='18uqQPJXnTmKrAiLEOVcQMUAFmD' name='Entry' id='Entry'>
+  <instance ref='Source Reference'>
+   <instance ref='value'>
+    <instance ref='locationVH'>
+     <value></value>
+    </instance>
+    <instance ref='repositoryNameVH'>
+     <value></value>
+    </instance>
+    <instance ref='versionVH'>
+     <value></value>
+    </instance>
+    <instance ref='filterVH'>
+     <value></value>
+    </instance>
+    <instance ref='releaseDateVH'>
+     <value></value>
+    </instance>
+    <instance ref='repositoryAccessVH'>
+     <value></value>
+    </instance>
+   </instance>
+  </instance>
+  <instance ref='Predictive Model Type'>
+   <instance ref='value'>
+    <value>NotApplicable</value>
+   </instance>
+  </instance>
+ </instantiation>
+ <parameters>
+  <parameter name='__ENTITY_PROPERTIES__VH__' type='1aXVBoGeVoNneBc7JEvYqSwVYVH' ideName='Management Properties' displayName='ManagementProperties' name-localized='true'>
+  </parameter>
+  <parameter name='rulesetName' type='XWIkCzCWAi3cnNYJDgrmLYb8Ep7.MetaphorNameProvider' ideName='rulesetName'>
+  </parameter>
+  <parameter-list name='cases' type='XWIkCzCWAi3cnNYJDgrmLYb8Ep7.Decision Table Case Template' ideName='cases' min='0'>
+  </parameter-list>
+  <parameter name='editingInfo' type='XWIkCzCWAi3cnNYJDgrmLYb8Ep7.Editing Info Template' ideName='editingInfo'>
+  </parameter>
+  <parameter name='casesInfo' type='XWIkCzCWAi3cnNYJDgrmLYb8Ep7.Cases Info Template' ideName='casesInfo'>
+  </parameter>
+ </parameters>
+ <family>Decision Table Template</family>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/srl' section='srl'><ruleset managementPropertiesRef='UXmrAsjrTEPhwzZBP6XrnwvisSc'>
+   <name><template:placeholder ref='rulesetName' relative='true'/></name>
+   <ruleset-body>
+    <template:placeholder ref='cases' relative='true'/>
+    <variable managementPropertiesRef='1YIq4eY9U0T6pnL5kxO9CsUmElX'>
+     <name>MappingEnabled</name>
+     <type>boolean</type>
+    </variable>
+   </ruleset-body>
+  </ruleset></template:content>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/dectable' section='dectable'><name>SimpleVarsMapping_DecisionTableTemplate_Output</name><return-type>void</return-type><execution-mode></execution-mode><cell-group name='decision' label='decision' optional='false' role='action' alignment='vertical'>
+   <entity source='static'>input.output.decision</entity>
+   <binding source='static'><binding-reference ref='XWIkCzCWAi3cnNYJDgrmLYb8Ep7.Assignment'></binding-reference><binding-reference ref='HpCA3aezfvW7qaUftqvMmEgUmPL.Action not applicable'></binding-reference></binding>
+  </cell-group><cell-group name='Mapeamento_Ativo_1' label='Mapeamento Ativo?' optional='false' role='condition' alignment='vertical'>
+   <entity source='static'>MappingEnabled</entity>
+   <binding source='static'><binding-reference ref='HpCA3aezfvW7qaUftqvMmEgUmPL.Equal to'></binding-reference><binding-reference ref='HpCA3aezfvW7qaUftqvMmEgUmPL.Condition not applicable'></binding-reference></binding>
+  </cell-group><layout>single-axis-cols</layout><rule-id visible='false' editable='false'><prefix>rule</prefix></rule-id></template:content>
+ <template name='Assignment' resource-bundle='com.blazesoft.template.metaphor.binding.strings'>
+  <ide-name>AssociacaoBusinessTermToOutputGenericVar</ide-name>
+  <display-name>Associacao de Business Term a GenericVar de Saida</display-name>
+  <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1ryqjy2wlawpW8dy391IVawONdo' name='Template' id='Template'>
+  </instantiation>
+  <parameters>
+   <parameter-noninstantiable name='type' type='string' mechanism='argument' repeatable='false' ideName='type'>
+   </parameter-noninstantiable>
+   <parameter-noninstantiable name='property' type='string' mechanism='argument' repeatable='false' ideName='property'>
+   </parameter-noninstantiable>
+   <parameter name='value' type='ZflwwyXLKEhzcbPIeMdeUOafcgR.propertyvalues-provider' ideName='value'>
+    <dynamic-arg name='type' ref='type' relative='true'/>
+    <dynamic-arg name='property' ref='property' relative='true'/>
+   </parameter>
+   <parameter name='prop2' type='X1INhtINH4hGlqOI6WCqEas6Jjs' ideName='prop2'>
+    <dynamic-arg name='class' ref='nomeClasseBusinessTerm' relative='true'/>
+   </parameter>
+   <parameter name='type2' type='FWw3WAmOJo0McrcSxl3dSQsbw2l' ideName='type2'>
+    <dynamic-arg name='class' ref='nomeClasseBusinessTerm' relative='true'/>
+    <dynamic-arg name='property' ref='prop2' relative='true'/>
+   </parameter>
+   <parameter name='nomeClasseBusinessTerm' type='ZFeHBoCWM2o2pd0Hy06S3EnBZNp' ideName='nomeClasseBusinessTerm'>
+    <arg name='include-business-termset'>true</arg>
+    <arg name='include-java-class'>false</arg>
+    <arg name='include-srl-class'>false</arg>
+    <arg name='include-xml-class'>false</arg>
+   </parameter>
+   <parameter name='hashName' type='string' ideName='hashName'>
+   </parameter>
+  </parameters>
+  <family>Code Template</family>
+  <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/srl' section='srl'>if (the<template:placeholder ref='nomeClasseBusinessTerm' relative='true'/>.<template:placeholder ref='prop2' relative='true'/> is not unknown and the<template:placeholder ref='nomeClasseBusinessTerm' relative='true'/>.<template:placeholder ref='prop2' relative='true'/> is not unavailable) then {<template:br/><template:br/><template:tab/>input.output.USER_OUTPUT_VARS_GENERIC.put("<template:placeholder ref='hashName' relative='true'/>", the<template:placeholder ref='nomeClasseBusinessTerm' relative='true'/>.<template:placeholder ref='prop2' relative='true'/> as an Object); <template:br/><template:tab/><![CDATA[print("OUT --> Atribuindo variavel ]]><template:placeholder ref='prop2' relative='true'/> do Business Term <template:placeholder ref='nomeClasseBusinessTerm' relative='true'/> ao hash de saída #<template:placeholder ref='hashName' relative='true'/> com o tipo <template:placeholder ref='type2' relative='true'/> " );<template:br/>} else {<template:br/><template:tab/>input.output.USER_OUTPUT_VARS_GENERIC.put("<template:placeholder ref='hashName' relative='true'/>", null); <template:br/><template:tab/><![CDATA[print("OUT --> Atribuindo variavel ]]><template:placeholder ref='prop2' relative='true'/> do Business Term <template:placeholder ref='nomeClasseBusinessTerm' relative='true'/> ao hash de saída #<template:placeholder ref='hashName' relative='true'/> com o tipo <template:placeholder ref='type2' relative='true'/>  - Variavel esta NULA!" );<template:br/>}<template:br/></template:content>
+  <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/display' section='display'><![CDATA[Atribuir a variável &nbsp;]]><placeholder ref='prop2' relative='true'>
+   </placeholder><![CDATA[&nbsp; do Business Term &nbsp;]]><placeholder ref='nomeClasseBusinessTerm' relative='true'>
+   </placeholder><![CDATA[&nbsp;para a variável de saída com hash# []]><placeholder ref='hashName' relative='true'>
+   </placeholder>]</template:content>
+ </template>
+ <template name='Cell Template'>
+  <ide-name>Cell Template</ide-name>
+  <parameters>
+   <parameter name='CELL GROUP NAME' type='XWIkCzCWAi3cnNYJDgrmLYb8Ep7.Cell Group Names' ideName='CELL GROUP NAME' displayName='Internal Use Only - Not For Display: cell group name'>
+   </parameter>
+   <parameter name='type' type='XWIkCzCWAi3cnNYJDgrmLYb8Ep7.__ND_CellGroupInfoProvider' ideName='type'>
+   </parameter>
+   <parameter name='property' type='XWIkCzCWAi3cnNYJDgrmLYb8Ep7.__ND_CellGroupInfoProvider' ideName='property'>
+   </parameter>
+   <parameter-selection name='binding' type='XWIkCzCWAi3cnNYJDgrmLYb8Ep7.Template List Provider' ideName='binding' min='1' max='1'>
+    <dynamic-arg name='property' ref='property' relative='true'/>
+    <dynamic-arg name='type' ref='type' relative='true'/>
+   </parameter-selection>
+  </parameters>
+  <family>Code Template</family>
+  <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/srl' section='srl'><template:placeholder ref='binding' relative='true'/></template:content>
+ </template>
+ <template name='Cases Info Template'>
+  <ide-name>Cases Info Template</ide-name>
+  <parameters>
+   <parameter-list name='condition cells' type='XWIkCzCWAi3cnNYJDgrmLYb8Ep7.Cell Group Info Template' ideName='condition cells' min='0'>
+   </parameter-list>
+   <parameter-list name='action cells' type='XWIkCzCWAi3cnNYJDgrmLYb8Ep7.Cell Group Info Template' ideName='action cells' min='0'>
+   </parameter-list>
+  </parameters>
+  <family>Information template</family>
+ </template>
+ <template name='Cell Group Info Template'>
+  <comment>Holds Information about the Cell Groups in the metaphor.</comment>
+  <ide-name>Cell Group Info Template</ide-name>
+  <parameters>
+   <parameter name='name' type='string' ideName='name'>
+   </parameter>
+   <parameter name='displayName' type='string' ideName='displayName'>
+   </parameter>
+   <parameter name='property' type='string' ideName='property'>
+   </parameter>
+   <parameter name='type' type='string' ideName='type'>
+   </parameter>
+  </parameters>
+  <family>Information template</family>
+ </template>
+ <template name='__ND_CellGroupInfoProvider'>
+  <ide-name>__ND_CellGroupInfoProvider</ide-name>
+  <value>
+   <provider>com.blazesoft.template.repository.provider.NdPromMetaphorInstanceCellGroupInfoProvider</provider>
+  </value>
+ </template>
+ <template name='__ND_CaseIdProvider'>
+  <ide-name>__ND_CaseIdProvider</ide-name>
+  <value>
+   <provider>com.blazesoft.template.repository.provider.NdPromMetaphorUniqueCaseIdProvider</provider>
+  </value>
+ </template>
+ <template name='Editing Info Template'>
+  <comment>Holds Information about the number of cases in the decision table</comment>
+  <ide-name>Editing Info Template</ide-name>
+  <parameters>
+   <parameter name='rowCondValueCount' type='integer' ideName='rowCondValueCount'>
+   </parameter>
+   <parameter name='colCondValueCount' type='integer' ideName='colCondValueCount'>
+   </parameter>
+   <parameter name='isNewInstance' type='boolean' ideName='isNewInstance'>
+   </parameter>
+  </parameters>
+  <family>Information template</family>
+  <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/srl' section='srl'></template:content>
+ </template>
+ <template name='Cell Group Names'>
+  <comment>This is the complete list of names for all condition and action groups.
+There is no real need for this list provider, as long as the client maintains
+this list.</comment>
+  <ide-name>Cell Group Names</ide-name>
+  <value>
+   <provider>com.blazesoft.template.engine.provider.NdListProvider</provider>
+   <arg name='type'>string</arg>
+   <arg name='unique'>true</arg>
+   <arg name='element'>decision</arg>
+   <arg name='element'>Mapeamento_Ativo_1</arg>
+  </value>
+ </template>
+ <template name='Template List Provider'>
+  <ide-name>Template List Provider</ide-name>
+  <value>
+   <provider>com.blazesoft.template.metaphor.NdMetaphorBindingTemplateListProvider</provider>
+  </value>
+ </template>
+ <template name='Enumeration Items Provider'>
+  <ide-name>Enumeration Items Provider</ide-name>
+  <value>
+   <provider>com.blazesoft.template.engine.provider.NdEnumerationItemsProvider</provider>
+   <arg name='template'></arg>
+   <arg name='enumeration'></arg>
+  </value>
+ </template>
+ <template name='Decision Table Case Template'>
+  <comment>$Date$ $Revision$
+===================
+This Template is intended to be a built-in.
+That is, it should be utterly generic with nothing tying it to a specific
+object model or template set.
+
+At the moment the only non-generic aspect is the list of associations
+defined as static overrides to the "all bindings for group" value holder
+in the Cell Template. It is envisioned that this list of associations will
+be passed into the generic Decision Table Case Template as a
+template argument, when that mechanism is implemented by IRT.
+
+
+How this Template Works:
+=====================
+In this generic template there is one place holder for all of the condition
+groups and another for all of the action groups, with a loop over each.
+
+The problem of ensuring that the correct list of bindings is used for each
+group is solved by using an association provider linking the
+name of the condition group to the template list provider that contains
+the correct bindings for that group.
+
+This setup depends on the client submitting (or choosing) the correct
+CELL GROUP NAME in Cell Template for each instance of 
+the value holder conditions.
+The second value holder in  Cell Template, "all bindings for group"
+uses this name as the key for the association provider that associates
+group names with lists of templates for those group names.
+This value holder is an "all values" value holder,  and thus takes
+as its values all of the names of the templates in the list that matches the
+key.  That is, its values are the names of the templates in the specified
+group.
+
+This value holder, "all bindings for group" is then used as a dynamic
+override for the "binding" value holder which refers to an empty
+(builtin) Template List Provider.
+Thus the allowed values of "binding" are the templates whose names
+were associated with the key.</comment>
+  <ide-name>Decision Table Case Template</ide-name>
+  <parameters>
+   <parameter name='__ENTITY_PROPERTIES__VH__' type='1e4Fwj577fuGSTbTbZVTMCQNc91' ideName='Management Properties'>
+   </parameter>
+   <parameter-list name='condition cells' type='XWIkCzCWAi3cnNYJDgrmLYb8Ep7.Cell Template' ideName='condition cells' min='0'>
+   </parameter-list>
+   <parameter-list name='action cells' type='XWIkCzCWAi3cnNYJDgrmLYb8Ep7.Cell Template' ideName='action cells' min='0'>
+   </parameter-list>
+   <parameter name='__ND_MetaphorRuleNameVH' type='XWIkCzCWAi3cnNYJDgrmLYb8Ep7.__ND_CaseIdProvider'>
+    <arg name='prefix'>rule</arg>
+   </parameter>
+   <parameter name='__ND_DecTableCellRowVH' type='string' ideName='__ND_DecTableCellRowVH'>
+   </parameter>
+   <parameter name='__ND_DecTableCellColumnVH' type='string' ideName='__ND_DecTableCellColumnVH'>
+   </parameter>
+   <parameter name='__ND_DecTableCellCreatedVH' type='string' ideName='__ND_DecTableCellCreatedVH'>
+   </parameter>
+  </parameters>
+  <family>Rule Template</family>
+  <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/srl' section='srl'><rule>
+    <comment>@decisionTableCellRow <template:placeholder ref='__ND_DecTableCellRowVH' relative='true'/><template:br/>@decisionTableCellColumn <template:placeholder ref='__ND_DecTableCellColumnVH' relative='true'/><template:br/>@decisionTableCellCreated <template:placeholder ref='__ND_DecTableCellCreatedVH' relative='true'/><template:br/></comment>
+    <name><template:placeholder ref='__ND_MetaphorRuleNameVH' relative='true'/></name>
+    <execution-mode>exhaustively</execution-mode>
+    <body>if <template:foreach ref='condition cells' relative='true'>
+      <template:prefix>(</template:prefix>
+      <template:infix> and<template:br/>    </template:infix>
+      <template:postfix>)</template:postfix>
+      <template:item><template:placeholder ref='condition cells' relative='true'/></template:item>
+     </template:foreach><template:br/>then { <template:br/><template:tab/><template:foreach ref='action cells' relative='true'>
+      <template:prefix></template:prefix>
+      <template:infix> <template:br/><template:tab/></template:infix>
+      <template:postfix></template:postfix>
+      <template:item><template:placeholder ref='action cells' relative='true'/></template:item>
+     </template:foreach><template:br/>}</body>
+   </rule></template:content>
+ </template>
+ <template name='MetaphorNameProvider'>
+  <ide-name>MetaphorNameProvider</ide-name>
+  <value>
+   <provider>com.blazesoft.template.engine.provider.NdStringProvider</provider>
+   <default-value>SimpleVarsMapping_DecisionTableTemplate_Output_Instance</default-value>
+  </value>
+ </template>
+ <template name='MetaphorDagProvider'>
+  <ide-name>MetaphorDagProvider</ide-name>
+  <value>
+   <provider>com.blazesoft.template.engine.provider.NdStringProvider</provider>
+  </value>
+ </template>
+</template>

@@ -1,0 +1,21 @@
+#Extended attributes for Eclipse file-based repository (directory: 'SystemDefinitionEJB2')
+#Fri Feb 08 11:29:21 BRST 2019
+com.blazesoft.repository.local.checkedOut=admin
+contentType=Fixed
+entryLastCheckInTime=10/3/18 11\:59 PM
+entryLastCheckInUser=admin
+guid=F9x0CsP1Kxm31t7ruzpbkbQ4Mh9
+innovatorDisplayName=SystemDefinitionEJB2
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=System Definition
+target=Repository
+type=XML

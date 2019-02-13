@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<template xmlns='http://www.blazesoft.com/template' name='diffInDays'>
+ <ide-name>diffInDays</ide-name>
+ <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1rl2Kmfiy8OJi5vUhYbsYmASJIF' name='SRL Function' id='6GpT1hQPTpMIWUJRZXX7FueRRgN'>
+  <instance ref='Test Role'>
+   <instance ref='value'>
+    <value>None</value>
+   </instance>
+  </instance>
+  <instance ref='Test Case'>
+   <instance ref='value'>
+    <value></value>
+   </instance>
+  </instance>
+ </instantiation>
+ <instantiation xmlns='http://www.blazesoft.com/instantiation' template='18uqQPJXnTmKrAiLEOVcQMUAFmD' name='Entry' id='Entry'>
+  <instance ref='Source Reference'>
+   <instance ref='value'>
+    <instance ref='locationVH'>
+     <value>/Basic Decision Service Folder/Excluded from RMA/IDE_artifacts/diffInDays</value>
+    </instance>
+    <instance ref='repositoryNameVH'>
+     <value></value>
+    </instance>
+    <instance ref='versionVH'>
+     <value></value>
+    </instance>
+    <instance ref='filterVH'>
+     <value></value>
+    </instance>
+    <instance ref='releaseDateVH'>
+     <value>1526413770382</value>
+    </instance>
+    <instance ref='repositoryAccessVH'>
+     <value></value>
+    </instance>
+   </instance>
+  </instance>
+  <instance ref='Predictive Model Type'>
+   <instance ref='value'>
+    <value>NotApplicable</value>
+   </instance>
+  </instance>
+ </instantiation>
+ <family>Function Template</family>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/srl' section='srl'><function managementPropertiesRef='6GpT1hQPTpMIWUJRZXX7FueRRgN'>
+   <name>diffInDays</name>
+   <type>integer</type>
+   <parameters>
+    <parameter>
+     <name>date1</name>
+     <type>date</type>
+    </parameter>
+    <parameter>
+     <name>date2</name>
+     <type>date</type>
+    </parameter>
+   </parameters>
+   <body>diff is an integer;<template:br/>try {<template:br/><template:tab/>diffDur is a duration initially date2.subtractInDays(date1);<template:br/><template:tab/>diff = diffDur.days;<template:br/><template:br/>} catch an Exception with {<template:br/><template:tab/>print("Error in diffInMonths");<template:br/>}<template:br/>// logEnd();<template:br/>return diff;</body>
+  </function></template:content>
+</template>

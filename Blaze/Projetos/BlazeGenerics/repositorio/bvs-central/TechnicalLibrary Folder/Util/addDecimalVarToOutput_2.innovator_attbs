@@ -1,0 +1,23 @@
+#Extended attributes for Innovator file-based repository (directory: 'addDecimalVarToOutput_2')
+#Fri Sep 28 17:25:27 BRT 2018
+contentType=Fixed
+entryLastCheckInTime=9/28/18 5\:25 PM
+entryLastCheckInUser=admin
+guid=QoqkJyGLM2MnqHaeZ3gZYyogAzF
+innovatorDisplayName=addDecimalVarToOutput
+innovatorItemCreationId=admin
+innovatorItemVersionId=2
+innovatorLastModifiedUser=admin
+innovatorName=addDecimalVarToOutput_2
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=/Basic Decision Service Folder/Excluded from RMA/IDE_artifacts/addBooleanVarToOutput_2
+managementProperty.Source\ Reference.releaseDateVH=1526413770456
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+managementProperty.Test\ Case=
+managementProperty.Test\ Role=None
+subType=None
+target=SRL
+type=SRL Function

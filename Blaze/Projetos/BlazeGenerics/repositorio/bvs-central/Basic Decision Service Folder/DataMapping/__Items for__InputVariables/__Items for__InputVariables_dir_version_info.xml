@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<VersionInfoTable>
+	<ItemName>__Items for__InputVariables</ItemName>
+	<IsDirectory>true</IsDirectory>
+	<IsEntryDeleted>false</IsEntryDeleted>
+	<VersionElement VersionId="1">
+		<User>admin</User>
+		<Comment></Comment>
+		<Timestamp>2 Oct 2018 22:17:22 GMT</Timestamp>
+		<EntryAttribute>
+			<AttributeKey>containerInstanceStorageName</AttributeKey>
+			<AttributeValue>InputVariables</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>entryLastCheckInTime</AttributeKey>
+			<AttributeValue>10/2/18 7:17 PM</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>entryLastCheckInUser</AttributeKey>
+			<AttributeValue>admin</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>guid</AttributeKey>
+			<AttributeValue>VRYyveZmta8f0ehLIsI8xl27s6t</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>innovatorDisplayName</AttributeKey>
+			<AttributeValue>__Items for__InputVariables</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>innovatorItemCreationId</AttributeKey>
+			<AttributeValue>admin</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>innovatorItemVersionId</AttributeKey>
+			<AttributeValue>1</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>innovatorName</AttributeKey>
+			<AttributeValue>__Items for__InputVariables</AttributeValue>
+		</EntryAttribute>
+	</VersionElement>
+</VersionInfoTable>

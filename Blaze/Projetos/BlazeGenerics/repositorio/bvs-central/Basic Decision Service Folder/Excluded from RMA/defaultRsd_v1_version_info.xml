@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<VersionInfoTable>
+	<ItemName>defaultRsd_v1</ItemName>
+	<IsEntryDeleted>false</IsEntryDeleted>
+	<VersionElement VersionId="1">
+		<User>admin</User>
+		<Comment></Comment>
+		<Timestamp>21 Jan 2019 19:47:10 GMT</Timestamp>
+	</VersionElement>
+</VersionInfoTable>

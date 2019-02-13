@@ -1,0 +1,22 @@
+#Atributos estendidos para repositório com base em arquivo do Innovator (diretório: 'Entry Point_1')
+#Thu Oct 04 14:40:35 BRT 2018
+contentType=Instance
+entryLastCheckInTime=10/4/18 2\:40 PM
+entryLastCheckInUser=admin
+guid=XSPTyYqGes3HQESlEH5fwPByqfF
+innovatorDisplayName=Entry Point
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=Entry Point_1
+innovatorTemplateRef=2lzOBOMol63aQPzHLVcA8xUwkr
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=SRL
+type=SRL Project Items

@@ -1,0 +1,21 @@
+#Extended attributes for Eclipse file-based repository (directory: 'SimpleVarsMapping_DecisionTableTemplate_Output')
+#Wed Oct 03 16:33:29 BRT 2018
+contentType=Template
+entryLastCheckInTime=10/3/18 4\:33 PM
+entryLastCheckInUser=admin
+guid=XWIkCzCWAi3cnNYJDgrmLYb8Ep7
+innovatorDisplayName=SimpleVarsMapping_DecisionTableTemplate_Output
+innovatorItemCreationId=admin
+innovatorItemVersionId=4
+innovatorLastModifiedUser=admin
+innovatorName=SimpleVarsMapping_DecisionTableTemplate_Output
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=Decision Table
+target=SRL
+type=SRL Ruleset

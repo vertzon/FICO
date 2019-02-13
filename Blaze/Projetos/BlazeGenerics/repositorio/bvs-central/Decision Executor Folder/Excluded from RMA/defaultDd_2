@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<template xmlns='http://www.blazesoft.com/template' name='defaultDd'>
+ <ide-name>defaultDd</ide-name>
+ <instantiation xmlns='http://www.blazesoft.com/instantiation' template='18uqQPJXnTmKrAiLEOVcQMUAFmD' name='Entry' id='Entry'>
+  <instance ref='Source Reference'>
+   <instance ref='value'>
+    <instance ref='locationVH'>
+     <value>/DecisionServiceFolder/Excluded from RMA/defaultDd</value>
+    </instance>
+    <instance ref='repositoryNameVH'>
+     <value></value>
+    </instance>
+    <instance ref='versionVH'>
+     <value></value>
+    </instance>
+    <instance ref='filterVH'>
+     <value></value>
+    </instance>
+    <instance ref='releaseDateVH'>
+     <value>1379204274212</value>
+    </instance>
+    <instance ref='repositoryAccessVH'>
+     <value></value>
+    </instance>
+   </instance>
+  </instance>
+  <instance ref='Predictive Model Type'>
+   <instance ref='value'>
+    <value>NotApplicable</value>
+   </instance>
+  </instance>
+ </instantiation>
+ <family>Deployment Definition Template</family>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='' section='xml'>
+
+<DeploymentDefinition>
+   <ClientType>Java</ClientType>
+   <CodeGenerationOptions>
+    <AppStartedOnInit>false</AppStartedOnInit>
+    <ClassNamePrefix></ClassNamePrefix>
+    <KeepGeneratedFiles>false</KeepGeneratedFiles>
+    <UsingDebugLogger>false</UsingDebugLogger>
+   </CodeGenerationOptions>
+   <DeploymentEnvironment>Provider_webservice</DeploymentEnvironment>
+   <DeploymentManagerOptions>
+    <ChangeMonitoringHeartbeat>5000</ChangeMonitoringHeartbeat>
+    <Enabled>true</Enabled>
+    <MonitorChanges>true</MonitorChanges>
+    <MonitorRepositoryChanges>false</MonitorRepositoryChanges>
+    <ServerManagerType>com.blazesoft.server.deploy.manager.java.NdDeploymentManagerPrivateJavaServerManager</ServerManagerType>
+   </DeploymentManagerOptions>
+   <Description>Default Deployment Definition</Description>
+   <Name>defaultDd</Name>
+   <NumRuleAgents>10</NumRuleAgents>
+   <RecyclePolicy>Reinitialize</RecyclePolicy>
+   <RemoteDebuggingOptions>
+    <ConnectionName>MyDebugConnection</ConnectionName>
+    <Enabled>false</Enabled>
+    <FailedConnectionPolicy>Ignore</FailedConnectionPolicy>
+    <FilterClass>com.blazesoft.server.deploy.NdDefaultServiceSessionDebugFilter</FilterClass>
+    <PerformanceDataIncluded>false</PerformanceDataIncluded>
+    <UsingMappedProperties>true</UsingMappedProperties>
+    <UsingSessionFilter>false</UsingSessionFilter>
+   </RemoteDebuggingOptions>
+   <RuleAgentPoolingPolicy>Fixed</RuleAgentPoolingPolicy>
+   <ServerType>Stateless</ServerType>
+   <TargetLanguage>Java</TargetLanguage>
+   <Threaded>true</Threaded>
+   <UsingAbsolutePath>true</UsingAbsolutePath>
+   <UsingSourceCodeConfig>false</UsingSourceCodeConfig>
+  </DeploymentDefinition>
+</template:content>
+</template>

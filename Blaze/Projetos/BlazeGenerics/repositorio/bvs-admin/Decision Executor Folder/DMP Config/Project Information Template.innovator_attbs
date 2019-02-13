@@ -1,0 +1,21 @@
+#Extended attributes for Eclipse file-based repository (directory: 'Project Information Template')
+#Fri Sep 28 16:53:35 BRT 2018
+contentType=Template
+entryLastCheckInTime=9/28/18 4\:53 PM
+entryLastCheckInUser=admin
+guid=FiqiG5DnBh2JCypOC3UCk2fK80I
+innovatorDisplayName=Project Information Template
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=Project Information Template
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=Repository
+type=Information

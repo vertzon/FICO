@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<VersionInfoTable>
+	<ItemName>addStringVarToOutput</ItemName>
+	<IsEntryDeleted>false</IsEntryDeleted>
+	<VersionElement VersionId="2">
+		<User>admin</User>
+		<Comment></Comment>
+		<Timestamp>28 Sep 2018 20:25:27 GMT</Timestamp>
+	</VersionElement>
+	<VersionElement VersionId="1">
+		<User>admin</User>
+		<Comment></Comment>
+		<Timestamp>28 Sep 2018 19:53:38 GMT</Timestamp>
+	</VersionElement>
+</VersionInfoTable>

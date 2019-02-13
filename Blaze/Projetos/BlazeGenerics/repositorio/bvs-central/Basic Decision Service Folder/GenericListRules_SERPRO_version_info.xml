@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<VersionInfoTable>
+	<ItemName>GenericListRules_SERPRO</ItemName>
+	<IsEntryDeleted>false</IsEntryDeleted>
+	<VersionElement VersionId="10">
+		<User>admin</User>
+		<Comment></Comment>
+		<Timestamp>12 Feb 2019 19:48:57 GMT</Timestamp>
+	</VersionElement>
+	<VersionElement VersionId="9">
+		<User>admin</User>
+		<Comment></Comment>
+		<Timestamp>12 Feb 2019 18:57:16 GMT</Timestamp>
+	</VersionElement>
+	<VersionElement VersionId="8">
+		<User>admin</User>
+		<Comment></Comment>
+		<Timestamp>12 Feb 2019 18:56:32 GMT</Timestamp>
+	</VersionElement>
+	<VersionElement VersionId="7">
+		<User>admin</User>
+		<Comment></Comment>
+		<Timestamp>4 Oct 2018 17:37:27 GMT</Timestamp>
+	</VersionElement>
+	<VersionElement VersionId="6">
+		<User>admin</User>
+		<Comment></Comment>
+		<Timestamp>4 Oct 2018 17:34:10 GMT</Timestamp>
+	</VersionElement>
+	<VersionElement VersionId="5">
+		<User>admin</User>
+		<Comment></Comment>
+		<Timestamp>4 Oct 2018 17:33:12 GMT</Timestamp>
+	</VersionElement>
+	<VersionElement VersionId="4">
+		<User>admin</User>
+		<Comment></Comment>
+		<Timestamp>4 Oct 2018 17:17:37 GMT</Timestamp>
+	</VersionElement>
+	<VersionElement VersionId="3">
+		<User>admin</User>
+		<Comment></Comment>
+		<Timestamp>4 Oct 2018 17:13:59 GMT</Timestamp>
+	</VersionElement>
+	<VersionElement VersionId="2">
+		<User>admin</User>
+		<Comment></Comment>
+		<Timestamp>4 Oct 2018 17:11:17 GMT</Timestamp>
+	</VersionElement>
+	<VersionElement VersionId="1">
+		<User>admin</User>
+		<Comment></Comment>
+		<Timestamp>4 Oct 2018 17:08:27 GMT</Timestamp>
+	</VersionElement>
+</VersionInfoTable>

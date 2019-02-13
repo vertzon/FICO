@@ -1,0 +1,21 @@
+#Extended attributes for Innovator file-based repository (directory: 'SimpleVarsMapping_DecisionTableTemplate_Output_3')
+#Wed Oct 03 11:23:51 BRT 2018
+contentType=Template
+entryLastCheckInTime=10/3/18 11\:23 AM
+entryLastCheckInUser=admin
+guid=XWIkCzCWAi3cnNYJDgrmLYb8Ep7
+innovatorDisplayName=SimpleVarsMapping_DecisionTableTemplate_Output
+innovatorItemCreationId=admin
+innovatorItemVersionId=3
+innovatorLastModifiedUser=admin
+innovatorName=SimpleVarsMapping_DecisionTableTemplate_Output_3
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=Decision Table
+target=SRL
+type=SRL Ruleset

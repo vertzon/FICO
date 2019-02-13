@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<VersionInfoTable>
+	<ItemName>Built-in Providers</ItemName>
+	<IsDirectory>true</IsDirectory>
+	<IsEntryDeleted>false</IsEntryDeleted>
+	<VersionElement VersionId="1">
+		<User>admin</User>
+		<Comment>Sets up system folder</Comment>
+		<Timestamp>28 Sep 2018 19:43:38 GMT</Timestamp>
+		<EntryAttribute>
+			<AttributeKey>entryLastCheckInTime</AttributeKey>
+			<AttributeValue>9/28/18 4:43 PM</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>entryLastCheckInUser</AttributeKey>
+			<AttributeValue>admin</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>guid</AttributeKey>
+			<AttributeValue>CTPsw3z9RClaDl4Myv4nfQ5Zk77</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>innovatorDisplayName</AttributeKey>
+			<AttributeValue>Built-in Providers</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>innovatorItemCreationId</AttributeKey>
+			<AttributeValue>admin</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>innovatorItemVersionId</AttributeKey>
+			<AttributeValue>1</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>innovatorLastModified</AttributeKey>
+			<AttributeValue>9/28/18 4:43 PM</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>innovatorName</AttributeKey>
+			<AttributeValue>Built-in Providers</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>isSystemDirectory</AttributeKey>
+			<AttributeValue>true</AttributeValue>
+		</EntryAttribute>
+	</VersionElement>
+</VersionInfoTable>

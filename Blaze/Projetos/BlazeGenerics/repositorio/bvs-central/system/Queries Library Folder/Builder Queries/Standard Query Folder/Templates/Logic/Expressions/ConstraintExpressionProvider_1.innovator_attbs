@@ -1,0 +1,20 @@
+#Extended attributes for Innovator file-based repository (directory: 'ConstraintExpressionProvider_1')
+#Fri Sep 28 16:43:42 BRT 2018
+contentType=Provider
+entryLastCheckInTime=9/28/18 4\:43 PM
+entryLastCheckInUser=admin
+guid=9GUPS6PeFFKB7JQDyfYVh3kgZfu
+innovatorDisplayName=ConstraintExpressionProvider
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=ConstraintExpressionProvider_1
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=Repository
+type=Template List

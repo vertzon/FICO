@@ -1,0 +1,20 @@
+#Extended attributes for Eclipse file-based repository (directory: 'ClassesProvider')
+#Tue Oct 02 19:17:30 BRT 2018
+contentType=Provider
+entryLastCheckInTime=10/2/18 7\:17 PM
+entryLastCheckInUser=admin
+guid=ZFeHBoCWM2o2pd0Hy06S3EnBZNp
+innovatorDisplayName=ClassesProvider
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=SRL
+type=Class

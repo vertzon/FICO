@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<template xmlns='http://www.blazesoft.com/template' name='Entry Point Group Template'>
+ <ide-name>Entry Point Group Template</ide-name>
+ <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1ryqjy2wlawpW8dy391IVawONdo' name='Template' id='Template'>
+ </instantiation>
+ <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1DRDrpW6ok6ZGNee0wO8XQa1Qwc' name='SRL Variable' id='FmuEowP3sdgtUkWITw3cVw0vNM3'>
+ </instantiation>
+ <instantiation xmlns='http://www.blazesoft.com/instantiation' template='18uqQPJXnTmKrAiLEOVcQMUAFmD' name='Entry' id='Entry'>
+  <instance ref='Source Reference'>
+   <instance ref='value'>
+    <instance ref='locationVH'>
+     <value></value>
+    </instance>
+    <instance ref='repositoryNameVH'>
+     <value></value>
+    </instance>
+    <instance ref='versionVH'>
+     <value></value>
+    </instance>
+    <instance ref='filterVH'>
+     <value></value>
+    </instance>
+    <instance ref='releaseDateVH'>
+     <value></value>
+    </instance>
+    <instance ref='repositoryAccessVH'>
+     <value></value>
+    </instance>
+   </instance>
+  </instance>
+  <instance ref='Predictive Model Type'>
+   <instance ref='value'>
+    <value>NotApplicable</value>
+   </instance>
+  </instance>
+ </instantiation>
+ <parameters>
+  <parameter name='EntryPointInputType' type='2lzOBOMol63aQPzHLVcA8xUwkr.template2' ideName='EntryPointInputType'>
+  </parameter>
+  <parameter name='EntryPointFunction' type='2lzOBOMol63aQPzHLVcA8xUwkr.EntryPointFunctionTemplate' ideName='EntryPointFunction'>
+  </parameter>
+  <parameter name='Value Holder1' type='2lzOBOMol63aQPzHLVcA8xUwkr.template1' ideName='BoxcarEntryPointFunction'>
+  </parameter>
+ </parameters>
+ <family>Project Items Template</family>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/srl' section='srl'><variable managementPropertiesRef='FmuEowP3sdgtUkWITw3cVw0vNM3'>
+   <name>input</name>
+   <type><template:placeholder ref='EntryPointInputType' relative='false'/></type>
+  </variable><template:placeholder ref='EntryPointFunction' relative='false'/><template:placeholder ref='Value Holder1' relative='false'/></template:content>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/resource' section='adv'><template:placeholder ref='EntryPointFunction' relative='false'/><template:placeholder ref='Value Holder1' relative='false'/></template:content>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/resource' section='jcp'><template:placeholder ref='EntryPointFunction' relative='false'/><template:placeholder ref='Value Holder1' relative='false'/></template:content>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/resource' section='dbcp'><template:placeholder ref='EntryPointFunction' relative='false'/><template:placeholder ref='Value Holder1' relative='false'/></template:content>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/resource' section='ccp'><template:placeholder ref='EntryPointFunction' relative='false'/><template:placeholder ref='Value Holder1' relative='false'/></template:content>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/resource' section='xcp'><template:placeholder ref='EntryPointFunction' relative='false'/><template:placeholder ref='Value Holder1' relative='false'/></template:content>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/resource' section='cpc'><template:placeholder ref='EntryPointFunction' relative='false'/><template:placeholder ref='Value Holder1' relative='false'/></template:content>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/flow' section='flow'><template:placeholder ref='EntryPointFunction' relative='false'/><template:placeholder ref='Value Holder1' relative='false'/></template:content>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/aai' section='aai'><template:placeholder ref='EntryPointFunction' relative='false'/><template:placeholder ref='Value Holder1' relative='false'/></template:content>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/resource' section='ncp'><template:placeholder ref='EntryPointFunction' relative='false'/><template:placeholder ref='Value Holder1' relative='false'/></template:content>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/resource' section='bcp'><template:placeholder ref='EntryPointFunction' relative='false'/><template:placeholder ref='Value Holder1' relative='false'/></template:content>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/sf' section='sf'><template:placeholder ref='EntryPointFunction' relative='false'/><template:placeholder ref='Value Holder1' relative='false'/></template:content>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='' section='xml'><template:placeholder ref='EntryPointFunction' relative='false'/><template:placeholder ref='Value Holder1' relative='false'/></template:content>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/display' section='display'><![CDATA[<div class='hide-in-daas-config-wizard alert alert-warning'>Please do not change the input parameter type. If you do, the change will not be reflected in the configured service.</div>]]><template:br/><![CDATA[<b>Decision Service Entry Point Configuration</b>]]><template:br/><template:br/><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;Input and output type: ]]><placeholder ref='EntryPointInputType' relative='false'>
+   <attribute>
+    <attribute-name>none</attribute-name>
+    <attribute-value>none</attribute-value>
+   </attribute>
+   <attribute>
+    <attribute-name>rangeRole</attribute-name>
+    <attribute-value>none</attribute-value>
+   </attribute>
+   <attribute>
+    <attribute-name>style</attribute-name>
+    <attribute-value></attribute-value>
+   </attribute>
+   <attribute>
+    <attribute-name>readWriteProperty</attribute-name>
+    <attribute-value></attribute-value>
+   </attribute>
+   <attribute>
+    <attribute-name>selectionMethod</attribute-name>
+    <attribute-value>useChoiceBox</attribute-value>
+   </attribute>
+   <attribute>
+    <attribute-name>size</attribute-name>
+    <attribute-value></attribute-value>
+   </attribute>
+   <attribute>
+    <attribute-name>samePage</attribute-name>
+    <attribute-value></attribute-value>
+   </attribute>
+   <attribute>
+    <attribute-name>password</attribute-name>
+    <attribute-value></attribute-value>
+   </attribute>
+   <attribute>
+    <attribute-name>ref-type</attribute-name>
+    <attribute-value>0</attribute-value>
+   </attribute>
+   <attribute>
+    <attribute-name>paginate</attribute-name>
+    <attribute-value></attribute-value>
+   </attribute>
+   <attribute>
+    <attribute-name>rowsPerPage</attribute-name>
+    <attribute-value>5</attribute-value>
+   </attribute>
+   <attribute>
+    <attribute-name>toolbarLocation</attribute-name>
+    <attribute-value></attribute-value>
+   </attribute>
+   <attribute>
+    <attribute-name>linkSupport</attribute-name>
+    <attribute-value></attribute-value>
+   </attribute>
+   <attribute>
+    <attribute-name>toolbarMode</attribute-name>
+    <attribute-value></attribute-value>
+   </attribute>
+   <attribute>
+    <attribute-name>uiLayout</attribute-name>
+    <attribute-value></attribute-value>
+   </attribute>
+  </placeholder><template:br/></template:content>
+ <template name='EntryPointFunctionTemplate'>
+  <ide-name>EntryPointFunctionTemplate</ide-name>
+  <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1ryqjy2wlawpW8dy391IVawONdo' name='Template' id='Template'>
+  </instantiation>
+  <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1rl2Kmfiy8OJi5vUhYbsYmASJIF' name='SRL Function' id='8TVeFPpWvLSAgAK7ZgOj4Z51sBc'>
+   <instance ref='Test Role'>
+    <instance ref='value'>
+     <value>None</value>
+    </instance>
+   </instance>
+   <instance ref='Test Case'>
+    <instance ref='value'>
+     <value></value>
+    </instance>
+   </instance>
+  </instantiation>
+  <instantiation xmlns='http://www.blazesoft.com/instantiation' template='18uqQPJXnTmKrAiLEOVcQMUAFmD' name='Entry' id='Entry'>
+   <instance ref='Source Reference'>
+    <instance ref='value'>
+     <instance ref='locationVH'>
+      <value></value>
+     </instance>
+     <instance ref='repositoryNameVH'>
+      <value></value>
+     </instance>
+     <instance ref='versionVH'>
+      <value></value>
+     </instance>
+     <instance ref='filterVH'>
+      <value></value>
+     </instance>
+     <instance ref='releaseDateVH'>
+      <value></value>
+     </instance>
+     <instance ref='repositoryAccessVH'>
+      <value></value>
+     </instance>
+    </instance>
+   </instance>
+   <instance ref='Predictive Model Type'>
+    <instance ref='value'>
+     <value>NotApplicable</value>
+    </instance>
+   </instance>
+  </instantiation>
+  <parameters>
+   <parameter name='__ENTITY_PROPERTIES__VH__' type='1rl2Kmfiy8OJi5vUhYbsYmASJIF' ideName='Management Properties' displayName='ManagementProperties' name-localized='true'>
+   </parameter>
+  </parameters>
+  <family>Function Template</family>
+  <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/srl' section='srl'><function managementPropertiesRef='8TVeFPpWvLSAgAK7ZgOj4Z51sBc'>
+    <name>processWithDecisionFlow</name>
+    <type><template:placeholder ref='EntryPointInputType' relative='false'/></type>
+    <parameters>
+     <parameter>
+      <name>param1</name>
+      <type><template:placeholder ref='EntryPointInputType' relative='false'/></type>
+     </parameter>
+    </parameters>
+    <body>input = param1;<template:br/>initializeBusinessTermset();<template:br/>executeSelectedFunctional();<template:br/><template:br/>return param1;</body>
+   </function></template:content>
+  <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/display' section='display'></template:content>
+  <template name='template1'>
+   <ide-name>Classes provider</ide-name>
+   <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1IBbJ02ODol1ycsh7pzUBwhf6T6' name='Provider' id='Provider'>
+   </instantiation>
+   <value>
+    <provider>com.blazesoft.server.deploygen.dmp.NdDMPInputTypeProvider</provider>
+    <arg name='case-sensitive sorting'>true</arg>
+   </value>
+  </template>
+ </template>
+ <template name='template1'>
+  <ide-name>BoxcarEntryPointFunctionTemplate</ide-name>
+  <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1rl2Kmfiy8OJi5vUhYbsYmASJIF' name='SRL Function' id='WMvI4T1zw2YFKZikZUpnOpdmDPa'>
+   <instance ref='Test Role'>
+    <instance ref='value'>
+     <value>None</value>
+    </instance>
+   </instance>
+   <instance ref='Test Case'>
+    <instance ref='value'>
+     <value></value>
+    </instance>
+   </instance>
+  </instantiation>
+  <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1ryqjy2wlawpW8dy391IVawONdo' name='Template' id='Template'>
+  </instantiation>
+  <parameters>
+   <parameter name='__ENTITY_PROPERTIES__VH__' type='1rl2Kmfiy8OJi5vUhYbsYmASJIF' ideName='Management Properties' displayName='ManagementProperties' name-localized='true'>
+   </parameter>
+  </parameters>
+  <family>Function Template</family>
+  <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/srl' section='srl'><function managementPropertiesRef='WMvI4T1zw2YFKZikZUpnOpdmDPa'>
+    <name>processBatchWithDecisionFlow</name>
+    <type>fixed array of <template:placeholder ref='EntryPointInputType' relative='false'/></type>
+    <parameters>
+     <parameter>
+      <name>param1</name>
+      <type>fixed array of <template:placeholder ref='EntryPointInputType' relative='false'/></type>
+     </parameter>
+    </parameters>
+    <body>resultsArray is some fixed array of <template:placeholder ref='EntryPointInputType' relative='false'/>.<template:br/><template:br/><![CDATA[if (param1 <> null) then {]]><template:br/><template:tab/>resultsArray = fixed array of <template:placeholder ref='EntryPointInputType' relative='false'/>.newInstance(param1.count).<template:br/><template:tab/>index is an integer initially 0.<template:br/><template:tab/>for each <template:placeholder ref='EntryPointInputType' relative='false'/> in param1 do {<template:br/><template:tab/><template:tab/>resultsArray[index] = processWithDecisionFlow(it).<template:br/><template:tab/><template:tab/>index = index + 1.<template:br/><template:tab/>}<template:br/>}<template:br/>else {<template:br/><template:tab/>resultsArray = null.<template:br/>}<template:br/><template:br/>return resultsArray.</body>
+   </function></template:content>
+ </template>
+ <template name='template2'>
+  <ide-name>Input Types Provider</ide-name>
+  <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1IBbJ02ODol1ycsh7pzUBwhf6T6' name='Provider' id='Provider'>
+  </instantiation>
+  <value>
+   <provider>com.blazesoft.template.engine.provider.NdListProvider</provider>
+   <arg name='type'>string</arg>
+   <arg name='element'>string</arg>
+   <arg name='list'>2lzOBOMol63aQPzHLVcA8xUwkr.template3</arg>
+  </value>
+ </template>
+ <template name='template3'>
+  <ide-name>External Classes Provider</ide-name>
+  <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1IBbJ02ODol1ycsh7pzUBwhf6T6' name='Provider' id='Provider'>
+  </instantiation>
+  <value>
+   <provider>com.blazesoft.template.repository.provider.NdPromSrlClassesProvider</provider>
+   <arg name='case-sensitive sorting'>false</arg>
+   <arg name='include-business-termset'>false</arg>
+   <arg name='include-srl-class'>false</arg>
+  </value>
+ </template>
+</template>

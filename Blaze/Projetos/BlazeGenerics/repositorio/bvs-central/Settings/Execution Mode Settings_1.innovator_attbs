@@ -1,0 +1,22 @@
+#Extended attributes for Innovator file-based repository (directory: 'Execution Mode Settings_1')
+#Fri Sep 28 16:53:40 BRT 2018
+contentType=Instance
+entryLastCheckInTime=9/28/18 4\:53 PM
+entryLastCheckInUser=admin
+guid=4FzWK1FlilQu5dXnuaJDgxe9ecC
+innovatorDisplayName=Execution Mode Settings
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=Execution Mode Settings_1
+innovatorTemplateRef=FgC2gDImmLPx4Y6p5L2fJrZbwIR
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=Repository
+type=Information

@@ -1,0 +1,21 @@
+#Extended attributes for Innovator file-based repository (directory: 'Bindings_1')
+#Fri Sep 28 16:43:40 BRT 2018
+contentType=Template
+entryLastCheckInTime=9/28/18 4\:43 PM
+entryLastCheckInUser=admin
+guid=ZflwwyXLKEhzcbPIeMdeUOafcgR
+innovatorDisplayName=Bindings
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=Bindings_1
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=SRL
+type=SRL Code

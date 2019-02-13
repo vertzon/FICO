@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<VersionInfoTable>
+	<ItemName>SimpleVarsMapping_DecisionTableTemplate_Output</ItemName>
+	<IsEntryDeleted>false</IsEntryDeleted>
+	<VersionElement VersionId="4">
+		<User>admin</User>
+		<Comment></Comment>
+		<Timestamp>3 Oct 2018 19:33:29 GMT</Timestamp>
+	</VersionElement>
+	<VersionElement VersionId="3">
+		<User>admin</User>
+		<Comment></Comment>
+		<Timestamp>3 Oct 2018 14:23:51 GMT</Timestamp>
+	</VersionElement>
+	<VersionElement VersionId="2">
+		<User>admin</User>
+		<Comment></Comment>
+		<Timestamp>2 Oct 2018 22:21:52 GMT</Timestamp>
+	</VersionElement>
+	<VersionElement VersionId="1">
+		<User>admin</User>
+		<Comment></Comment>
+		<Timestamp>2 Oct 2018 22:17:51 GMT</Timestamp>
+	</VersionElement>
+</VersionInfoTable>

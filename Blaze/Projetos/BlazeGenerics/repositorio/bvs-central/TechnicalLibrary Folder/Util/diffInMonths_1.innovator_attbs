@@ -1,0 +1,23 @@
+#Extended attributes for Innovator file-based repository (directory: 'diffInMonths_1')
+#Fri Sep 28 16:53:39 BRT 2018
+contentType=Fixed
+entryLastCheckInTime=9/28/18 4\:53 PM
+entryLastCheckInUser=admin
+guid=KdHLuDYK3hXir8RM7Bz7jwJD0gf
+innovatorDisplayName=diffInMonths
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=diffInMonths_1
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=/Basic Decision Service Folder/Excluded from RMA/IDE_artifacts/diffInMonths
+managementProperty.Source\ Reference.releaseDateVH=1526413770350
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+managementProperty.Test\ Case=
+managementProperty.Test\ Role=None
+subType=None
+target=SRL
+type=SRL Function

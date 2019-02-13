@@ -1,0 +1,22 @@
+#Atributos estendidos para repositório com base em arquivo do Innovator (diretório: 'ItemSerpro_1')
+#Wed Oct 03 10:21:12 BRT 2018
+contentType=Instance
+entryLastCheckInTime=10/3/18 10\:21 AM
+entryLastCheckInUser=admin
+guid=87VvCRGkzLRqKh6wfv8aIc1cxOy
+innovatorDisplayName=ItemSerpro
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=ItemSerpro_1
+innovatorTemplateRef=Hsnd2RbUw6Nrtd6tONRF20FvOqV
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=Business Term Set
+target=SRL
+type=SRL Project Items

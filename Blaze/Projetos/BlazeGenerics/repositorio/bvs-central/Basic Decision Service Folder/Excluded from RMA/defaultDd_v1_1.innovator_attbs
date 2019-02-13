@@ -1,0 +1,21 @@
+#Extended attributes for Innovator file-based repository (directory: 'defaultDd_v1_1')
+#Mon Jan 21 17:47:10 BRST 2019
+contentType=Fixed
+entryLastCheckInTime=21/01/19 17\:47
+entryLastCheckInUser=admin
+guid=2XcQyIdOtUgHzAsXgDc4N3T2tF2
+innovatorDisplayName=defaultDd_v1
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=defaultDd_v1_1
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=Deployment Definition
+target=Repository
+type=XML

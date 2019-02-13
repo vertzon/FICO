@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<template xmlns='http://www.blazesoft.com/template' name='SystemDefinitionEJB2'>
+ <ide-name>SystemDefinitionEJB2</ide-name>
+ <instantiation xmlns='http://www.blazesoft.com/instantiation' template='18uqQPJXnTmKrAiLEOVcQMUAFmD' name='Entry' id='Entry'>
+  <instance ref='Source Reference'>
+   <instance ref='value'>
+    <instance ref='locationVH'>
+     <value></value>
+    </instance>
+    <instance ref='repositoryNameVH'>
+     <value></value>
+    </instance>
+    <instance ref='versionVH'>
+     <value></value>
+    </instance>
+    <instance ref='filterVH'>
+     <value></value>
+    </instance>
+    <instance ref='releaseDateVH'>
+     <value></value>
+    </instance>
+    <instance ref='repositoryAccessVH'>
+     <value></value>
+    </instance>
+   </instance>
+  </instance>
+  <instance ref='Predictive Model Type'>
+   <instance ref='value'>
+    <value>NotApplicable</value>
+   </instance>
+  </instance>
+ </instantiation>
+ <family>System Definition Template</family>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='' section='xml'>
+
+<SystemDefinition>
+   <BuildOutputDirectory></BuildOutputDirectory>
+   <DeploymentEnvironment>EJBinline</DeploymentEnvironment>
+   <DeploymentManagerSystemOptions></DeploymentManagerSystemOptions>
+   <Description>System Definition for EJB Deployment</Description>
+   <EclipseProject>false</EclipseProject>
+   <EnvironmentSettings>
+    <Factory>com.blazesoft.server.deploygen.definitions.NdSystemEnvironmentSettings</Factory>
+    <VendorSetting>
+     <Factory>com.blazesoft.server.deploygen.definitions.NdEditableDynamicConfig</Factory>
+     <Name>NamingProviderURL</Name>
+     <TargetLanguage>Java</TargetLanguage>
+     <Value>corbaloc:iiop:localhost:2809</Value>
+    </VendorSetting>
+    <VendorSetting>
+     <Factory>com.blazesoft.server.deploygen.definitions.NdEditableDynamicConfig</Factory>
+     <Name>EJBContextFactory</Name>
+     <TargetLanguage>Java</TargetLanguage>
+     <Value>com.ibm.websphere.naming.WsnInitialContextFactory</Value>
+    </VendorSetting>
+    <VendorSetting>
+     <Factory>com.blazesoft.server.deploygen.definitions.NdEditableDynamicConfig</Factory>
+     <Name>NODE</Name>
+     <TargetLanguage>Java</TargetLanguage>
+     <Value>DBYLJP72Node01</Value>
+    </VendorSetting>
+    <VendorSetting>
+     <Factory>com.blazesoft.server.deploygen.definitions.NdEditableDynamicConfig</Factory>
+     <Name>SERVER</Name>
+     <TargetLanguage>Java</TargetLanguage>
+     <Value>server1</Value>
+    </VendorSetting>
+   </EnvironmentSettings>
+   <Name>SystemDefinitionEJB2</Name>
+   <RemoteDebuggingSystemOptions></RemoteDebuggingSystemOptions>
+   <Vendor>WebSphere_8.5_and_later</Vendor>
+  </SystemDefinition>
+</template:content>
+</template>

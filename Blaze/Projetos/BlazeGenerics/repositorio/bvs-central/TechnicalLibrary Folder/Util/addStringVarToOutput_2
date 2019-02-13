@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<template xmlns='http://www.blazesoft.com/template' name='addStringVarToOutput'>
+ <ide-name>addStringVarToOutput</ide-name>
+ <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1rl2Kmfiy8OJi5vUhYbsYmASJIF' name='SRL Function' id='KHP7iRk31uUsM5li962uOJRc1l0'>
+  <instance ref='Test Role'>
+   <instance ref='value'>
+    <value>None</value>
+   </instance>
+  </instance>
+  <instance ref='Test Case'>
+   <instance ref='value'>
+    <value></value>
+   </instance>
+  </instance>
+ </instantiation>
+ <instantiation xmlns='http://www.blazesoft.com/instantiation' template='18uqQPJXnTmKrAiLEOVcQMUAFmD' name='Entry' id='Entry'>
+  <instance ref='Source Reference'>
+   <instance ref='value'>
+    <instance ref='locationVH'>
+     <value>/Basic Decision Service Folder/Excluded from RMA/IDE_artifacts/addBooleanVarToOutput_3</value>
+    </instance>
+    <instance ref='repositoryNameVH'>
+     <value></value>
+    </instance>
+    <instance ref='versionVH'>
+     <value></value>
+    </instance>
+    <instance ref='filterVH'>
+     <value></value>
+    </instance>
+    <instance ref='releaseDateVH'>
+     <value>1526413770359</value>
+    </instance>
+    <instance ref='repositoryAccessVH'>
+     <value></value>
+    </instance>
+   </instance>
+  </instance>
+  <instance ref='Predictive Model Type'>
+   <instance ref='value'>
+    <value>NotApplicable</value>
+   </instance>
+  </instance>
+ </instantiation>
+ <family>Function Template</family>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/srl' section='srl'><function managementPropertiesRef='KHP7iRk31uUsM5li962uOJRc1l0'>
+   <name>addStringVarToOutput</name>
+   <parameters>
+    <parameter>
+     <name>varName</name>
+     <type>string</type>
+    </parameter>
+    <parameter>
+     <name>varVal</name>
+     <type>string</type>
+    </parameter>
+   </parameters>
+   <body>myVar is some GenericVar;<template:br/><template:br/><![CDATA[if (varVal <> unknown and varVal <> unavailable) then {]]><template:br/><template:br/><template:tab/>myVar = an GenericVar initially {<template:br/><template:tab/><template:tab/>it.type = GenericVarType.STRING_VAR;<template:br/><template:tab/><template:tab/>it.name = varName;<template:br/><template:tab/><template:tab/>it.stringVal = varVal;<template:br/><template:tab/>}<template:br/>} else {<template:br/><template:tab/>myVar = an GenericVar initially {<template:br/><template:tab/><template:tab/>it.type = GenericVarType.STRING_VAR;<template:br/><template:tab/><template:tab/>it.name = varName;<template:br/><template:tab/><template:tab/>it.stringVal = "";<template:br/><template:tab/>}<template:br/>}<template:br/><template:br/>input.output.calculatedVars.add(myVar);</body>
+  </function></template:content>
+</template>

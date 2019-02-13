@@ -1,0 +1,22 @@
+#Atributos estendidos para repositório com base em arquivo do Innovator (diretório: 'InputVariables_1')
+#Wed Oct 03 10:42:48 BRT 2018
+contentType=Instance
+entryLastCheckInTime=10/3/18 10\:42 AM
+entryLastCheckInUser=admin
+guid=CJRmra9Q4Sr7aUCSeWxJ64CzDVM
+innovatorDisplayName=InputVariables
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=InputVariables_1
+innovatorTemplateRef=Hsnd2RbUw6Nrtd6tONRF20FvOqV
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=Business Term Set
+target=SRL
+type=SRL Project Items

@@ -1,0 +1,22 @@
+#Extended attributes for Eclipse file-based repository (directory: 'RMA Execution Mode Settings')
+#Fri Sep 28 16:53:40 BRT 2018
+contentType=Instance
+entryLastCheckInTime=9/28/18 4\:53 PM
+entryLastCheckInUser=admin
+guid=AgBe10wk0m2DhTibsJUhs1Y1u6S
+innovatorDisplayName=RMA Execution Mode Settings
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=RMA Execution Mode Settings
+innovatorTemplateRef=QhDUSLYCtEK0aeXHQ312QDW4yrv
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=Repository
+type=Information

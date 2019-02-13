@@ -1,0 +1,18 @@
+#Extended attributes for Eclipse file-based repository (directory: 'DeploymentDefinition_POJO')
+#Fri Feb 08 11:30:22 BRST 2019
+com.blazesoft.repository.local.locallycreated=true
+contentType=Fixed
+guid=EprXjqjXoHhYwYqIm92Hhs9PvCQ
+innovatorDisplayName=DeploymentDefinition_POJO
+innovatorItemCreationId=admin
+innovatorLastModifiedUser=admin
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=Deployment Definition
+target=Repository
+type=XML

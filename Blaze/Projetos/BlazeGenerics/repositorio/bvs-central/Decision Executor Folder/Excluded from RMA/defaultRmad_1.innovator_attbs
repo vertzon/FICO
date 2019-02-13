@@ -1,0 +1,21 @@
+#Extended attributes for Innovator file-based repository (directory: 'defaultRmad_1')
+#Fri Sep 28 16:53:36 BRT 2018
+contentType=Fixed
+entryLastCheckInTime=9/28/18 4\:53 PM
+entryLastCheckInUser=admin
+guid=TpUqyahktXfYdDUnpuXqly3cQR3
+innovatorDisplayName=defaultRmad
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=defaultRmad_1
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=/DecisionServiceFolder/Excluded from RMA/defaultRmad
+managementProperty.Source\ Reference.releaseDateVH=1379204274162
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=RMA Definition
+target=Repository
+type=XML

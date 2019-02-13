@@ -1,0 +1,24 @@
+#Atributos estendidos para repositório com base em arquivo do Innovator (diretório: 'RegrasIniciais_4')
+#Wed Oct 03 18:53:18 BRT 2018
+contentType=Instance
+entryLastCheckInTime=10/3/18 6\:53 PM
+entryLastCheckInUser=admin
+guid=8S0XTRFFXVQ06isGPoM81agmOOW
+innovatorDisplayName=RegrasIniciais
+innovatorItemCreationId=admin
+innovatorItemVersionId=4
+innovatorLastModifiedUser=admin
+innovatorName=RegrasIniciais_4
+innovatorTemplateRef=QzixEYa1EHH8Jr6Fk8nhguBcZtu
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+managementProperty.Test\ Case=
+managementProperty.Test\ Role=None
+subType=None
+target=SRL
+type=SRL Ruleset

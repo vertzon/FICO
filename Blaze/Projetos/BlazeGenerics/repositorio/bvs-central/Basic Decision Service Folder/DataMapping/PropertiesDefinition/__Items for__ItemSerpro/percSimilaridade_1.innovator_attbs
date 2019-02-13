@@ -1,0 +1,23 @@
+#Atributos estendidos para repositório com base em arquivo do Innovator (diretório: 'percSimilaridade_1')
+#Wed Oct 03 10:21:11 BRT 2018
+contentType=Instance
+entryLastCheckInTime=10/3/18 10\:21 AM
+entryLastCheckInUser=admin
+guid=CtvQlPtp0vBWNEqtSCwBbOW9F0g
+innovatorDisplayName=percSimilaridade
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=percSimilaridade_1
+innovatorTemplateRef=DSG71szD5AH5G0pcZCfjmcoPvq0
+isSeparateStoredSubInstance=true
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=Business Term
+target=SRL
+type=SRL Project Items

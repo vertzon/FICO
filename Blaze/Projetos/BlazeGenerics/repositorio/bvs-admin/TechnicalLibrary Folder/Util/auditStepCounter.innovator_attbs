@@ -1,0 +1,20 @@
+#Extended attributes for Eclipse file-based repository (directory: 'auditStepCounter')
+#Fri Sep 28 17:25:26 BRT 2018
+contentType=Fixed
+entryLastCheckInTime=9/28/18 5\:25 PM
+entryLastCheckInUser=admin
+guid=tbYTCNhEE31JNWQPL6n1axSCUO
+innovatorDisplayName=auditStepCounter
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=SRL
+type=SRL Variable

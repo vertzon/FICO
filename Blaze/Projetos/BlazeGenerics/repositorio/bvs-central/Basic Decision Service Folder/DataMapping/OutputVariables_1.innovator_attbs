@@ -1,0 +1,22 @@
+#Extended attributes for Innovator file-based repository (directory: 'OutputVariables_1')
+#Tue Oct 02 19:17:22 BRT 2018
+contentType=Instance
+entryLastCheckInTime=10/2/18 7\:17 PM
+entryLastCheckInUser=admin
+guid=2YCDWEbxINVkQyxkmtzEzIPdQZK
+innovatorDisplayName=OutputVariables
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=OutputVariables_1
+innovatorTemplateRef=Hsnd2RbUw6Nrtd6tONRF20FvOqV
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=Business Term Set
+target=SRL
+type=SRL Project Items

@@ -1,0 +1,22 @@
+#Extended attributes for Innovator file-based repository (directory: 'JavaLastModifiedDateFilter')
+#Fri Sep 28 16:44:36 BRT 2018
+contentType=Template
+entryLastCheckInTime=9/28/18 4\:43 PM
+entryLastCheckInUser=admin
+guid=DDa1sSLlUMkeCWlY9QNA14fomXc
+innovatorDisplayName=LastModifiedDate
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=JavaLastModifiedDateFilter
+isSystemTemplate=true
+managementProperty.Source\ Reference=
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=Repository
+type=XML

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<template xmlns='http://www.blazesoft.com/template' name='addAuditStep'>
+ <ide-name>addAuditStep</ide-name>
+ <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1rl2Kmfiy8OJi5vUhYbsYmASJIF' name='SRL Function' id='QeULrkJH1B6x3SHtaP2nkEEoLyP'>
+  <instance ref='Test Role'>
+   <instance ref='value'>
+    <value>None</value>
+   </instance>
+  </instance>
+  <instance ref='Test Case'>
+   <instance ref='value'>
+    <value></value>
+   </instance>
+  </instance>
+ </instantiation>
+ <instantiation xmlns='http://www.blazesoft.com/instantiation' template='18uqQPJXnTmKrAiLEOVcQMUAFmD' name='Entry' id='Entry'>
+  <instance ref='Source Reference'>
+   <instance ref='value'>
+    <instance ref='locationVH'>
+     <value>/Basic Decision Service Folder/Excluded from RMA/IDE_artifacts/addAuditStep</value>
+    </instance>
+    <instance ref='repositoryNameVH'>
+     <value></value>
+    </instance>
+    <instance ref='versionVH'>
+     <value></value>
+    </instance>
+    <instance ref='filterVH'>
+     <value></value>
+    </instance>
+    <instance ref='releaseDateVH'>
+     <value>1526413770440</value>
+    </instance>
+    <instance ref='repositoryAccessVH'>
+     <value></value>
+    </instance>
+   </instance>
+  </instance>
+  <instance ref='Predictive Model Type'>
+   <instance ref='value'>
+    <value>NotApplicable</value>
+   </instance>
+  </instance>
+ </instantiation>
+ <family>Function Template</family>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/srl' section='srl'><function managementPropertiesRef='QeULrkJH1B6x3SHtaP2nkEEoLyP'>
+   <name>addAuditStep</name>
+   <parameters>
+    <parameter>
+     <name>stepNameParam</name>
+     <type>string</type>
+    </parameter>
+    <parameter>
+     <name>stepMessageParam</name>
+     <type>string</type>
+    </parameter>
+    <parameter>
+     <name>scopeParam</name>
+     <type>AuditStepScope</type>
+    </parameter>
+   </parameters>
+   <body>aStep is some AuditStep;<template:br/><template:br/><![CDATA[if (scopeParam <> unknown and scopeParam <> unavailable) then {]]><template:br/><template:tab/>aStep = a AuditStep initially {<template:br/>  <template:tab/><template:tab/>it.stepName = stepNameParam;<template:br/>  <template:tab/><template:tab/>it.stepMessage = stepMessageParam;<template:br/>  <template:tab/><template:tab/>it.scope = scopeParam;<template:br/>  <template:tab/><template:tab/>it.stepNumber = auditStepCounter;<template:br/><template:tab/>}<template:br/>} else {<template:br/><template:tab/>aStep = a AuditStep initially {<template:br/>  <template:tab/><template:tab/>it.stepName = stepNameParam;<template:br/>  <template:tab/><template:tab/>it.stepMessage = stepMessageParam;<template:br/>  <template:tab/><template:tab/>it.scope = AuditStepScope.BUSINESS;<template:br/>  <template:tab/><template:tab/>it.stepNumber = auditStepCounter;<template:br/><template:tab/>}<template:br/>}<template:br/><template:br/>input.output.auditedSteps.add(aStep);<template:br/>increment auditStepCounter;</body>
+  </function></template:content>
+</template>

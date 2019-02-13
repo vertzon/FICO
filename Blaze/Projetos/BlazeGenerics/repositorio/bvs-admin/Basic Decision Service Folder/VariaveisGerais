@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<instantiation xmlns='http://www.blazesoft.com/instantiation' template='Hsnd2RbUw6Nrtd6tONRF20FvOqV' name='VariaveisGerais'>
+ <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1VBfZr8g32Q2FnSWcWO9txQWwEE' name='Instance' id='Instance'>
+ </instantiation>
+ <instantiation xmlns='http://www.blazesoft.com/instantiation' template='18uqQPJXnTmKrAiLEOVcQMUAFmD' name='Entry' id='Entry'>
+  <instance ref='Source Reference'>
+   <instance ref='value'>
+    <instance ref='locationVH'>
+     <value></value>
+    </instance>
+    <instance ref='repositoryNameVH'>
+     <value></value>
+    </instance>
+    <instance ref='versionVH'>
+     <value></value>
+    </instance>
+    <instance ref='filterVH'>
+     <value></value>
+    </instance>
+    <instance ref='releaseDateVH'>
+     <value></value>
+    </instance>
+    <instance ref='repositoryAccessVH'>
+     <value></value>
+    </instance>
+   </instance>
+  </instance>
+  <instance ref='Predictive Model Type'>
+   <instance ref='value'>
+    <value>NotApplicable</value>
+   </instance>
+  </instance>
+ </instantiation>
+ <instance ref='termsetNameVH'>
+  <value>VariaveisGerais</value>
+ </instance>
+ <instance-list ref='termVH'>
+  <item template='DSG71szD5AH5G0pcZCfjmcoPvq0' id='Nh8dbi'>
+   <arg name='referenceId'>S1F9eQiGD89e501W0TWCAkOOJ8c</arg>
+  </item>
+ </instance-list>
+ <instance ref='descriptionVH'>
+  <value></value>
+ </instance>
+ <instance ref='valueListCollectionVH'>
+  <instance-list ref='valueListVH'>
+   <item template='6P544AWOy2OnJaGM0Yf93ZsfwZU' id='V6MfLi'>
+    <instance ref='nameVH'>
+     <value>DecisoesMotor</value>
+    </instance>
+    <instance ref='descriptionVH'>
+     <value></value>
+    </instance>
+    <instance-list ref='valueRowsVH'>
+     <item template='6P544AWOy2OnJaGM0Yf93ZsfwZU.template2' id='I8fS8z'>
+      <instance ref='instantiationValueVH'>
+       <value>APROVADO</value>
+      </instance>
+      <instance ref='displayValueVH'>
+       <value>Aprovado</value>
+      </instance>
+     </item>
+     <item template='6P544AWOy2OnJaGM0Yf93ZsfwZU.template2' id='JMrmO6'>
+      <instance ref='instantiationValueVH'>
+       <value>REJEITADO</value>
+      </instance>
+      <instance ref='displayValueVH'>
+       <value>Rejeitado</value>
+      </instance>
+     </item>
+     <item template='6P544AWOy2OnJaGM0Yf93ZsfwZU.template2' id='8vH41S'>
+      <instance ref='instantiationValueVH'>
+       <value>PENDENTE</value>
+      </instance>
+      <instance ref='displayValueVH'>
+       <value>Pendente</value>
+      </instance>
+     </item>
+    </instance-list>
+   </item>
+  </instance-list>
+ </instance>
+ <instance ref='inputClassVH'>
+  <value>object</value>
+ </instance>
+ <instance ref='termsetClassVH'>
+  <instance ref='__ENTITY_PROPERTIES__VH__'>
+  </instance>
+ </instance>
+ <instance ref='termsetVariableNameVH'>
+  <value>theVariaveisGerais</value>
+ </instance>
+</instantiation>

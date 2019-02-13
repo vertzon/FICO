@@ -1,0 +1,21 @@
+#Extended attributes for Innovator file-based repository (directory: 'Initialization Template_1')
+#Fri Sep 28 16:53:37 BRT 2018
+contentType=Template
+entryLastCheckInTime=9/28/18 4\:53 PM
+entryLastCheckInUser=admin
+guid=BR1cnMvMrAP1F5lkU2hBHvPo2pk
+innovatorDisplayName=Initialization Template
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=Initialization Template_1
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=SRL
+type=SRL Project Items

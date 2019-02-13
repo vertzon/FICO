@@ -1,0 +1,21 @@
+#Extended attributes for Innovator file-based repository (directory: 'Quick Verification Instance')
+#Fri Sep 28 16:49:43 BRT 2018
+contentType=Instance
+entryLastCheckInTime=9/28/18 4\:49 PM
+entryLastCheckInUser=admin
+guid=S4n31YoI3VAoPuqPeA1JvIjAoqm
+innovatorDisplayName=Quick Verification Instance
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorName=Quick Verification Instance
+innovatorTemplateRef=aRe3KG6OP8utjI4Wvol5qcNJgAW
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=Verification
+target=Repository
+type=Query

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<VersionInfoTable>
+	<ItemName>VariaveisGerais</ItemName>
+	<IsEntryDeleted>false</IsEntryDeleted>
+	<VersionElement VersionId="2">
+		<User>admin</User>
+		<Comment></Comment>
+		<Timestamp>2 Oct 2018 20:49:07 GMT</Timestamp>
+	</VersionElement>
+	<VersionElement VersionId="1">
+		<User>admin</User>
+		<Comment></Comment>
+		<Timestamp>2 Oct 2018 20:48:36 GMT</Timestamp>
+	</VersionElement>
+</VersionInfoTable>

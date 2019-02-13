@@ -1,0 +1,23 @@
+#Extended attributes for Innovator file-based repository (directory: 'diffInDays_1')
+#Fri Sep 28 16:53:38 BRT 2018
+contentType=Fixed
+entryLastCheckInTime=9/28/18 4\:53 PM
+entryLastCheckInUser=admin
+guid=AQKHUI1AGjcRXz1vCXw8V3EpVaZ
+innovatorDisplayName=diffInDays
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=diffInDays_1
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=/Basic Decision Service Folder/Excluded from RMA/IDE_artifacts/diffInDays
+managementProperty.Source\ Reference.releaseDateVH=1526413770382
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+managementProperty.Test\ Case=
+managementProperty.Test\ Role=None
+subType=None
+target=SRL
+type=SRL Function

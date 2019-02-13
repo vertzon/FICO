@@ -1,0 +1,18 @@
+#Extended attributes for Eclipse file-based repository (directory: 'SystemDefinition_EJBWS')
+#Fri Feb 08 14:28:39 BRST 2019
+com.blazesoft.repository.local.locallycreated=true
+contentType=Fixed
+guid=7BemlJyYfd7OuxHgq0JXHJopO8V
+innovatorDisplayName=SystemDefinition_EJBWS
+innovatorItemCreationId=admin
+innovatorLastModifiedUser=admin
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=System Definition
+target=Repository
+type=XML

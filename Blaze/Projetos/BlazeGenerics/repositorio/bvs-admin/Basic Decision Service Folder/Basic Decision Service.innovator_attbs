@@ -1,0 +1,25 @@
+#Extended attributes for Eclipse file-based repository (directory: 'Basic Decision Service')
+#Fri Sep 28 16:53:37 BRT 2018
+contentType=Fixed
+dmp.defaultDDPath=/Basic Decision Service Folder/Excluded from RMA/defaultDd
+dmp.defaultRSDPath=/Basic Decision Service Folder/Excluded from RMA/defaultRsd
+dmp.defaultSDPath=/Basic Decision Service Folder/Excluded from RMA/defaultSd
+entryLastCheckInTime=9/28/18 4\:53 PM
+entryLastCheckInUser=admin
+guid=Bvsnuaf4nH0onLFkDfiGxdsJHNc
+innovatorDisplayName=Decision Service
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=Basic Decision Service
+innovatorTemplateRef=ProjectEntityTemplate
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=Repository
+type=Project

@@ -1,0 +1,21 @@
+#Extended attributes for Innovator file-based repository (directory: 'ClassesProvider')
+#Fri Sep 28 16:44:38 BRT 2018
+contentType=Provider
+entryLastCheckInTime=9/28/18 4\:43 PM
+entryLastCheckInUser=admin
+guid=JjmZcguFrT2aoW2C5dGFzUyIq8T
+innovatorDisplayName=ClassesProvider
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=ClassesProvider
+isSystemTemplate=true
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=SRL
+type=Class

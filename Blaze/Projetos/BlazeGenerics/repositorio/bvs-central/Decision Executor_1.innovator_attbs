@@ -1,0 +1,26 @@
+#Extended attributes for Innovator file-based repository (directory: 'Decision Executor_1')
+#Fri Sep 28 16:53:35 BRT 2018
+contentType=Fixed
+dmp.defaultDDPath=/Decision Executor Folder/Excluded from RMA/defaultDd
+dmp.defaultRSDPath=/Decision Executor Folder/Excluded from RMA/defaultRsd
+dmp.defaultSDPath=/Decision Executor Folder/Excluded from RMA/defaultSd
+dmp.uploadedSubProjectPath=/Basic Decision Service Folder/Basic Decision Service
+entryLastCheckInTime=9/28/18 4\:53 PM
+entryLastCheckInUser=admin
+guid=6FPvfOPuKE32HeInL1wRFhGjBbS
+innovatorDisplayName=Decision Executor
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=Decision Executor_1
+innovatorTemplateRef=ProjectEntityTemplate
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=Repository
+type=Project

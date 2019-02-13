@@ -1,0 +1,21 @@
+#Extended attributes for Innovator file-based repository (directory: 'defaultDd_EJB_4')
+#Wed Oct 03 23:59:02 BRT 2018
+contentType=Fixed
+entryLastCheckInTime=10/3/18 11\:59 PM
+entryLastCheckInUser=admin
+guid=TbHjIgvDtJlF14XKSLX8pg7UqZP
+innovatorDisplayName=defaultDd_EJB
+innovatorItemCreationId=admin
+innovatorItemVersionId=4
+innovatorLastModifiedUser=admin
+innovatorName=defaultDd_EJB_4
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=/DecisionServiceFolder/Excluded from RMA/defaultDd
+managementProperty.Source\ Reference.releaseDateVH=1379204274212
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=Deployment Definition
+target=Repository
+type=XML

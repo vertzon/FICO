@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<VersionInfoTable>
+	<ItemName>Quick Verification Instance</ItemName>
+	<IsEntryDeleted>false</IsEntryDeleted>
+	<VersionElement VersionId="1">
+		<User>admin</User>
+		<Comment>Update system folder</Comment>
+		<Timestamp>28 Sep 2018 19:49:43 GMT</Timestamp>
+	</VersionElement>
+</VersionInfoTable>

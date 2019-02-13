@@ -1,0 +1,21 @@
+#Extended attributes for Innovator file-based repository (directory: 'Deployment Definition SubType Value List Provider_1')
+#Fri Sep 28 16:43:40 BRT 2018
+contentType=Provider
+entryLastCheckInTime=9/28/18 4\:43 PM
+entryLastCheckInUser=admin
+guid=NjaUvuqOXRV6WWmHLLlGocxVL9Z
+innovatorDisplayName=Deployment Definition SubType Value List Provider
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=Deployment Definition SubType Value List Provider_1
+managementProperty.Simulation\ Role=<None>
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=Repository
+type=Value List

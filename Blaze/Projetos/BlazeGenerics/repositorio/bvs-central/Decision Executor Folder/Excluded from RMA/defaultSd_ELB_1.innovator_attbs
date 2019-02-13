@@ -1,0 +1,21 @@
+#Extended attributes for Innovator file-based repository (directory: 'defaultSd_ELB_1')
+#Wed Oct 03 11:53:29 BRT 2018
+contentType=Fixed
+entryLastCheckInTime=10/3/18 11\:53 AM
+entryLastCheckInUser=admin
+guid=7sT3nxu4QdANu1AgnkFhfnHsz1q
+innovatorDisplayName=defaultSd_EJB
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=defaultSd_ELB_1
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=/DecisionServiceFolder/Excluded from RMA/defaultSd
+managementProperty.Source\ Reference.releaseDateVH=1379204274227
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=System Definition
+target=Repository
+type=XML

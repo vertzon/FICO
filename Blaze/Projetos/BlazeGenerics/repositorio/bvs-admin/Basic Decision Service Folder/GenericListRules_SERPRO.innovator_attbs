@@ -1,0 +1,24 @@
+#Atributos estendidos para repositório com base em arquivo do Innovator (diretório: 'GenericListRules_SERPRO')
+#Tue Feb 12 17:48:57 BRST 2019
+contentType=Instance
+entryLastCheckInTime=12/02/19 17\:48
+entryLastCheckInUser=admin
+guid=18cOwmCTIHokUXohYquBDPJoZQW
+innovatorDisplayName=GenericListRules_SERPRO
+innovatorItemCreationId=admin
+innovatorItemVersionId=10
+innovatorLastModifiedUser=admin
+innovatorName=GenericListRules_SERPRO
+innovatorTemplateRef=QzixEYa1EHH8Jr6Fk8nhguBcZtu
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+managementProperty.Test\ Case=
+managementProperty.Test\ Role=None
+subType=None
+target=SRL
+type=SRL Ruleset

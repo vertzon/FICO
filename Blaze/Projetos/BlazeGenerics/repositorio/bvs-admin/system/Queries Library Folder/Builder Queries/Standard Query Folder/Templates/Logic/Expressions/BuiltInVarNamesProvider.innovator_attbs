@@ -1,0 +1,20 @@
+#Extended attributes for Innovator file-based repository (directory: 'BuiltInVarNamesProvider')
+#Fri Sep 28 16:44:42 BRT 2018
+contentType=Provider
+entryLastCheckInTime=9/28/18 4\:43 PM
+entryLastCheckInUser=admin
+guid=C6qJ2bo1OuwuVQidrlUai31Fsez
+innovatorDisplayName=BuiltInVarNamesProvider
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=BuiltInVarNamesProvider
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=Repository
+type=Value List

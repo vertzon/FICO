@@ -1,0 +1,774 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<template xmlns='http://www.blazesoft.com/template' name='Initialization Template'>
+ <ide-name>Initialization Template</ide-name>
+ <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1ryqjy2wlawpW8dy391IVawONdo' name='Template' id='Template'>
+ </instantiation>
+ <instantiation xmlns='http://www.blazesoft.com/instantiation' template='18uqQPJXnTmKrAiLEOVcQMUAFmD' name='Entry' id='Entry'>
+  <instance ref='Source Reference'>
+   <instance ref='value'>
+    <instance ref='locationVH'>
+     <value></value>
+    </instance>
+    <instance ref='repositoryNameVH'>
+     <value></value>
+    </instance>
+    <instance ref='versionVH'>
+     <value></value>
+    </instance>
+    <instance ref='filterVH'>
+     <value></value>
+    </instance>
+    <instance ref='releaseDateVH'>
+     <value></value>
+    </instance>
+    <instance ref='repositoryAccessVH'>
+     <value></value>
+    </instance>
+   </instance>
+  </instance>
+  <instance ref='Predictive Model Type'>
+   <instance ref='value'>
+    <value>NotApplicable</value>
+   </instance>
+  </instance>
+ </instantiation>
+ <parameters>
+  <parameter name='selectedFunctional' type='BR1cnMvMrAP1F5lkU2hBHvPo2pk.Functional Selection Template' ideName='selectedFunctional'>
+  </parameter>
+  <parameter name='businessTermsetInitialization' type='BR1cnMvMrAP1F5lkU2hBHvPo2pk.Business Termset Initialization Function' ideName='businessTermsetInitialization' displayName='Business Term Set'>
+  </parameter>
+  <parameter-noninstantiable name='businessTermsets' type='BR1cnMvMrAP1F5lkU2hBHvPo2pk.Business Termset Classes provider' mechanism='allowed-values' ideName='businessTermsets'>
+  </parameter-noninstantiable>
+ </parameters>
+ <family>Project Items Template</family>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/display' section='display'><![CDATA[<h2>Decision Modeler Initialization</h2><h4>Functional</h4>]]><template:br/>When the decision service is invoked, the selected functional will be executed by the web service.<template:br/><template:br/>Functional to execute: <placeholder ref='selectedFunctional' relative='false'>
+   <attribute>
+    <attribute-name>none</attribute-name>
+    <attribute-value>none</attribute-value>
+   </attribute>
+   <attribute>
+    <attribute-name>rangeRole</attribute-name>
+    <attribute-value>none</attribute-value>
+   </attribute>
+   <attribute>
+    <attribute-name>style</attribute-name>
+    <attribute-value>standardTextEdit</attribute-value>
+   </attribute>
+   <attribute>
+    <attribute-name>readWriteProperty</attribute-name>
+    <attribute-value>readNWrite</attribute-value>
+   </attribute>
+   <attribute>
+    <attribute-name>selectionMethod</attribute-name>
+    <attribute-value></attribute-value>
+   </attribute>
+   <attribute>
+    <attribute-name>size</attribute-name>
+    <attribute-value></attribute-value>
+   </attribute>
+   <attribute>
+    <attribute-name>samePage</attribute-name>
+    <attribute-value>true</attribute-value>
+   </attribute>
+   <attribute>
+    <attribute-name>password</attribute-name>
+    <attribute-value></attribute-value>
+   </attribute>
+   <attribute>
+    <attribute-name>ref-type</attribute-name>
+    <attribute-value>0</attribute-value>
+   </attribute>
+   <attribute>
+    <attribute-name>paginate</attribute-name>
+    <attribute-value></attribute-value>
+   </attribute>
+   <attribute>
+    <attribute-name>rowsPerPage</attribute-name>
+    <attribute-value>5</attribute-value>
+   </attribute>
+   <attribute>
+    <attribute-name>toolbarLocation</attribute-name>
+    <attribute-value></attribute-value>
+   </attribute>
+   <attribute>
+    <attribute-name>linkSupport</attribute-name>
+    <attribute-value></attribute-value>
+   </attribute>
+   <attribute>
+    <attribute-name>toolbarMode</attribute-name>
+    <attribute-value></attribute-value>
+   </attribute>
+   <attribute>
+    <attribute-name>uiLayout</attribute-name>
+    <attribute-value></attribute-value>
+   </attribute>
+  </placeholder><template:br/><template:br/><![CDATA[<h4>Business Term Sets</h4>]]><template:br/><template:if>
+   <template:test>"<template:placeholder ref='businessTermsets' relative='false'/>" = "" and "<template:placeholder ref='businessTermsetInitialization.Value Holder1.Value Holder1' relative='false'/>" = ""</template:test>
+   <template:then>Business term sets must be initialized before they can be used in the decision service.<template:br/>After creating a term set, return here to initialize it for use.<template:br/><![CDATA[To create a term set, open the Explore expanded view and select the &#8221;New&#8221; icon in the toolbar.]]><template:br/></template:then>
+  </template:if><template:if>
+   <template:test>"<template:placeholder ref='businessTermsets' relative='false'/><![CDATA[" <> "" or "]]><template:placeholder ref='businessTermsetInitialization.Value Holder1.Value Holder1' relative='false'/><![CDATA["<> ""]]></template:test>
+   <template:then>Hover over the blue icon to add the business term sets you want to initialize for this decision service. <template:br/>The business term sets listed here will be initialized before each execution.<template:br/><![CDATA[To create a term set, open the Explore expanded view and select the &#8221;New&#8221; icon in the toolbar.]]><template:br/><template:br/><template:br/><placeholder ref='businessTermsetInitialization' relative='false'>
+     <attribute>
+      <attribute-name>none</attribute-name>
+      <attribute-value></attribute-value>
+     </attribute>
+     <attribute>
+      <attribute-name>rangeRole</attribute-name>
+      <attribute-value></attribute-value>
+     </attribute>
+     <attribute>
+      <attribute-name>style</attribute-name>
+      <attribute-value>standardTextEdit</attribute-value>
+     </attribute>
+     <attribute>
+      <attribute-name>readWriteProperty</attribute-name>
+      <attribute-value>readNWrite</attribute-value>
+     </attribute>
+     <attribute>
+      <attribute-name>selectionMethod</attribute-name>
+      <attribute-value></attribute-value>
+     </attribute>
+     <attribute>
+      <attribute-name>size</attribute-name>
+      <attribute-value></attribute-value>
+     </attribute>
+     <attribute>
+      <attribute-name>samePage</attribute-name>
+      <attribute-value>true</attribute-value>
+     </attribute>
+     <attribute>
+      <attribute-name>password</attribute-name>
+      <attribute-value></attribute-value>
+     </attribute>
+     <attribute>
+      <attribute-name>ref-type</attribute-name>
+      <attribute-value>0</attribute-value>
+     </attribute>
+     <attribute>
+      <attribute-name>paginate</attribute-name>
+      <attribute-value>no</attribute-value>
+     </attribute>
+     <attribute>
+      <attribute-name>rowsPerPage</attribute-name>
+      <attribute-value>5</attribute-value>
+     </attribute>
+     <attribute>
+      <attribute-name>toolbarLocation</attribute-name>
+      <attribute-value>bottom</attribute-value>
+     </attribute>
+     <attribute>
+      <attribute-name>linkSupport</attribute-name>
+      <attribute-value></attribute-value>
+     </attribute>
+     <attribute>
+      <attribute-name>toolbarMode</attribute-name>
+      <attribute-value>mini</attribute-value>
+     </attribute>
+     <attribute>
+      <attribute-name>uiLayout</attribute-name>
+      <attribute-value></attribute-value>
+     </attribute>
+    </placeholder><template:br/></template:then>
+  </template:if><template:br/></template:content>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/resource' section='adv'><template:placeholder ref='selectedFunctional' relative='false'/><template:placeholder ref='businessTermsetInitialization' relative='false'/></template:content>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/resource' section='jcp'><template:placeholder ref='selectedFunctional' relative='false'/><template:placeholder ref='businessTermsetInitialization' relative='false'/></template:content>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/resource' section='dbcp'><template:placeholder ref='selectedFunctional' relative='false'/><template:placeholder ref='businessTermsetInitialization' relative='false'/></template:content>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/resource' section='ccp'><template:placeholder ref='selectedFunctional' relative='false'/><template:placeholder ref='businessTermsetInitialization' relative='false'/></template:content>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/resource' section='xcp'><template:placeholder ref='selectedFunctional' relative='false'/><template:placeholder ref='businessTermsetInitialization' relative='false'/></template:content>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/resource' section='cpc'><template:placeholder ref='selectedFunctional' relative='false'/><template:placeholder ref='businessTermsetInitialization' relative='false'/></template:content>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/srl' section='srl'><template:placeholder ref='selectedFunctional' relative='false'/><template:placeholder ref='businessTermsetInitialization' relative='false'/></template:content>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/flow' section='flow'><template:placeholder ref='selectedFunctional' relative='false'/><template:placeholder ref='businessTermsetInitialization' relative='false'/></template:content>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/aai' section='aai'><template:placeholder ref='selectedFunctional' relative='false'/><template:placeholder ref='businessTermsetInitialization' relative='false'/></template:content>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/resource' section='ncp'><template:placeholder ref='selectedFunctional' relative='false'/><template:placeholder ref='businessTermsetInitialization' relative='false'/></template:content>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/resource' section='bcp'><template:placeholder ref='selectedFunctional' relative='false'/><template:placeholder ref='businessTermsetInitialization' relative='false'/></template:content>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/sf' section='sf'><template:placeholder ref='selectedFunctional' relative='false'/><template:placeholder ref='businessTermsetInitialization' relative='false'/></template:content>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='' section='xml'><template:placeholder ref='selectedFunctional' relative='false'/><template:placeholder ref='businessTermsetInitialization' relative='false'/></template:content>
+ <template name='Functional Selection Template'>
+  <ide-name>Functional Selection Template</ide-name>
+  <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1rl2Kmfiy8OJi5vUhYbsYmASJIF' name='SRL Function' id='HD6N4OcHJGRFiakEePQbfqu8qKX'>
+   <instance ref='Test Role'>
+    <instance ref='value'>
+     <value>None</value>
+    </instance>
+   </instance>
+   <instance ref='Test Case'>
+    <instance ref='value'>
+     <value></value>
+    </instance>
+   </instance>
+  </instantiation>
+  <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1ryqjy2wlawpW8dy391IVawONdo' name='Template' id='Template'>
+  </instantiation>
+  <instantiation xmlns='http://www.blazesoft.com/instantiation' template='18uqQPJXnTmKrAiLEOVcQMUAFmD' name='Entry' id='Entry'>
+   <instance ref='Source Reference'>
+    <instance ref='value'>
+     <instance ref='locationVH'>
+      <value></value>
+     </instance>
+     <instance ref='repositoryNameVH'>
+      <value></value>
+     </instance>
+     <instance ref='versionVH'>
+      <value></value>
+     </instance>
+     <instance ref='filterVH'>
+      <value></value>
+     </instance>
+     <instance ref='releaseDateVH'>
+      <value></value>
+     </instance>
+     <instance ref='repositoryAccessVH'>
+      <value></value>
+     </instance>
+    </instance>
+   </instance>
+   <instance ref='Predictive Model Type'>
+    <instance ref='value'>
+     <value>NotApplicable</value>
+    </instance>
+   </instance>
+  </instantiation>
+  <parameters>
+   <parameter name='__ENTITY_PROPERTIES__VH__' type='1rl2Kmfiy8OJi5vUhYbsYmASJIF' ideName='Management Properties' displayName='ManagementProperties' name-localized='true'>
+   </parameter>
+   <parameter name='selectFunctional' type='BR1cnMvMrAP1F5lkU2hBHvPo2pk.Functional Selection Template.SRL Expression provider' ideName='selectFunctional'>
+   </parameter>
+  </parameters>
+  <family>Function Template</family>
+  <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/srl' section='srl'><function managementPropertiesRef='HD6N4OcHJGRFiakEePQbfqu8qKX'>
+    <name>executeSelectedFunctional</name>
+    <body><template:placeholder ref='selectFunctional' relative='true'/></body>
+   </function></template:content>
+  <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/display' section='display'><placeholder ref='selectFunctional' relative='true'>
+    <attribute>
+     <attribute-name>none</attribute-name>
+     <attribute-value>none</attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>rangeRole</attribute-name>
+     <attribute-value>none</attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>style</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>readWriteProperty</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>selectionMethod</attribute-name>
+     <attribute-value>useChoiceBox</attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>size</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>samePage</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>password</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>ref-type</attribute-name>
+     <attribute-value>0</attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>paginate</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>rowsPerPage</attribute-name>
+     <attribute-value>5</attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>toolbarLocation</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>linkSupport</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>toolbarMode</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>uiLayout</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+   </placeholder></template:content>
+  <template name='SRL Expression provider'>
+   <ide-name>SRL Expression provider</ide-name>
+   <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1IBbJ02ODol1ycsh7pzUBwhf6T6' name='Provider' id='Provider'>
+   </instantiation>
+   <value>
+    <provider>com.blazesoft.template.repository.provider.NdPromSrlExpressionProvider</provider>
+    <arg name='field-type'>rule-action-then</arg>
+    <arg name='expression-srl-type'></arg>
+    <arg name='allow-advanced-editor'>true</arg>
+    <arg name='include-objects'>true</arg>
+    <arg name='include-patterns'>true</arg>
+    <arg name='include-variables'>true</arg>
+    <arg name='include-parameters'>true</arg>
+    <arg name='include-local-entities'>true</arg>
+    <arg name='include-methods'>false</arg>
+    <arg name='include-builtins'>false</arg>
+    <arg name='include-statics'>false</arg>
+    <arg name='include-nonstatics'>true</arg>
+    <arg name='case-sensitive sorting'>false</arg>
+   </value>
+  </template>
+ </template>
+ <template name='Business Termset Initialization Function'>
+  <ide-name>Business Termset Initialization Function</ide-name>
+  <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1rl2Kmfiy8OJi5vUhYbsYmASJIF' name='SRL Function' id='WXFPyjSq59vrvj5ZWNqM7QODRyN'>
+   <instance ref='Test Role'>
+    <instance ref='value'>
+     <value>None</value>
+    </instance>
+   </instance>
+   <instance ref='Test Case'>
+    <instance ref='value'>
+     <value></value>
+    </instance>
+   </instance>
+  </instantiation>
+  <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1ryqjy2wlawpW8dy391IVawONdo' name='Template' id='Template'>
+  </instantiation>
+  <parameters>
+   <parameter name='__ENTITY_PROPERTIES__VH__' type='1rl2Kmfiy8OJi5vUhYbsYmASJIF' ideName='Management Properties' displayName='ManagementProperties' name-localized='true'>
+   </parameter>
+   <parameter-list name='Value Holder1' type='BR1cnMvMrAP1F5lkU2hBHvPo2pk.template2' ideName='businessTermsetInitialization' displayName='business term set to be initialized' min='0'>
+   </parameter-list>
+  </parameters>
+  <family>Function Template</family>
+  <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/srl' section='srl'><function managementPropertiesRef='WXFPyjSq59vrvj5ZWNqM7QODRyN'>
+    <name>initializeBusinessTermset</name>
+    <body><template:placeholder ref='Value Holder1' relative='true'/></body>
+   </function></template:content>
+  <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/display' section='display'><placeholder ref='Value Holder1' relative='true'>
+    <attribute>
+     <attribute-name>none</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>rangeRole</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>style</attribute-name>
+     <attribute-value>standardTextEdit</attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>readWriteProperty</attribute-name>
+     <attribute-value>readNWrite</attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>selectionMethod</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>size</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>samePage</attribute-name>
+     <attribute-value>true</attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>password</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>ref-type</attribute-name>
+     <attribute-value>0</attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>paginate</attribute-name>
+     <attribute-value>no</attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>rowsPerPage</attribute-name>
+     <attribute-value>5</attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>toolbarLocation</attribute-name>
+     <attribute-value>bottom</attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>linkSupport</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>toolbarMode</attribute-name>
+     <attribute-value>mini</attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>uiLayout</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+   </placeholder></template:content>
+ </template>
+ <template name='template2'>
+  <ide-name>Business Termset Initialization</ide-name>
+  <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1ryqjy2wlawpW8dy391IVawONdo' name='Template' id='Template'>
+  </instantiation>
+  <parameters>
+   <parameter name='Value Holder1' type='BR1cnMvMrAP1F5lkU2hBHvPo2pk.Business Termset Classes provider' ideName='businessTermsets'>
+   </parameter>
+   <parameter-noninstantiable name='businessTermsetVariable' type='BR1cnMvMrAP1F5lkU2hBHvPo2pk.template4' mechanism='allowed-values' ideName='businessTermsetVariable'>
+    <dynamic-arg name='type' ref='Value Holder1' relative='true'/>
+   </parameter-noninstantiable>
+   <parameter name='inputType' type='BR1cnMvMrAP1F5lkU2hBHvPo2pk.template1' ideName='businessTermsetInputType'>
+    <dynamic-arg name='class' ref='Value Holder1' relative='true'/>
+    <arg name='property'>termSetInput</arg>
+   </parameter>
+   <parameter-noninstantiable name='nestedEntitiesProvider' type='BR1cnMvMrAP1F5lkU2hBHvPo2pk.template3' mechanism='allowed-values' ideName='inputEntities'>
+    <dynamic-arg name='type' ref='inputType' relative='true'/>
+    <arg name='include-none'>false</arg>
+    <dynamic-arg name='excluded-element' ref='businessTermsetVariable' relative='true'/>
+   </parameter-noninstantiable>
+   <parameter name='termsetInputOption' type='BR1cnMvMrAP1F5lkU2hBHvPo2pk.template5' ideName='termsetInputOption'>
+    <arg name='element'>None</arg>
+    <dynamic-arg name='element' ref='nestedEntitiesProvider' relative='true'/>
+   </parameter>
+   <parameter name='VH1' type='BR1cnMvMrAP1F5lkU2hBHvPo2pk.template6' ideName='businessTermsetVariableTxt'>
+    <dynamic-arg name='termsetGlobalVariable' ref='businessTermsetVariable' relative='true'/>
+   </parameter>
+  </parameters>
+  <family>Code Template</family>
+  <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/srl' section='srl'><template:placeholder ref='businessTermsetVariable' relative='true'/> = a <template:placeholder ref='Value Holder1' relative='true'/>;<template:br/><template:if>
+    <template:test>"<template:placeholder ref='termsetInputOption' relative='true'/><![CDATA[" <> "None"]]></template:test>
+    <template:then><template:placeholder ref='VH1' relative='true'/>.termSetInput = <template:placeholder ref='termsetInputOption' relative='true'/>;</template:then>
+   </template:if><template:br/></template:content>
+  <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/display' section='display'><![CDATA[<b>Term Set:</b> ]]><placeholder ref='Value Holder1' relative='true'>
+    <attribute>
+     <attribute-name>none</attribute-name>
+     <attribute-value>none</attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>rangeRole</attribute-name>
+     <attribute-value>none</attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>style</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>readWriteProperty</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>selectionMethod</attribute-name>
+     <attribute-value>useChoiceBox</attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>size</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>samePage</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>password</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>ref-type</attribute-name>
+     <attribute-value>0</attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>paginate</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>rowsPerPage</attribute-name>
+     <attribute-value>5</attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>toolbarLocation</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>linkSupport</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>toolbarMode</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>uiLayout</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+   </placeholder><![CDATA[ &nbsp;&nbsp; <b>Input assignment:</b>]]><template:if>
+    <template:test>"<template:placeholder ref='inputType' relative='true'/><![CDATA[" <> "object"]]></template:test>
+    <template:then><![CDATA[&nbsp;]]><placeholder ref='VH1' relative='true'>
+      <attribute>
+       <attribute-name>none</attribute-name>
+       <attribute-value>none</attribute-value>
+      </attribute>
+      <attribute>
+       <attribute-name>rangeRole</attribute-name>
+       <attribute-value>none</attribute-value>
+      </attribute>
+      <attribute>
+       <attribute-name>style</attribute-name>
+       <attribute-value>standardTextEdit</attribute-value>
+      </attribute>
+      <attribute>
+       <attribute-name>readWriteProperty</attribute-name>
+       <attribute-value>readNWrite</attribute-value>
+      </attribute>
+      <attribute>
+       <attribute-name>selectionMethod</attribute-name>
+       <attribute-value></attribute-value>
+      </attribute>
+      <attribute>
+       <attribute-name>size</attribute-name>
+       <attribute-value></attribute-value>
+      </attribute>
+      <attribute>
+       <attribute-name>samePage</attribute-name>
+       <attribute-value>true</attribute-value>
+      </attribute>
+      <attribute>
+       <attribute-name>password</attribute-name>
+       <attribute-value></attribute-value>
+      </attribute>
+      <attribute>
+       <attribute-name>ref-type</attribute-name>
+       <attribute-value>0</attribute-value>
+      </attribute>
+      <attribute>
+       <attribute-name>paginate</attribute-name>
+       <attribute-value></attribute-value>
+      </attribute>
+      <attribute>
+       <attribute-name>rowsPerPage</attribute-name>
+       <attribute-value>5</attribute-value>
+      </attribute>
+      <attribute>
+       <attribute-name>toolbarLocation</attribute-name>
+       <attribute-value></attribute-value>
+      </attribute>
+      <attribute>
+       <attribute-name>linkSupport</attribute-name>
+       <attribute-value></attribute-value>
+      </attribute>
+      <attribute>
+       <attribute-name>toolbarMode</attribute-name>
+       <attribute-value></attribute-value>
+      </attribute>
+      <attribute>
+       <attribute-name>uiLayout</attribute-name>
+       <attribute-value></attribute-value>
+      </attribute>
+     </placeholder> termSetInput  property is <placeholder ref='termsetInputOption' relative='true'>
+      <attribute>
+       <attribute-name>none</attribute-name>
+       <attribute-value>none</attribute-value>
+      </attribute>
+      <attribute>
+       <attribute-name>rangeRole</attribute-name>
+       <attribute-value>none</attribute-value>
+      </attribute>
+      <attribute>
+       <attribute-name>style</attribute-name>
+       <attribute-value></attribute-value>
+      </attribute>
+      <attribute>
+       <attribute-name>readWriteProperty</attribute-name>
+       <attribute-value></attribute-value>
+      </attribute>
+      <attribute>
+       <attribute-name>selectionMethod</attribute-name>
+       <attribute-value>useChoiceBox</attribute-value>
+      </attribute>
+      <attribute>
+       <attribute-name>size</attribute-name>
+       <attribute-value></attribute-value>
+      </attribute>
+      <attribute>
+       <attribute-name>samePage</attribute-name>
+       <attribute-value></attribute-value>
+      </attribute>
+      <attribute>
+       <attribute-name>password</attribute-name>
+       <attribute-value></attribute-value>
+      </attribute>
+      <attribute>
+       <attribute-name>ref-type</attribute-name>
+       <attribute-value>0</attribute-value>
+      </attribute>
+      <attribute>
+       <attribute-name>paginate</attribute-name>
+       <attribute-value></attribute-value>
+      </attribute>
+      <attribute>
+       <attribute-name>rowsPerPage</attribute-name>
+       <attribute-value>5</attribute-value>
+      </attribute>
+      <attribute>
+       <attribute-name>toolbarLocation</attribute-name>
+       <attribute-value></attribute-value>
+      </attribute>
+      <attribute>
+       <attribute-name>linkSupport</attribute-name>
+       <attribute-value></attribute-value>
+      </attribute>
+      <attribute>
+       <attribute-name>toolbarMode</attribute-name>
+       <attribute-value></attribute-value>
+      </attribute>
+      <attribute>
+       <attribute-name>uiLayout</attribute-name>
+       <attribute-value></attribute-value>
+      </attribute>
+     </placeholder></template:then>
+   </template:if><template:if>
+    <template:test>"<template:placeholder ref='inputType' relative='true'/>" = "object"</template:test>
+    <template:then> Not available.</template:then>
+   </template:if></template:content>
+ </template>
+ <template name='Business Termset Classes provider'>
+  <ide-name>Business Termset Classes provider</ide-name>
+  <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1IBbJ02ODol1ycsh7pzUBwhf6T6' name='Provider' id='Provider'>
+  </instantiation>
+  <value>
+   <provider>com.blazesoft.template.repository.provider.NdPromSrlClassesProvider</provider>
+   <arg name='case-sensitive sorting'>false</arg>
+   <arg name='include-java-class'>false</arg>
+   <arg name='include-srl-class'>false</arg>
+   <arg name='include-xml-class'>false</arg>
+  </value>
+ </template>
+ <template name='template3'>
+  <ide-name>Nested entities provider</ide-name>
+  <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1IBbJ02ODol1ycsh7pzUBwhf6T6' name='Provider' id='Provider'>
+  </instantiation>
+  <value>
+   <provider>com.blazesoft.template.repository.provider.NdPromSrlPropertyExpressionsProvider</provider>
+   <arg name='include-objects'>true</arg>
+   <arg name='include-patterns'>true</arg>
+   <arg name='include-variables'>true</arg>
+   <arg name='include-reasoncode-list'>true</arg>
+   <arg name='include-parameters'>true</arg>
+   <arg name='include-local-entities'>true</arg>
+   <arg name='include-readonly'>true</arg>
+   <arg name='sort-option'>case-insensitive</arg>
+   <arg name='max-depth'>5</arg>
+  </value>
+ </template>
+ <template name='template1'>
+  <ide-name>Property Type provider</ide-name>
+  <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1IBbJ02ODol1ycsh7pzUBwhf6T6' name='Provider' id='Provider'>
+  </instantiation>
+  <value>
+   <provider>com.blazesoft.template.repository.provider.NdPromSrlClassPropertyTypeProvider</provider>
+   <arg name='class'></arg>
+   <arg name='property'></arg>
+  </value>
+ </template>
+ <template name='template4'>
+  <ide-name>SRL Entities provider</ide-name>
+  <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1IBbJ02ODol1ycsh7pzUBwhf6T6' name='Provider' id='Provider'>
+  </instantiation>
+  <value>
+   <provider>com.blazesoft.template.repository.provider.NdPromSrlEntitiesProvider</provider>
+   <arg name='include-objects'>true</arg>
+   <arg name='include-patterns'>false</arg>
+   <arg name='include-variables'>true</arg>
+   <arg name='include-reasoncode-list'>true</arg>
+   <arg name='include-parameters'>true</arg>
+   <arg name='include-local-entities'>false</arg>
+  </value>
+ </template>
+ <template name='template5'>
+  <ide-name>Empty List provider</ide-name>
+  <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1IBbJ02ODol1ycsh7pzUBwhf6T6' name='Provider' id='Provider'>
+  </instantiation>
+  <value>
+   <provider>com.blazesoft.template.engine.provider.NdListProvider</provider>
+   <arg name='type'>string</arg>
+  </value>
+ </template>
+ <template name='template6'>
+  <ide-name>Business Termset variable</ide-name>
+  <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1ryqjy2wlawpW8dy391IVawONdo' name='Template' id='Template'>
+  </instantiation>
+  <parameters>
+   <parameter-noninstantiable name='termsetGlobalVariable' type='string' mechanism='argument' repeatable='false' ideName='termsetGlobalVariable'>
+   </parameter-noninstantiable>
+  </parameters>
+  <family>Code Template</family>
+  <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/srl' section='srl'><template:placeholder ref='termsetGlobalVariable' relative='true'/></template:content>
+  <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='http://www.blazesoft.com/display' section='display'><placeholder ref='termsetGlobalVariable' relative='true'>
+    <attribute>
+     <attribute-name>none</attribute-name>
+     <attribute-value>none</attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>rangeRole</attribute-name>
+     <attribute-value>none</attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>style</attribute-name>
+     <attribute-value>standardTextEdit</attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>readWriteProperty</attribute-name>
+     <attribute-value>readNWrite</attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>selectionMethod</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>size</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>samePage</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>password</attribute-name>
+     <attribute-value>false</attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>ref-type</attribute-name>
+     <attribute-value>0</attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>paginate</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>rowsPerPage</attribute-name>
+     <attribute-value>5</attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>toolbarLocation</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>linkSupport</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>toolbarMode</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+    <attribute>
+     <attribute-name>uiLayout</attribute-name>
+     <attribute-value></attribute-value>
+    </attribute>
+   </placeholder></template:content>
+ </template>
+</template>

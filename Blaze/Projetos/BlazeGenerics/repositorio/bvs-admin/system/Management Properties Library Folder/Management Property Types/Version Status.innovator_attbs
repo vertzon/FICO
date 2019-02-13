@@ -1,0 +1,15 @@
+#Extended attributes for Innovator file-based repository (directory: 'Version Status')
+#Fri Sep 28 16:44:27 BRT 2018
+contentType=Provider
+entryLastCheckInTime=9/28/18 4\:43 PM
+entryLastCheckInUser=admin
+guid=1qqx9aHCnKriPAo4PN2dUJQVTIT
+innovatorDisplayName=version status
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=Version Status
+isSystemTemplate=true
+subType=None
+target=Repository
+type=Generic

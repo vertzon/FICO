@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<VersionInfoTable>
+	<ItemName>DeploymentDefinitionEJB2</ItemName>
+	<IsEntryDeleted>false</IsEntryDeleted>
+	<LockInfo>
+		<Owner>admin</Owner>
+		<Timestamp>7 Feb 2019 18:44:08 GMT</Timestamp>
+	</LockInfo>
+	<VersionElement VersionId="3">
+		<User>admin</User>
+		<Comment></Comment>
+		<Timestamp>4 Oct 2018 03:06:14 GMT</Timestamp>
+	</VersionElement>
+	<VersionElement VersionId="2">
+		<User>admin</User>
+		<Comment></Comment>
+		<Timestamp>4 Oct 2018 03:02:53 GMT</Timestamp>
+	</VersionElement>
+	<VersionElement VersionId="1">
+		<User>admin</User>
+		<Comment></Comment>
+		<Timestamp>4 Oct 2018 02:59:02 GMT</Timestamp>
+	</VersionElement>
+</VersionInfoTable>

@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<instantiation xmlns='http://www.blazesoft.com/instantiation' template='GZ4ltXPwEu7TdtwoQXRqanVPg9L' name='DecisionTree'>
+ <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1VBfZr8g32Q2FnSWcWO9txQWwEE' name='Instance' id='Instance'>
+ </instantiation>
+ <instantiation xmlns='http://www.blazesoft.com/instantiation' template='18uqQPJXnTmKrAiLEOVcQMUAFmD' name='Entry' id='Entry'>
+  <instance ref='Source Reference'>
+   <instance ref='value'>
+    <instance ref='locationVH'>
+     <value></value>
+    </instance>
+    <instance ref='repositoryNameVH'>
+     <value></value>
+    </instance>
+    <instance ref='versionVH'>
+     <value></value>
+    </instance>
+    <instance ref='filterVH'>
+     <value></value>
+    </instance>
+    <instance ref='releaseDateVH'>
+     <value></value>
+    </instance>
+    <instance ref='repositoryAccessVH'>
+     <value></value>
+    </instance>
+   </instance>
+  </instance>
+  <instance ref='Predictive Model Type'>
+   <instance ref='value'>
+    <value>NotApplicable</value>
+   </instance>
+  </instance>
+ </instantiation>
+ <instance ref='__ENTITY_PROPERTIES__VH__'>
+ </instance>
+ <instance ref='rulesetName'>
+  <value>DecisionTree</value>
+ </instance>
+ <instance ref='dagVersion'>
+  <value>1.0</value>
+ </instance>
+ <instance ref='dag'>
+  <value><![CDATA[
+$dictionary 
+	"customerGender" theInputVariables.customerGender:string,
+	"customerScore" theInputVariables.customerScore:integer,
+	"customerAge" theInputVariables.customerAge:integer,
+	"customerIncome" theInputVariables.customerIncome:real;
+$action $dictionary 
+	"Action" theOutputVariables.decision:string;
+$ldag 
+/* levels */
+	$root "root",
+	$condition "customerAge" "customerAge",
+	$condition "customerScore" "customerScore",
+	$action "Action" "Action";
+
+/* nodes */
+	0 0 "root" 3;
+	5 1 "< 25" (-$inf,25) 3;
+	12 2 "< 500" (-$inf,500) 1;
+	19 3 "Rejected" "" {"REJECTED"};
+	11 2 "500 <=..< 690" [500,690) 1;
+	18 3 "Pending" "" {"PENDING"};
+	13 2 ">= 690" [690,$inf) 1;
+	20 3 "Approved" "" {"APPROVED"};
+	4 1 "25 <=..< 35" [25,35) 3;
+	7 2 "< 500" (-$inf,500) 1;
+	17 3 "Rejected" "" {"REJECTED"};
+	15 2 "500 <=..< 690" [500,690) 1;
+	25 3 "Pending" "" {"PENDING"};
+	14 2 ">= 690" [690,$inf) 1;
+	24 3 "Approved" "" {"APPROVED"};
+	3 1 ">= 35" [35,$inf) 3;
+	10 2 "< 500" (-$inf,500) 1;
+	22 3 "Rejected" "" {"REJECTED"};
+	9 2 "500 <=..< 690" [500,690) 1;
+	23 3 "Pending" "" {"PENDING"};
+	8 2 ">= 690" [690,$inf) 1;
+	21 3 "Approved" "" {"APPROVED"};
+]]></value>
+ </instance>
+ <instance-list ref='cases'>
+ </instance-list>
+ <instance ref='editingInfo'>
+  <instance ref='__ND_DecTreeLayoutVH'>
+   <value>0</value>
+  </instance>
+ </instance>
+ <instance ref='comment'>
+  <value></value>
+ </instance>
+ <instance ref='decisionTreeParameters'>
+  <instance-list ref='ParametersVH'>
+  </instance-list>
+ </instance>
+ <instance ref='decisionTreeReturnType'>
+  <value>void</value>
+ </instance>
+ <instance ref='__ND_CurrentZoomLevelVH'>
+  <value>0.0</value>
+ </instance>
+ <instance ref='__ND_SelectedNodeIdVH'>
+  <value>0</value>
+ </instance>
+</instantiation>

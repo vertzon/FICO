@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<instantiation xmlns='http://www.blazesoft.com/instantiation' template='5nrT9calkTxODnluALdD788RpOy' name='Decision Flow'>
+ <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1VBfZr8g32Q2FnSWcWO9txQWwEE' name='Instance' id='Instance'>
+ </instantiation>
+ <instantiation xmlns='http://www.blazesoft.com/instantiation' template='18uqQPJXnTmKrAiLEOVcQMUAFmD' name='Entry' id='Entry'>
+  <instance ref='Source Reference'>
+   <instance ref='value'>
+    <instance ref='locationVH'>
+     <value></value>
+    </instance>
+    <instance ref='repositoryNameVH'>
+     <value></value>
+    </instance>
+    <instance ref='versionVH'>
+     <value></value>
+    </instance>
+    <instance ref='filterVH'>
+     <value></value>
+    </instance>
+    <instance ref='releaseDateVH'>
+     <value></value>
+    </instance>
+    <instance ref='repositoryAccessVH'>
+     <value></value>
+    </instance>
+   </instance>
+  </instance>
+  <instance ref='Predictive Model Type'>
+   <instance ref='value'>
+    <value>NotApplicable</value>
+   </instance>
+  </instance>
+ </instantiation>
+ <instance ref='__ENTITY_PROPERTIES__VH__'>
+ </instance>
+ <instance ref='GDFPropertiesVH'>
+  <instance ref='FlowCommentsVH'>
+   <value></value>
+  </instance>
+  <instance ref='FlowStartEventClassVH'>
+   <value>start</value>
+  </instance>
+  <instance ref='FlowStartEventObjectVH'>
+   <value></value>
+  </instance>
+  <instance ref='FlowNameVH'>
+   <value>Decision_Flow</value>
+  </instance>
+  <instance ref='instanceName'>
+   <value></value>
+  </instance>
+  <instance-list ref='FlowVariablesVH'>
+  </instance-list>
+ </instance>
+ <instance-list ref='FlowElementsVH'>
+  <item template='5nrT9calkTxODnluALdD788RpOy.template25' id='ChXgxe'>
+   <instance ref='TaskImplementationVH'>
+    <value>RegrasIniciais()</value>
+   </instance>
+   <instance ref='TaskImplementationParameterCountVH'>
+    <value></value>
+   </instance>
+   <instance ref='TaskImplementationTypeVH'>
+    <value></value>
+   </instance>
+   <instance-list ref='TaskArgumentsVH'>
+   </instance-list>
+   <instance ref='TaskReturnTypeVH'>
+    <value></value>
+   </instance>
+   <instance-selection ref='TaskReturnValueVH'>
+    <item template='5nrT9calkTxODnluALdD788RpOy.template40' id='O2lo0l'>
+     <instance ref='value'>
+      <value></value>
+     </instance>
+    </item>
+   </instance-selection>
+   <instance ref='TaskCommentsVH'>
+    <value></value>
+   </instance>
+   <instance ref='TaskNameVH'>
+    <value>Initialization Rules</value>
+   </instance>
+  </item>
+  <item template='5nrT9calkTxODnluALdD788RpOy.template11' id='26PDel'>
+   <instance ref='SubflowImplementationVH'>
+    <value>DataMappingFlow()</value>
+   </instance>
+   <instance ref='SubflowImplementationParameterCountVH'>
+    <value></value>
+   </instance>
+   <instance-list ref='SubflowArgumentsVH'>
+   </instance-list>
+   <instance ref='SubflowReturnTypeVH'>
+    <value></value>
+   </instance>
+   <instance ref='ImplementationArgType'>
+    <value></value>
+   </instance>
+   <instance-selection ref='SubflowReturnValueVH'>
+    <item template='5nrT9calkTxODnluALdD788RpOy.template40' id='WiaS6k'>
+     <instance ref='value'>
+      <value></value>
+     </instance>
+    </item>
+   </instance-selection>
+   <instance ref='SubFlowCommentsVH'>
+    <value></value>
+   </instance>
+   <instance ref='SubflowNameVH'>
+    <value>Map Generic Input Vars</value>
+   </instance>
+  </item>
+  <item template='5nrT9calkTxODnluALdD788RpOy.template25' id='Rm46Bb'>
+   <instance ref='TaskImplementationVH'>
+    <value>SimpleVarsMapping_Output()</value>
+   </instance>
+   <instance ref='TaskImplementationParameterCountVH'>
+    <value></value>
+   </instance>
+   <instance ref='TaskImplementationTypeVH'>
+    <value></value>
+   </instance>
+   <instance-list ref='TaskArgumentsVH'>
+   </instance-list>
+   <instance ref='TaskReturnTypeVH'>
+    <value></value>
+   </instance>
+   <instance-selection ref='TaskReturnValueVH'>
+    <item template='5nrT9calkTxODnluALdD788RpOy.template40' id='55M1CG'>
+     <instance ref='value'>
+      <value></value>
+     </instance>
+    </item>
+   </instance-selection>
+   <instance ref='TaskCommentsVH'>
+    <value></value>
+   </instance>
+   <instance ref='TaskNameVH'>
+    <value>Map Output vars</value>
+   </instance>
+  </item>
+ </instance-list>
+ <instance ref='StylesheetVH'>
+ </instance>
+</instantiation>

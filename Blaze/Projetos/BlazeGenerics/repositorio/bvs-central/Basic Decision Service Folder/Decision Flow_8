@@ -1,0 +1,341 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<instantiation xmlns='http://www.blazesoft.com/instantiation' template='5nrT9calkTxODnluALdD788RpOy' name='Decision Flow'>
+ <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1VBfZr8g32Q2FnSWcWO9txQWwEE' name='Instance' id='Instance'>
+ </instantiation>
+ <instantiation xmlns='http://www.blazesoft.com/instantiation' template='18uqQPJXnTmKrAiLEOVcQMUAFmD' name='Entry' id='Entry'>
+  <instance ref='Source Reference'>
+   <instance ref='value'>
+    <instance ref='locationVH'>
+     <value></value>
+    </instance>
+    <instance ref='repositoryNameVH'>
+     <value></value>
+    </instance>
+    <instance ref='versionVH'>
+     <value></value>
+    </instance>
+    <instance ref='filterVH'>
+     <value></value>
+    </instance>
+    <instance ref='releaseDateVH'>
+     <value></value>
+    </instance>
+    <instance ref='repositoryAccessVH'>
+     <value></value>
+    </instance>
+   </instance>
+  </instance>
+  <instance ref='Predictive Model Type'>
+   <instance ref='value'>
+    <value>NotApplicable</value>
+   </instance>
+  </instance>
+ </instantiation>
+ <instance ref='__ENTITY_PROPERTIES__VH__'>
+ </instance>
+ <instance ref='GDFPropertiesVH'>
+  <instance ref='FlowCommentsVH'>
+   <value></value>
+  </instance>
+  <instance ref='FlowStartEventClassVH'>
+   <value>start</value>
+  </instance>
+  <instance ref='FlowStartEventObjectVH'>
+   <value></value>
+  </instance>
+  <instance ref='FlowNameVH'>
+   <value>Decision_Flow</value>
+  </instance>
+  <instance ref='instanceName'>
+   <value></value>
+  </instance>
+  <instance-list ref='FlowVariablesVH'>
+  </instance-list>
+ </instance>
+ <instance-list ref='FlowElementsVH'>
+  <item template='5nrT9calkTxODnluALdD788RpOy.template25' id='ChXgxe'>
+   <instance ref='TaskImplementationVH'>
+    <value>RegrasIniciais()</value>
+   </instance>
+   <instance ref='TaskImplementationParameterCountVH'>
+    <value></value>
+   </instance>
+   <instance ref='TaskImplementationTypeVH'>
+    <value></value>
+   </instance>
+   <instance-list ref='TaskArgumentsVH'>
+   </instance-list>
+   <instance ref='TaskReturnTypeVH'>
+    <value></value>
+   </instance>
+   <instance-selection ref='TaskReturnValueVH'>
+    <item template='5nrT9calkTxODnluALdD788RpOy.template40' id='O2lo0l'>
+     <instance ref='value'>
+      <value></value>
+     </instance>
+    </item>
+   </instance-selection>
+   <instance ref='TaskCommentsVH'>
+    <value></value>
+   </instance>
+   <instance ref='TaskNameVH'>
+    <value>Initialization Rules</value>
+   </instance>
+  </item>
+  <item template='5nrT9calkTxODnluALdD788RpOy.template11' id='26PDel'>
+   <instance ref='SubflowImplementationVH'>
+    <value>DataMappingFlow()</value>
+   </instance>
+   <instance ref='SubflowImplementationParameterCountVH'>
+    <value></value>
+   </instance>
+   <instance-list ref='SubflowArgumentsVH'>
+   </instance-list>
+   <instance ref='SubflowReturnTypeVH'>
+    <value></value>
+   </instance>
+   <instance ref='ImplementationArgType'>
+    <value></value>
+   </instance>
+   <instance-selection ref='SubflowReturnValueVH'>
+    <item template='5nrT9calkTxODnluALdD788RpOy.template40' id='WiaS6k'>
+     <instance ref='value'>
+      <value></value>
+     </instance>
+    </item>
+   </instance-selection>
+   <instance ref='SubFlowCommentsVH'>
+    <value></value>
+   </instance>
+   <instance ref='SubflowNameVH'>
+    <value>Map Generic Input Vars</value>
+   </instance>
+  </item>
+  <item template='5nrT9calkTxODnluALdD788RpOy.template25' id='KrYfqj'>
+   <instance ref='TaskImplementationVH'>
+    <value>DecisionTree()</value>
+   </instance>
+   <instance ref='TaskImplementationParameterCountVH'>
+    <value></value>
+   </instance>
+   <instance ref='TaskImplementationTypeVH'>
+    <value></value>
+   </instance>
+   <instance-list ref='TaskArgumentsVH'>
+   </instance-list>
+   <instance ref='TaskReturnTypeVH'>
+    <value></value>
+   </instance>
+   <instance-selection ref='TaskReturnValueVH'>
+    <item template='5nrT9calkTxODnluALdD788RpOy.template40' id='DaD4rP'>
+     <instance ref='value'>
+      <value></value>
+     </instance>
+    </item>
+   </instance-selection>
+   <instance ref='TaskCommentsVH'>
+    <value></value>
+   </instance>
+   <instance ref='TaskNameVH'>
+    <value>Decision Tree</value>
+   </instance>
+  </item>
+  <item template='5nrT9calkTxODnluALdD788RpOy.template25' id='UrlZEW'>
+   <instance ref='TaskImplementationVH'>
+    <value>addAuditStep(string, string, AuditStepScope)</value>
+   </instance>
+   <instance ref='TaskImplementationParameterCountVH'>
+    <value></value>
+   </instance>
+   <instance ref='TaskImplementationTypeVH'>
+    <value></value>
+   </instance>
+   <instance-list ref='TaskArgumentsVH'>
+    <item template='5nrT9calkTxODnluALdD788RpOy.template23' id='KDE3HF'>
+     <instance ref='ArgumentIndexVH'>
+      <value></value>
+     </instance>
+     <instance ref='ArgumentTypeVH'>
+      <value></value>
+     </instance>
+     <instance ref='ParameterName'>
+      <value></value>
+     </instance>
+     <instance-selection ref='ArgumentValueVH'>
+      <item template='5nrT9calkTxODnluALdD788RpOy.template39' id='C4Hifz'>
+       <instance ref='value'>
+        <value>Decision Tree</value>
+       </instance>
+      </item>
+     </instance-selection>
+    </item>
+    <item template='5nrT9calkTxODnluALdD788RpOy.template23' id='6cSK35'>
+     <instance ref='ArgumentIndexVH'>
+      <value></value>
+     </instance>
+     <instance ref='ArgumentTypeVH'>
+      <value></value>
+     </instance>
+     <instance ref='ParameterName'>
+      <value></value>
+     </instance>
+     <instance-selection ref='ArgumentValueVH'>
+      <item template='5nrT9calkTxODnluALdD788RpOy.template41' id='EeRSSy'>
+       <instance ref='value'>
+        <value>{"rootGroup":{"exprs":[{"valueType":"string","elements":[{"valueType":"string","value":"Tree decision returned: ","instValue":"Tree decision returned: ","__meta_klass":"LiteralOperand"},{"opValue":"+","__meta_klass":"Operator"},{"valueType":"string","name":"decision","fqName":"theOutputVariables.decision","externalType":"string","isTerm":true,"implClass":"OutputVariables","__meta_klass":"PropertyOperand"}],"exprType":0,"disposeWhenEmpty":true,"__meta_klass":"Expr"}],"__meta_klass":"SingleGroup"},"isVisible":true,"__meta_klass":"SingleBuilderViewModel","__meta_version":"3.0"}</value>
+       </instance>
+      </item>
+     </instance-selection>
+    </item>
+    <item template='5nrT9calkTxODnluALdD788RpOy.template23' id='CM08Yf'>
+     <instance ref='ArgumentIndexVH'>
+      <value></value>
+     </instance>
+     <instance ref='ArgumentTypeVH'>
+      <value></value>
+     </instance>
+     <instance ref='ParameterName'>
+      <value></value>
+     </instance>
+     <instance-selection ref='ArgumentValueVH'>
+      <item template='5nrT9calkTxODnluALdD788RpOy.template39' id='ESNRRE'>
+       <instance ref='value'>
+        <value>BUSINESS</value>
+       </instance>
+      </item>
+     </instance-selection>
+    </item>
+   </instance-list>
+   <instance ref='TaskReturnTypeVH'>
+    <value></value>
+   </instance>
+   <instance-selection ref='TaskReturnValueVH'>
+    <item template='5nrT9calkTxODnluALdD788RpOy.template40' id='oWuPu7'>
+     <instance ref='value'>
+      <value></value>
+     </instance>
+    </item>
+   </instance-selection>
+   <instance ref='TaskCommentsVH'>
+    <value></value>
+   </instance>
+   <instance ref='TaskNameVH'>
+    <value>Add Audit - Tree Decision</value>
+   </instance>
+  </item>
+  <item template='5nrT9calkTxODnluALdD788RpOy.template25' id='Rm46Bb'>
+   <instance ref='TaskImplementationVH'>
+    <value>SimpleVarsMapping_Output()</value>
+   </instance>
+   <instance ref='TaskImplementationParameterCountVH'>
+    <value></value>
+   </instance>
+   <instance ref='TaskImplementationTypeVH'>
+    <value></value>
+   </instance>
+   <instance-list ref='TaskArgumentsVH'>
+   </instance-list>
+   <instance ref='TaskReturnTypeVH'>
+    <value></value>
+   </instance>
+   <instance-selection ref='TaskReturnValueVH'>
+    <item template='5nrT9calkTxODnluALdD788RpOy.template40' id='55M1CG'>
+     <instance ref='value'>
+      <value></value>
+     </instance>
+    </item>
+   </instance-selection>
+   <instance ref='TaskCommentsVH'>
+    <value></value>
+   </instance>
+   <instance ref='TaskNameVH'>
+    <value>Map Output vars</value>
+   </instance>
+  </item>
+  <item template='5nrT9calkTxODnluALdD788RpOy.template25' id='GxFSpF'>
+   <instance ref='TaskImplementationVH'>
+    <value>addAuditStep(string, string, AuditStepScope)</value>
+   </instance>
+   <instance ref='TaskImplementationParameterCountVH'>
+    <value></value>
+   </instance>
+   <instance ref='TaskImplementationTypeVH'>
+    <value></value>
+   </instance>
+   <instance-list ref='TaskArgumentsVH'>
+    <item template='5nrT9calkTxODnluALdD788RpOy.template23' id='OQpxqQ'>
+     <instance ref='ArgumentIndexVH'>
+      <value></value>
+     </instance>
+     <instance ref='ArgumentTypeVH'>
+      <value></value>
+     </instance>
+     <instance ref='ParameterName'>
+      <value></value>
+     </instance>
+     <instance-selection ref='ArgumentValueVH'>
+      <item template='5nrT9calkTxODnluALdD788RpOy.template39' id='MxDWQL'>
+       <instance ref='value'>
+        <value>Main Decision Flow</value>
+       </instance>
+      </item>
+     </instance-selection>
+    </item>
+    <item template='5nrT9calkTxODnluALdD788RpOy.template23' id='KbaNhw'>
+     <instance ref='ArgumentIndexVH'>
+      <value></value>
+     </instance>
+     <instance ref='ArgumentTypeVH'>
+      <value></value>
+     </instance>
+     <instance ref='ParameterName'>
+      <value></value>
+     </instance>
+     <instance-selection ref='ArgumentValueVH'>
+      <item template='5nrT9calkTxODnluALdD788RpOy.template41' id='Wpyq6t'>
+       <instance ref='value'>
+        <value>{"rootGroup":{"exprs":[{"valueType":"string","elements":[{"valueType":"string","value":"Execution Finished.","instValue":"Execution Finished.","__meta_klass":"LiteralOperand"}],"exprType":0,"disposeWhenEmpty":true,"__meta_klass":"Expr"}],"__meta_klass":"SingleGroup"},"isVisible":true,"__meta_klass":"SingleBuilderViewModel","__meta_version":"3.0"}</value>
+       </instance>
+      </item>
+     </instance-selection>
+    </item>
+    <item template='5nrT9calkTxODnluALdD788RpOy.template23' id='KUrpf1'>
+     <instance ref='ArgumentIndexVH'>
+      <value></value>
+     </instance>
+     <instance ref='ArgumentTypeVH'>
+      <value></value>
+     </instance>
+     <instance ref='ParameterName'>
+      <value></value>
+     </instance>
+     <instance-selection ref='ArgumentValueVH'>
+      <item template='5nrT9calkTxODnluALdD788RpOy.template39' id='LDJg1W'>
+       <instance ref='value'>
+        <value>BUSINESS</value>
+       </instance>
+      </item>
+     </instance-selection>
+    </item>
+   </instance-list>
+   <instance ref='TaskReturnTypeVH'>
+    <value></value>
+   </instance>
+   <instance-selection ref='TaskReturnValueVH'>
+    <item template='5nrT9calkTxODnluALdD788RpOy.template40' id='7o43Kb'>
+     <instance ref='value'>
+      <value></value>
+     </instance>
+    </item>
+   </instance-selection>
+   <instance ref='TaskCommentsVH'>
+    <value></value>
+   </instance>
+   <instance ref='TaskNameVH'>
+    <value>Add Audit Step Execution End</value>
+   </instance>
+  </item>
+ </instance-list>
+ <instance ref='StylesheetVH'>
+ </instance>
+</instantiation>

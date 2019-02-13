@@ -1,0 +1,21 @@
+#Extended attributes for Eclipse file-based repository (directory: 'defaultRmad')
+#Wed Oct 03 11:08:23 BRT 2018
+contentType=Fixed
+entryLastCheckInTime=10/3/18 11\:08 AM
+entryLastCheckInUser=admin
+guid=TpUqyahktXfYdDUnpuXqly3cQR3
+innovatorDisplayName=defaultRmad
+innovatorItemCreationId=admin
+innovatorItemVersionId=5
+innovatorLastModifiedUser=admin
+innovatorName=defaultRmad
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=/DecisionServiceFolder/Excluded from RMA/defaultRmad
+managementProperty.Source\ Reference.releaseDateVH=1379204274162
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=RMA Definition
+target=Repository
+type=XML
