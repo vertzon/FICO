@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<jardesc>
+    <jar path="C:/poc/creditfacilities_triad_demo_BA_75_BV/clean-project/lib/blaze-generic-bom.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/BOM_Generic/generateJarFile.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <file path="/BOM_Generic/.classpath"/>
+        <file path="/BOM_Generic/.project"/>
+        <javaElement handleIdentifier="=BOM_Generic/src"/>
+    </selectedElements>
+</jardesc>
