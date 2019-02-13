@@ -1,4 +1,4 @@
-#Extended attributes for Eclipse file-based repository (directory: 'DeploymentDefinition_POJO')
+#Extended attributes for Innovator file-based repository (directory: 'DeploymentDefinition_POJO_2')
 #Wed Feb 13 17:19:50 BRST 2019
 contentType=Fixed
 entryLastCheckInTime=13/02/19 17\:19
@@ -8,6 +8,7 @@ innovatorDisplayName=DeploymentDefinition_POJO
 innovatorItemCreationId=admin
 innovatorItemVersionId=2
 innovatorLastModifiedUser=admin
+innovatorName=DeploymentDefinition_POJO_2
 managementProperty.Predictive\ Model\ Type=NotApplicable
 managementProperty.Source\ Reference.filterVH=
 managementProperty.Source\ Reference.locationVH=

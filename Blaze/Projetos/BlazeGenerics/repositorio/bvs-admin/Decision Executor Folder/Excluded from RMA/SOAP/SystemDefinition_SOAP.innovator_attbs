@@ -1,12 +1,12 @@
-#Extended attributes for Eclipse file-based repository (directory: 'DeploymentDefinition_POJO')
+#Extended attributes for Eclipse file-based repository (directory: 'SystemDefinition_SOAP')
 #Wed Feb 13 17:19:50 BRST 2019
 contentType=Fixed
 entryLastCheckInTime=13/02/19 17\:19
 entryLastCheckInUser=admin
-guid=EprXjqjXoHhYwYqIm92Hhs9PvCQ
-innovatorDisplayName=DeploymentDefinition_POJO
+guid=7G5QDYPftBoPvzWEaGdbhysrJsa
+innovatorDisplayName=SystemDefinition_SOAP
 innovatorItemCreationId=admin
-innovatorItemVersionId=2
+innovatorItemVersionId=1
 innovatorLastModifiedUser=admin
 managementProperty.Predictive\ Model\ Type=NotApplicable
 managementProperty.Source\ Reference.filterVH=
@@ -15,6 +15,6 @@ managementProperty.Source\ Reference.releaseDateVH=
 managementProperty.Source\ Reference.repositoryAccessVH=
 managementProperty.Source\ Reference.repositoryNameVH=
 managementProperty.Source\ Reference.versionVH=
-subType=Deployment Definition
+subType=System Definition
 target=Repository
 type=XML

@@ -1,12 +1,12 @@
 #Extended attributes for Eclipse file-based repository (directory: 'SystemDefinition_POJO')
-#Wed Feb 13 17:16:57 BRST 2019
+#Wed Feb 13 17:19:50 BRST 2019
 contentType=Fixed
-entryLastCheckInTime=13/02/19 17\:16
+entryLastCheckInTime=13/02/19 17\:19
 entryLastCheckInUser=admin
 guid=UvPpvPi4KlmvolYcsC6wMhLrxi4
 innovatorDisplayName=SystemDefinition_POJO
 innovatorItemCreationId=admin
-innovatorItemVersionId=1
+innovatorItemVersionId=2
 innovatorLastModifiedUser=admin
 managementProperty.Predictive\ Model\ Type=NotApplicable
 managementProperty.Source\ Reference.filterVH=

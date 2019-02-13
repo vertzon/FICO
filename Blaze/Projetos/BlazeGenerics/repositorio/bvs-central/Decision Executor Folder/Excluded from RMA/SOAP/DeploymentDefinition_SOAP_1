@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<template xmlns='http://www.blazesoft.com/template' name='DeploymentDefinition_POJO'>
- <ide-name>DeploymentDefinition_POJO</ide-name>
+<template xmlns='http://www.blazesoft.com/template' name='DeploymentDefinition_SOAP'>
+ <ide-name>DeploymentDefinition_SOAP</ide-name>
  <instantiation xmlns='http://www.blazesoft.com/instantiation' template='18uqQPJXnTmKrAiLEOVcQMUAFmD' name='Entry' id='Entry'>
   <instance ref='Source Reference'>
    <instance ref='value'>
@@ -35,11 +35,13 @@
 
 <DeploymentDefinition>
    <CodeGenerationOptions></CodeGenerationOptions>
-   <DeploymentEnvironment>Java</DeploymentEnvironment>
+   <DeploymentEnvironment>POJO_webservice</DeploymentEnvironment>
    <DeploymentManagerOptions></DeploymentManagerOptions>
-   <Name>DeploymentDefinition_POJO</Name>
+   <Description>blazeGenerics</Description>
+   <Name>DeploymentDefinition_SOAP</Name>
    <RemoteDebuggingOptions></RemoteDebuggingOptions>
    <RuleServerName>blazeGenerics</RuleServerName>
+   <UsingSourceCodeConfig>false</UsingSourceCodeConfig>
   </DeploymentDefinition>
 </template:content>
 </template>
