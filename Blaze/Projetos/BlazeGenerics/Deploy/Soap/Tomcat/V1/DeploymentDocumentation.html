@@ -1,0 +1,165 @@
+<HTML>
+<HEAD>
+<TITLE>Running Instructions for blazeGenerics on the Tomcat 8 Server</TITLE>
+</HEAD>
+
+<BODY>
+<H2>Running Instructions for blazeGenerics on the Tomcat 8 Server</H2>
+
+<P>
+The Generate Deployment Wizard has generated the deployment files into the following subdirectories in the output directory:
+<UL>
+
+<LI><code>server</code> The Web Service deployment files.
+
+<UL>
+<LI><A HREF="C:\FICO\GIT\Blaze\Projetos\BlazeGenerics\Deploy\Soap\Tomcat\V1\server\Undeploy.bat">Undeploy.bat</A>
+The script to undeploy the WAR file from Tomcat Server for Windows
+<LI><A HREF="C:\FICO\GIT\Blaze\Projetos\BlazeGenerics\Deploy\Soap\Tomcat\V1\server\Build.bat">Build.bat</A>
+The script to compile server source files for Windows
+<LI><A HREF="C:\FICO\GIT\Blaze\Projetos\BlazeGenerics\Deploy\Soap\Tomcat\V1\server\src\qdblazegenerics\blazeGenerics.java">src\qdblazegenerics\blazeGenerics.java</A>
+The Web Service implementation Java source file
+<LI><A HREF="C:\FICO\GIT\Blaze\Projetos\BlazeGenerics\Deploy\Soap\Tomcat\V1\server\War.bat">War.bat</A>
+The script to assemble the generated artifacts into a Web Service WAR file for Windows
+<LI><A HREF="C:\FICO\GIT\Blaze\Projetos\BlazeGenerics\Deploy\Soap\Tomcat\V1\server\Deploy.bat">Deploy.bat</A>
+The script to deploy the WAR file into Tomcat Server for Windows
+<LI><A HREF="C:\FICO\GIT\Blaze\Projetos\BlazeGenerics\Deploy\Soap\Tomcat\V1\server\sun-jaxws.xml">sun-jaxws.xml</A>
+The Deployment descriptor file containing JAX-WS style deployment information
+<LI><A HREF="C:\FICO\GIT\Blaze\Projetos\BlazeGenerics\Deploy\Soap\Tomcat\V1\server\web.xml">web.xml</A>
+The Web Service deployment descriptor file
+<LI><A HREF="C:\FICO\GIT\Blaze\Projetos\BlazeGenerics\Deploy\Soap\Tomcat\V1\server\blazeGenerics.server">blazeGenerics.server</A>
+The Server Configuration File
+<LI><A HREF="C:\FICO\GIT\Blaze\Projetos\BlazeGenerics\Deploy\Soap\Tomcat\V1\server\Setenv.bat">Setenv.bat</A>
+The script to set up the Web Service server environment for Windows
+</UL>
+
+<LI><code>client</code> The Web Service client files.
+
+<UL>
+<LI><A HREF="C:\FICO\GIT\Blaze\Projetos\BlazeGenerics\Deploy\Soap\Tomcat\V1\client\src\qdblazegenerics\Handler.java">src\qdblazegenerics\Handler.java</A>
+The Web Service Context Handler Java source file
+<LI><A HREF="C:\FICO\GIT\Blaze\Projetos\BlazeGenerics\Deploy\Soap\Tomcat\V1\client\src\qdblazegenerics\Client.java">src\qdblazegenerics\Client.java</A>
+The Client Java source file
+<LI><A HREF="C:\FICO\GIT\Blaze\Projetos\BlazeGenerics\Deploy\Soap\Tomcat\V1\client\Run.bat">Run.bat</A>
+The script to run the client for Windows
+<LI><A HREF="C:\FICO\GIT\Blaze\Projetos\BlazeGenerics\Deploy\Soap\Tomcat\V1\client\src\qdblazegenerics\Runner.java">src\qdblazegenerics\Runner.java</A>
+The Runner Java source file
+<LI><A HREF="C:\FICO\GIT\Blaze\Projetos\BlazeGenerics\Deploy\Soap\Tomcat\V1\client\Build.bat">Build.bat</A>
+The script to compile client source files for Windows
+<LI><A HREF="C:\FICO\GIT\Blaze\Projetos\BlazeGenerics\Deploy\Soap\Tomcat\V1\client\Setenv.bat">Setenv.bat</A>
+The script to set up the Web Service client environment for Windows
+<LI><A HREF="C:\FICO\GIT\Blaze\Projetos\BlazeGenerics\Deploy\Soap\Tomcat\V1\client\GenerateProxy.bat">GenerateProxy.bat</A>
+The script to generate the client proxy for Windows
+</UL>
+
+</UL>
+</P>
+
+
+<H2>Deploy Web Service</H2>
+<p>The Web Service deployment files are generated into the <code>server</code> subdirectory of the output directory.
+
+<h3>Update Scripts</h3>
+
+<UL>
+
+<LI>Use the <CODE>Setenv</CODE> script to setup the environment for this Web Service deployment. You may need to change the following variables in the script:
+
+<UL>
+<LI><CODE>TOMCAT_HOME</CODE><br>
+This variable should point to the root directory of your Tomcat installation.
+<LI><CODE>JAVA_HOME</CODE><br>
+This variable should point to your Java Development Kit installation.
+<LI><CODE>ADVISOR_SERVER_HOME</CODE><br>
+This variable should point to your Advisor installation. This folder should contain the <code>lib</code> sub-folder where the Advisor related jar files exist.
+<LI><CODE>ADVISOR_LICENSE</CODE><br>
+This variable should point to your Advisor license installation. This folder should contain the <code>com</code> sub-folder.
+</UL>
+
+<LI>
+Before deploying the Web Service, you may need to make the following modification if
+your rule project uses Java classes and/or interfaces packaged into jar files.
+<UL>
+<li>Add those jar files to the CLASSPATH
+environment variable in the <CODE>
+Setenv</CODE> script. You can locate the line to be modified in
+the script by searching for <code>support.jar</code>. </li>
+<LI>Add those jar files to the <CODE>War</CODE> script so that they are packaged into
+the WAR
+file. You can locate the line to be modified in the script by searching for <code>support.jar</code>.
+</LI>
+</UL>
+
+<LI>Make sure the rule server configuration file is portable.
+	 If <CODE>blazeGenerics.server</CODE> contains any relative file paths, you need to change them to absolute paths. The rule server configuration file must be portable because it is packaged into the WAR jar file that is installed on your application server.</LI>
+</UL>
+
+
+
+<h3>Build the Web Service</h3>
+<p> In the <code>server</code> subdirectory of the output directory:
+<OL>
+ <LI>Run the <CODE>Setenv </CODE>script to set up the environment.
+ <LI>Run the <CODE>Build</CODE> script to compile the Web Service source files.
+ <LI>Run the <CODE>War</CODE> script file to package all relevant artifacts into a deployable WAR file.
+</OL>
+
+
+
+<h3>Deploy the Web Service</h3>
+<p>
+In the <code>server</code> subdirectory of the output directory, run the <CODE>Deploy</CODE> script or deploy the WAR file through the Admin Console (default location: <a href="http://localhost:8080/manager/html">http://localhost:8080/manager/html</a>).
+</p>
+
+<h3>Check the Deployed Web Service</h3>
+<p>Open <A HREF="http://localhost:8080/BlazeGenericsServer/BlazeGenericsService?wsdl"><CODE>http://localhost:8080/BlazeGenericsServer/BlazeGenericsService?wsdl</CODE></A> with your Web Browser. If the WSDL is shown in the Web Browser, the Web Service is correctly deployed.
+
+
+<H2>Build & Run the Web Service Client Application</H2>
+The Web Service client files are generated into the <code>client</code> subdirectory of the output directory.
+
+<h3>Update Scripts</h3>
+<p>Use the <CODE>Setenv</CODE> script to setup the Web Service client environment. You may need to change the following variables in the script:
+<UL>
+
+<LI><CODE>JAVA_HOME</CODE><br>
+This variable should point to your Java Development Kit installation.
+
+</UL>
+
+<h3>Setup the Client Environment</h3>
+<p>You may open a new command terminal dedicated to the client to build and run the client application. In the <code>client</code> subdirectory of the output directory, run the <code>Setenv</code> script to setup the environment.
+
+<h3>Generate the Web Service Proxy</h3>
+<p>In the <code>client</code> subdirectory, run the <CODE>GenerateProxy</CODE> script.
+The Web Service proxy code is generated under the <CODE>qdblazegenerics.clientstub</CODE> package.
+
+<h3><A NAME="buildClient"></A>Build the Client Application</h3>
+<p>Modify the client source file by editing the <code>Client.java</code>:
+<UL>
+<LI>Uncomment the block that registers the Web Service context handler if you want to monitor the SOAP messages exchanged between the client and Web Service at runtime.
+<LI>Follow the instructions in the comment lines to set up the invocation arguments and invoke the Web Service.
+<LI>In the <code>client</code> subdirectory, run the <code>Build</code> script to compile the client source files.
+</UL>
+
+
+<p>
+
+<h3>Run the Client Application</h3>
+<p>In the <code>client</code> subdirectory, run the <CODE>Run</CODE> script to execute the Web Service client application.
+
+<H2>Undeploy the Web Service</H2>
+<p>In the <code>server</code> subdirectory of the command terminal opened for the Web Service deployment, run
+the <CODE>Undeploy</CODE> script or undeploy through the Admin Console.</p>
+
+
+
+<H2><b>Limitations</b></H2>
+<p> The following is a list of limitations of this type of deployment. Please review them before proceeding further.
+<UL>
+<LI>Entry points with functionals only can be deployed (no object mapping).<br>
+<LI>A Java package name is required for the generated Java source files.<br>
+</UL>
+
+</BODY>
+</HTML>
