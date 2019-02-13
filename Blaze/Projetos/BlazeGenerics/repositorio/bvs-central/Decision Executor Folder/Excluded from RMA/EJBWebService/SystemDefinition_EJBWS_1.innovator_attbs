@@ -1,0 +1,21 @@
+#Extended attributes for Innovator file-based repository (directory: 'SystemDefinition_EJBWS_1')
+#Wed Feb 13 17:16:58 BRST 2019
+contentType=Fixed
+entryLastCheckInTime=13/02/19 17\:16
+entryLastCheckInUser=admin
+guid=7BemlJyYfd7OuxHgq0JXHJopO8V
+innovatorDisplayName=SystemDefinition_EJBWS
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=SystemDefinition_EJBWS_1
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=System Definition
+target=Repository
+type=XML

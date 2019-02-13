@@ -1,13 +1,12 @@
-#Atributos estendidos para repositório com base em arquivo do Innovator (diretório: 'descricao')
-#Tue Feb 12 16:52:46 BRST 2019
-com.blazesoft.repository.local.checkedOut=admin
+#Extended attributes for Eclipse file-based repository (directory: 'descricao')
+#Wed Feb 13 17:16:59 BRST 2019
 contentType=Instance
-entryLastCheckInTime=10/3/18 10\:21 AM
+entryLastCheckInTime=13/02/19 17\:16
 entryLastCheckInUser=admin
 guid=DXjOLoLlDB1wvumNgbgfamuzrMg
 innovatorDisplayName=descricao
 innovatorItemCreationId=admin
-innovatorItemVersionId=1
+innovatorItemVersionId=2
 innovatorLastModifiedUser=admin
 innovatorTemplateRef=DSG71szD5AH5G0pcZCfjmcoPvq0
 isSeparateStoredSubInstance=true

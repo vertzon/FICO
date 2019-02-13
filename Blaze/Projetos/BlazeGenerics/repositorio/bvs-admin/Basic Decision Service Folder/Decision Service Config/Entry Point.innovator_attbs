@@ -1,13 +1,12 @@
-#Extended attributes for Innovator file-based repository (directory: 'Entry Point')
-#Thu Feb 07 16:42:05 BRST 2019
-com.blazesoft.repository.local.checkedOut=admin
+#Extended attributes for Eclipse file-based repository (directory: 'Entry Point')
+#Wed Feb 13 17:16:58 BRST 2019
 contentType=Instance
-entryLastCheckInTime=10/4/18 2\:40 PM
+entryLastCheckInTime=13/02/19 17\:16
 entryLastCheckInUser=admin
 guid=XSPTyYqGes3HQESlEH5fwPByqfF
 innovatorDisplayName=Entry Point
 innovatorItemCreationId=admin
-innovatorItemVersionId=1
+innovatorItemVersionId=2
 innovatorLastModifiedUser=admin
 innovatorName=Entry Point
 innovatorTemplateRef=2lzOBOMol63aQPzHLVcA8xUwkr

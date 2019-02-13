@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<instantiation xmlns='http://www.blazesoft.com/instantiation' template='ZQI0lLddWk9SY580UMvWzSZLLU1' name='MapeamentoDeListasGenericas'>
+ <instantiation xmlns='http://www.blazesoft.com/instantiation' template='1VBfZr8g32Q2FnSWcWO9txQWwEE' name='Instance' id='Instance'>
+ </instantiation>
+ <instantiation xmlns='http://www.blazesoft.com/instantiation' template='18uqQPJXnTmKrAiLEOVcQMUAFmD' name='Entry' id='Entry'>
+  <instance ref='Source Reference'>
+   <instance ref='value'>
+    <instance ref='locationVH'>
+     <value></value>
+    </instance>
+    <instance ref='repositoryNameVH'>
+     <value></value>
+    </instance>
+    <instance ref='versionVH'>
+     <value></value>
+    </instance>
+    <instance ref='filterVH'>
+     <value></value>
+    </instance>
+    <instance ref='releaseDateVH'>
+     <value></value>
+    </instance>
+    <instance ref='repositoryAccessVH'>
+     <value></value>
+    </instance>
+   </instance>
+  </instance>
+  <instance ref='Predictive Model Type'>
+   <instance ref='value'>
+    <value>NotApplicable</value>
+   </instance>
+  </instance>
+ </instantiation>
+ <instance-list ref='Value Holder1'>
+  <item template='ZQI0lLddWk9SY580UMvWzSZLLU1.template1' id='KwwTHa'>
+   <instance ref='nomeLista'>
+    <value>hs</value>
+   </instance>
+   <instance ref='tiposClasse'>
+    <value>hs</value>
+   </instance>
+   <instance ref='prop'>
+   </instance>
+   <instance-list ref='mapeamentos'>
+    <item template='ZQI0lLddWk9SY580UMvWzSZLLU1.template2' id='TX08Sx'>
+     <instance ref='testeClasses'>
+      <value>hs</value>
+     </instance>
+     <instance ref='prop2ItemBusinessTerm'>
+      <value>reason2</value>
+     </instance>
+     <instance ref='nomeHash'>
+      <value>reason2</value>
+     </instance>
+     <instance ref='propType'>
+      <value></value>
+     </instance>
+    </item>
+    <item template='ZQI0lLddWk9SY580UMvWzSZLLU1.template2' id='Qd5dSp'>
+     <instance ref='testeClasses'>
+      <value>hs</value>
+     </instance>
+     <instance ref='prop2ItemBusinessTerm'>
+      <value>reason1</value>
+     </instance>
+     <instance ref='nomeHash'>
+      <value>reason1</value>
+     </instance>
+     <instance ref='propType'>
+      <value></value>
+     </instance>
+    </item>
+   </instance-list>
+  </item>
+  <item template='ZQI0lLddWk9SY580UMvWzSZLLU1.template1' id='8JADzD'>
+   <instance ref='nomeLista'>
+    <value>serpro</value>
+   </instance>
+   <instance ref='tiposClasse'>
+    <value>ItemSerpro</value>
+   </instance>
+   <instance ref='prop'>
+   </instance>
+   <instance-list ref='mapeamentos'>
+    <item template='ZQI0lLddWk9SY580UMvWzSZLLU1.template2' id='Bvpyx1'>
+     <instance ref='testeClasses'>
+      <value>ItemSerpro</value>
+     </instance>
+     <instance ref='prop2ItemBusinessTerm'>
+      <value>similaridade</value>
+     </instance>
+     <instance ref='nomeHash'>
+      <value>similaridade</value>
+     </instance>
+     <instance ref='propType'>
+      <value></value>
+     </instance>
+    </item>
+    <item template='ZQI0lLddWk9SY580UMvWzSZLLU1.template2' id='Wrw8ua'>
+     <instance ref='testeClasses'>
+      <value>ItemSerpro</value>
+     </instance>
+     <instance ref='prop2ItemBusinessTerm'>
+      <value>diponivel</value>
+     </instance>
+     <instance ref='nomeHash'>
+      <value>diponivel</value>
+     </instance>
+     <instance ref='propType'>
+      <value></value>
+     </instance>
+    </item>
+   </instance-list>
+  </item>
+ </instance-list>
+</instantiation>

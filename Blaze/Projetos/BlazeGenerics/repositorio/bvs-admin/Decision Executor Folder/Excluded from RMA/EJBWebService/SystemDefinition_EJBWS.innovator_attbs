@@ -1,10 +1,12 @@
 #Extended attributes for Eclipse file-based repository (directory: 'SystemDefinition_EJBWS')
-#Fri Feb 08 14:28:39 BRST 2019
-com.blazesoft.repository.local.locallycreated=true
+#Wed Feb 13 17:16:58 BRST 2019
 contentType=Fixed
+entryLastCheckInTime=13/02/19 17\:16
+entryLastCheckInUser=admin
 guid=7BemlJyYfd7OuxHgq0JXHJopO8V
 innovatorDisplayName=SystemDefinition_EJBWS
 innovatorItemCreationId=admin
+innovatorItemVersionId=1
 innovatorLastModifiedUser=admin
 managementProperty.Predictive\ Model\ Type=NotApplicable
 managementProperty.Source\ Reference.filterVH=

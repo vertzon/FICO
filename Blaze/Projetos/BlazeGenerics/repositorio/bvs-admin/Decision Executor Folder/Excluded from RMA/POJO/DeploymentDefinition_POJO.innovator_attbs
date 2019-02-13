@@ -1,10 +1,12 @@
 #Extended attributes for Eclipse file-based repository (directory: 'DeploymentDefinition_POJO')
-#Fri Feb 08 11:30:22 BRST 2019
-com.blazesoft.repository.local.locallycreated=true
+#Wed Feb 13 17:16:57 BRST 2019
 contentType=Fixed
+entryLastCheckInTime=13/02/19 17\:16
+entryLastCheckInUser=admin
 guid=EprXjqjXoHhYwYqIm92Hhs9PvCQ
 innovatorDisplayName=DeploymentDefinition_POJO
 innovatorItemCreationId=admin
+innovatorItemVersionId=1
 innovatorLastModifiedUser=admin
 managementProperty.Predictive\ Model\ Type=NotApplicable
 managementProperty.Source\ Reference.filterVH=

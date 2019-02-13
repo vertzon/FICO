@@ -1,13 +1,12 @@
-#Atributos estendidos para repositório com base em arquivo do Innovator (diretório: 'Decision Flow')
-#Thu Feb 07 16:19:28 BRST 2019
-com.blazesoft.repository.local.checkedOut=admin
+#Extended attributes for Eclipse file-based repository (directory: 'Decision Flow')
+#Wed Feb 13 17:16:58 BRST 2019
 contentType=Instance
-entryLastCheckInTime=10/4/18 2\:21 PM
+entryLastCheckInTime=13/02/19 17\:16
 entryLastCheckInUser=admin
 guid=4m5EGKJ9qzfUmN1ZNJspeZ22u5K
 innovatorDisplayName=Decision Flow
 innovatorItemCreationId=admin
-innovatorItemVersionId=10
+innovatorItemVersionId=11
 innovatorLastModifiedUser=admin
 innovatorName=Decision Flow
 innovatorTemplateRef=5nrT9calkTxODnluALdD788RpOy

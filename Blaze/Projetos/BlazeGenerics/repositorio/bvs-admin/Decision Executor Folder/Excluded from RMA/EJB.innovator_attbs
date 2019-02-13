@@ -1,7 +1,9 @@
 #Extended attributes for Eclipse file-based repository (directory: 'EJB')
-#Fri Feb 08 14:12:25 BRST 2019
-com.blazesoft.repository.local.locallycreated=true
+#Wed Feb 13 17:16:58 BRST 2019
+entryLastCheckInTime=13/02/19 17\:16
+entryLastCheckInUser=admin
 guid=HkFXil08saKpItAE1ED9XKcKWFF
 innovatorDisplayName=EJB
 innovatorItemCreationId=admin
+innovatorItemVersionId=1
 innovatorName=EJB

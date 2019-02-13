@@ -1,13 +1,12 @@
-#Atributos estendidos para repositório com base em arquivo do Innovator (diretório: 'ItemSerpro')
-#Tue Feb 12 16:52:46 BRST 2019
-com.blazesoft.repository.local.checkedOut=admin
+#Extended attributes for Eclipse file-based repository (directory: 'ItemSerpro')
+#Wed Feb 13 17:16:58 BRST 2019
 contentType=Instance
-entryLastCheckInTime=10/3/18 10\:21 AM
+entryLastCheckInTime=13/02/19 17\:16
 entryLastCheckInUser=admin
 guid=87VvCRGkzLRqKh6wfv8aIc1cxOy
 innovatorDisplayName=ItemSerpro
 innovatorItemCreationId=admin
-innovatorItemVersionId=1
+innovatorItemVersionId=2
 innovatorLastModifiedUser=admin
 innovatorTemplateRef=Hsnd2RbUw6Nrtd6tONRF20FvOqV
 managementProperty.Predictive\ Model\ Type=NotApplicable

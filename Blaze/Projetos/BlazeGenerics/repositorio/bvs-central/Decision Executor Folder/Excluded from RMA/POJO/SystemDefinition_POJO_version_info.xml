@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<VersionInfoTable>
+	<ItemName>SystemDefinition_POJO</ItemName>
+	<IsEntryDeleted>false</IsEntryDeleted>
+	<VersionElement VersionId="1">
+		<User>admin</User>
+		<Comment></Comment>
+		<Timestamp>13 Feb 2019 19:16:57 GMT</Timestamp>
+	</VersionElement>
+</VersionInfoTable>

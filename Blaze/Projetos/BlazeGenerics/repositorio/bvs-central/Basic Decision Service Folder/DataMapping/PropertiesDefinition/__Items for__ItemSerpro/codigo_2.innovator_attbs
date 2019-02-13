@@ -1,0 +1,23 @@
+#Extended attributes for Innovator file-based repository (directory: 'codigo_2')
+#Wed Feb 13 17:16:59 BRST 2019
+contentType=Instance
+entryLastCheckInTime=13/02/19 17\:16
+entryLastCheckInUser=admin
+guid=Kxe1Uvgfh2k36EO0wR4TePCrm0y
+innovatorDisplayName=codigo
+innovatorItemCreationId=admin
+innovatorItemVersionId=2
+innovatorLastModifiedUser=admin
+innovatorName=codigo_2
+innovatorTemplateRef=DSG71szD5AH5G0pcZCfjmcoPvq0
+isSeparateStoredSubInstance=true
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=Business Term
+target=SRL
+type=SRL Project Items

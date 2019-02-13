@@ -1,13 +1,12 @@
 #Extended attributes for Eclipse file-based repository (directory: 'SimpleVarsMapping_DecisionTableTemplate')
-#Fri Feb 08 13:44:28 BRST 2019
-com.blazesoft.repository.local.checkedOut=admin
+#Wed Feb 13 17:16:59 BRST 2019
 contentType=Template
-entryLastCheckInTime=10/3/18 4\:33 PM
+entryLastCheckInTime=13/02/19 17\:16
 entryLastCheckInUser=admin
 guid=Fia5OCmT65iVNFKpPUELdvvo8j7
 innovatorDisplayName=SimpleVarsMapping_DecisionTableTemplate_Input
 innovatorItemCreationId=admin
-innovatorItemVersionId=3
+innovatorItemVersionId=4
 innovatorLastModifiedUser=admin
 innovatorName=SimpleVarsMapping_DecisionTableTemplate
 managementProperty.Predictive\ Model\ Type=NotApplicable

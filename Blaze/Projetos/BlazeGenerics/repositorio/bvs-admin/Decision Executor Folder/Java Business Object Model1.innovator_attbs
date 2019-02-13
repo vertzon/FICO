@@ -1,13 +1,12 @@
 #Extended attributes for Eclipse file-based repository (directory: 'Java Business Object Model1')
-#Thu Feb 07 17:36:28 BRST 2019
-com.blazesoft.repository.local.checkedOut=admin
+#Wed Feb 13 17:16:57 BRST 2019
 contentType=Fixed
-entryLastCheckInTime=9/28/18 4\:53 PM
+entryLastCheckInTime=13/02/19 17\:16
 entryLastCheckInUser=admin
 guid=CXbNHOsJlfBFRfB9fyOwuW2qLJh
 innovatorDisplayName=Generic_BOM
 innovatorItemCreationId=admin
-innovatorItemVersionId=1
+innovatorItemVersionId=2
 innovatorLastModifiedUser=admin
 managementProperty.Predictive\ Model\ Type=NotApplicable
 managementProperty.Source\ Reference.filterVH=

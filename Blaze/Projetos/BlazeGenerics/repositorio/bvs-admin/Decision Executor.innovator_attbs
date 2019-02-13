@@ -1,17 +1,16 @@
 #Extended attributes for Eclipse file-based repository (directory: 'Decision Executor')
-#Thu Feb 07 17:34:33 BRST 2019
-com.blazesoft.repository.local.checkedOut=admin
+#Wed Feb 13 17:16:56 BRST 2019
 contentType=Fixed
 dmp.defaultDDPath=/Decision Executor Folder/Excluded from RMA/defaultDd
 dmp.defaultRSDPath=/Decision Executor Folder/Excluded from RMA/defaultRsd
 dmp.defaultSDPath=/Decision Executor Folder/Excluded from RMA/defaultSd
 dmp.uploadedSubProjectPath=/Basic Decision Service Folder/Basic Decision Service
-entryLastCheckInTime=10/3/18 11\:55 PM
+entryLastCheckInTime=13/02/19 17\:16
 entryLastCheckInUser=admin
 guid=6FPvfOPuKE32HeInL1wRFhGjBbS
 innovatorDisplayName=Decision Executor
 innovatorItemCreationId=admin
-innovatorItemVersionId=2
+innovatorItemVersionId=3
 innovatorLastModifiedUser=admin
 innovatorName=Decision Executor
 innovatorTemplateRef=ProjectEntityTemplate

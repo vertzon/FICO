@@ -1,7 +1,10 @@
-#Atributos estendidos para repositório com base em arquivo do Innovator (diretório: '__Items for__hs')
-#Tue Feb 12 16:53:50 BRST 2019
-com.blazesoft.repository.local.locallycreated=true
+#Extended attributes for Eclipse file-based repository (directory: '__Items for__hs')
+#Wed Feb 13 17:16:59 BRST 2019
 containerInstanceStorageName=hs
+entryLastCheckInTime=13/02/19 17\:16
+entryLastCheckInUser=admin
 guid=8t35lTyuRvw5O8A7mCSbBpfXUiq
 innovatorDisplayName=__Items for__hs
 innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorName=__Items for__hs

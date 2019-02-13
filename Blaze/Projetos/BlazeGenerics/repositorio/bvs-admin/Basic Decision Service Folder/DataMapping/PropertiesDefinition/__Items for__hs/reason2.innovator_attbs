@@ -1,10 +1,12 @@
-#Atributos estendidos para repositório com base em arquivo do Innovator (diretório: 'reason2')
-#Tue Feb 12 16:54:03 BRST 2019
-com.blazesoft.repository.local.locallycreated=true
+#Extended attributes for Eclipse file-based repository (directory: 'reason2')
+#Wed Feb 13 17:16:59 BRST 2019
 contentType=Instance
+entryLastCheckInTime=13/02/19 17\:16
+entryLastCheckInUser=admin
 guid=IB3PcSoTeM2t7NLLUa5yD7CaA40
 innovatorDisplayName=reason2
 innovatorItemCreationId=admin
+innovatorItemVersionId=1
 innovatorLastModifiedUser=admin
 innovatorTemplateRef=DSG71szD5AH5G0pcZCfjmcoPvq0
 isSeparateStoredSubInstance=true

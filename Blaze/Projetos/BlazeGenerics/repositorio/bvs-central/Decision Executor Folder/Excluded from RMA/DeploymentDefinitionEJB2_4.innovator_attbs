@@ -1,0 +1,21 @@
+#Extended attributes for Innovator file-based repository (directory: 'DeploymentDefinitionEJB2_4')
+#Wed Feb 13 17:16:57 BRST 2019
+contentType=Fixed
+entryLastCheckInTime=13/02/19 17\:16
+entryLastCheckInUser=admin
+guid=aG8G8xn4tibY0c7M5jOLyptCNXq
+innovatorDisplayName=DeploymentDefinitionEJB2
+innovatorItemCreationId=admin
+innovatorItemVersionId=4
+innovatorLastModifiedUser=admin
+innovatorName=DeploymentDefinitionEJB2_4
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=Deployment Definition
+target=Repository
+type=XML

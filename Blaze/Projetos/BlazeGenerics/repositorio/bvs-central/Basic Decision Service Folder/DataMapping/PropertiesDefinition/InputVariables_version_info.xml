@@ -2,10 +2,11 @@
 <VersionInfoTable>
 	<ItemName>InputVariables</ItemName>
 	<IsEntryDeleted>false</IsEntryDeleted>
-	<LockInfo>
-		<Owner>admin</Owner>
-		<Timestamp>12 Feb 2019 16:09:35 GMT</Timestamp>
-	</LockInfo>
+	<VersionElement VersionId="3">
+		<User>admin</User>
+		<Comment></Comment>
+		<Timestamp>13 Feb 2019 19:16:58 GMT</Timestamp>
+	</VersionElement>
 	<VersionElement VersionId="2">
 		<User>admin</User>
 		<Comment></Comment>

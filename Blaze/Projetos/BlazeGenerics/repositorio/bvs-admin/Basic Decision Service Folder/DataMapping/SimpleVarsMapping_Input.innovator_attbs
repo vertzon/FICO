@@ -1,13 +1,12 @@
 #Extended attributes for Eclipse file-based repository (directory: 'SimpleVarsMapping_Input')
-#Tue Feb 12 12:28:45 BRST 2019
-com.blazesoft.repository.local.checkedOut=admin
+#Wed Feb 13 17:16:58 BRST 2019
 contentType=Instance
-entryLastCheckInTime=10/3/18 11\:13 AM
+entryLastCheckInTime=13/02/19 17\:16
 entryLastCheckInUser=admin
 guid=GZZsi2N8GblaxIzVoaxqHacDSlJ
 innovatorDisplayName=SimpleVarsMapping_Input
 innovatorItemCreationId=admin
-innovatorItemVersionId=2
+innovatorItemVersionId=3
 innovatorLastModifiedUser=admin
 innovatorName=SimpleVarsMapping_Input
 innovatorTemplateRef=Fia5OCmT65iVNFKpPUELdvvo8j7

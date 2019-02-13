@@ -1,0 +1,22 @@
+#Extended attributes for Innovator file-based repository (directory: 'MapeamentoDeListasGenericas_4')
+#Wed Feb 13 17:16:58 BRST 2019
+contentType=Instance
+entryLastCheckInTime=13/02/19 17\:16
+entryLastCheckInUser=admin
+guid=R2iMRgaQCaE8KfrCWjd3h8aGmkv
+innovatorDisplayName=MapeamentoDeListasGenericas
+innovatorItemCreationId=admin
+innovatorItemVersionId=4
+innovatorLastModifiedUser=admin
+innovatorName=MapeamentoDeListasGenericas_4
+innovatorTemplateRef=ZQI0lLddWk9SY580UMvWzSZLLU1
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=SRL
+type=SRL Project Items

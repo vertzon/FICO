@@ -1,10 +1,12 @@
-#Atributos estendidos para repositório com base em arquivo do Innovator (diretório: 'hs')
-#Tue Feb 12 16:54:03 BRST 2019
-com.blazesoft.repository.local.locallycreated=true
+#Extended attributes for Eclipse file-based repository (directory: 'hs')
+#Wed Feb 13 17:16:58 BRST 2019
 contentType=Instance
+entryLastCheckInTime=13/02/19 17\:16
+entryLastCheckInUser=admin
 guid=VxctLJZPzeKuxcekTFI3ISgvEDM
 innovatorDisplayName=hs
 innovatorItemCreationId=admin
+innovatorItemVersionId=1
 innovatorLastModifiedUser=admin
 innovatorTemplateRef=Hsnd2RbUw6Nrtd6tONRF20FvOqV
 managementProperty.Predictive\ Model\ Type=NotApplicable
