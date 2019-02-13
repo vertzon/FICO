@@ -1,0 +1,23 @@
+#Extended attributes for Innovator file-based repository (directory: 'Generic Function Template')
+#Wed Feb 13 14:37:51 BRST 2019
+contentType=Template
+entryLastCheckInTime=13/02/19 14\:37
+entryLastCheckInUser=admin
+guid=Q8jH6kHdOYIZ1uG0WKXqvvejqv0
+innovatorDisplayName=Generic Function Template
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=Generic Function Template
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+managementProperty.Test\ Case=
+managementProperty.Test\ Role=None
+subType=None
+target=SRL
+type=SRL Function

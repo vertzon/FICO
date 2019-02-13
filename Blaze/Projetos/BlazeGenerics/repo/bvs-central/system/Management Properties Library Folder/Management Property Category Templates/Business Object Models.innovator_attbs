@@ -1,0 +1,12 @@
+#Extended attributes for Innovator file-based repository (directory: 'Business Object Models')
+#Wed Feb 13 14:37:37 BRST 2019
+entryLastCheckInTime=13/02/19 14\:37
+entryLastCheckInUser=admin
+guid=1ezxcz2DI7WCYlF3JtxWtAMfRg7
+innovatorDisplayName=BusinessObjectModelsFolder
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorName=Business Object Models
+isNameLocalized=true
+isSystemDirectory=true
+resourceBundle=com.blazesoft.template.repository.properties.strings

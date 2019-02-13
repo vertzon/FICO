@@ -1,0 +1,21 @@
+#Extended attributes for Innovator file-based repository (directory: 'Verification Query_1')
+#Wed Feb 13 14:37:41 BRST 2019
+contentType=Template
+entryLastCheckInTime=13/02/19 14\:37
+entryLastCheckInUser=admin
+guid=aRe3KG6OP8utjI4Wvol5qcNJgAW
+innovatorDisplayName=Verification Query
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=Verification Query_1
+isSystemTemplate=true
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=Verification
+target=Repository
+type=Query

@@ -1,0 +1,21 @@
+#Extended attributes for Innovator file-based repository (directory: 'Entity Type Provider')
+#Wed Feb 13 14:37:53 BRST 2019
+contentType=Provider
+entryLastCheckInTime=13/02/19 14\:37
+entryLastCheckInUser=admin
+guid=IY93KWOhckYpHYodLmW3024a3Ao
+innovatorDisplayName=Filter Entity Type Provider
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=Entity Type Provider
+isSystemTemplate=true
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=Repository
+type=Value List

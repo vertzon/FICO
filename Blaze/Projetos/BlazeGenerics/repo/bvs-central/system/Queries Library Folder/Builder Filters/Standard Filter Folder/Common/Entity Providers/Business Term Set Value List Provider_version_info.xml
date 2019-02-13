@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<VersionInfoTable>
+	<ItemName>Business Term Set Value List Provider</ItemName>
+	<IsEntryDeleted>false</IsEntryDeleted>
+	<VersionElement VersionId="1">
+		<User>admin</User>
+		<Comment>Sets up system folder</Comment>
+		<Timestamp>13 Feb 2019 16:37:42 GMT</Timestamp>
+	</VersionElement>
+</VersionInfoTable>

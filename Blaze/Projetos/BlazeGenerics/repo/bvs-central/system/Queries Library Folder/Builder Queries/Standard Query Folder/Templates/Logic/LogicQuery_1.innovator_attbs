@@ -1,0 +1,20 @@
+#Extended attributes for Innovator file-based repository (directory: 'LogicQuery_1')
+#Wed Feb 13 14:37:44 BRST 2019
+contentType=Template
+entryLastCheckInTime=13/02/19 14\:37
+entryLastCheckInUser=admin
+guid=Lc2cAUJlX8IM2wihniyNtYcj1Fr
+innovatorDisplayName=LogicQuery
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=LogicQuery_1
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=SRL
+type=SRL Code

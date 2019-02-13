@@ -1,0 +1,21 @@
+#Extended attributes for Innovator file-based repository (directory: 'JavaVersionIdFilter_1')
+#Wed Feb 13 14:37:42 BRST 2019
+contentType=Template
+entryLastCheckInTime=13/02/19 14\:37
+entryLastCheckInUser=admin
+guid=3vAIA6eHEucUJJc1alrn317ENZv
+innovatorDisplayName=LatestVersion
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=JavaVersionIdFilter_1
+isSystemTemplate=true
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=Repository
+type=XML

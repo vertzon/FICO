@@ -1,0 +1,21 @@
+#Extended attributes for Innovator file-based repository (directory: 'JavaVersionCommentFilter')
+#Wed Feb 13 14:37:54 BRST 2019
+contentType=Template
+entryLastCheckInTime=13/02/19 14\:37
+entryLastCheckInUser=admin
+guid=BWhjMBVHHOYILAw3RHgGH1ZH4tg
+innovatorDisplayName=CommentForLatestVersion
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=JavaVersionCommentFilter
+isSystemTemplate=true
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=Repository
+type=XML

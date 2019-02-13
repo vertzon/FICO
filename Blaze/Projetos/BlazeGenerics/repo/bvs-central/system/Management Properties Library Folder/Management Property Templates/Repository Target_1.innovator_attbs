@@ -1,0 +1,15 @@
+#Extended attributes for Innovator file-based repository (directory: 'Repository Target_1')
+#Wed Feb 13 14:37:41 BRST 2019
+contentType=Template
+entryLastCheckInTime=13/02/19 14\:37
+entryLastCheckInUser=admin
+guid=1BjAorca9yRYHCImLZ7m2qA05Aq
+innovatorDisplayName=Repository Target
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=Repository Target_1
+isSystemTemplate=true
+subType=Management Property
+target=Repository
+type=Management Properties Definition

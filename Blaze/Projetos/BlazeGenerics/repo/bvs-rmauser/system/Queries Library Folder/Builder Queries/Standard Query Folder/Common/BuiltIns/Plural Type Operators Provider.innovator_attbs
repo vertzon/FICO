@@ -1,0 +1,20 @@
+#Extended attributes for Innovator file-based repository (directory: 'Plural Type Operators Provider')
+#Wed Feb 13 14:37:55 BRST 2019
+contentType=Provider
+entryLastCheckInTime=13/02/19 14\:37
+entryLastCheckInUser=admin
+guid=6l17bp8NZtS7e3pOHVEw5YdYUSd
+innovatorDisplayName=Plural Type Operators Provider
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=Plural Type Operators Provider
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=Repository
+type=Generic
