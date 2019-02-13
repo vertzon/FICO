@@ -1,0 +1,19 @@
+#Extended attributes for Eclipse file-based repository (directory: 'TechnicalLibrary')
+#Wed Feb 13 15:30:47 BRST 2019
+com.blazesoft.repository.local.locallycreated=true
+contentType=Fixed
+guid=JjQUDptEjPkuPoSa9LvtrJQ4ZLR
+innovatorDisplayName=TechnicalLibrary
+innovatorItemCreationId=rmauser
+innovatorLastModifiedUser=rmauser
+innovatorTemplateRef=ProjectEntityTemplate
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=Repository
+type=Project
