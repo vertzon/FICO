@@ -9,9 +9,9 @@ public class DecisionOutput implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
     
-    protected List<FiredRule> firedRules = new LinkedList();
-    protected List<AuditStep> auditedSteps = new LinkedList();
-    protected List<GenericVar> calculatedVars = new LinkedList();
+    protected List<FiredRule> firedRules = new LinkedList<FiredRule>();
+    protected List<AuditStep> auditedSteps = new LinkedList<AuditStep>();
+    protected List<GenericVar> calculatedVars = new LinkedList<GenericVar>();
     
     
     private HashMap<String, Object> USER_OUTPUT_VARS_GENERIC = new HashMap<String, Object>(); 

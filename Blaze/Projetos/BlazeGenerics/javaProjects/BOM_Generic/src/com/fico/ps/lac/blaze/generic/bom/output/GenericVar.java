@@ -9,7 +9,6 @@
 package com.fico.ps.lac.blaze.generic.bom.output;
 
 import java.io.Serializable;
-import java.math.BigDecimal;
 import java.util.Date;
 
 import com.fico.ps.lac.blaze.generic.bom.domain.GenericVarType;
