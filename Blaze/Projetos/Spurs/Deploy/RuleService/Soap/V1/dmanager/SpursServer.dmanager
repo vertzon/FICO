@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<DeploymentManagerConfig>
+	<CompilationSerializationMode> 0 </CompilationSerializationMode>
+
+	<DeploymentManagerAsynExceptionMulticasterFactory>
+		<JavaName> com.blazesoft.system.NdAsyncExceptionMulticaster </JavaName>
+	</DeploymentManagerAsynExceptionMulticasterFactory>
+
+
+	<DeploymentManagerEventMulticasterFactory>
+		<JavaName> com.blazesoft.server.deploy.manager.NdDeploymentManagerAsyncEventMulticaster </JavaName>
+	</DeploymentManagerEventMulticasterFactory>
+
+
+	<DeploymentManagerFactory>
+		<JavaName> com.blazesoft.server.deploy.manager.NdDeploymentManager </JavaName>
+	</DeploymentManagerFactory>
+
+
+	<DeploymentManagerMonitorFactory>
+		<JavaName> com.blazesoft.server.deploy.manager.NdDeploymentManagerOutputStreamAudit </JavaName>
+	</DeploymentManagerMonitorFactory>
+
+
+	<DeploymentManagerServerManagerFactory>
+		<ConnectionHost> localhost </ConnectionHost>
+		<ConnectionPort> 1099 </ConnectionPort>
+		<ConnectionProtocol> rmi </ConnectionProtocol>
+		<JavaName> com.blazesoft.server.deploy.manager.rmi.NdDeploymentManagerRmiServerManager </JavaName>
+		<ServerManagerName> SpursServerManager0 </ServerManagerName>
+	</DeploymentManagerServerManagerFactory>
+
+
+	<DeploymentManagerServiceResetExecutorFactory>
+		<JavaName> com.blazesoft.server.base.NdAsyncExecutor </JavaName>
+	</DeploymentManagerServiceResetExecutorFactory>
+
+
+	<DeploymentManagerSupportFactory>
+		<JavaName> com.blazesoft.server.deploy.manager.NdDeploymentManagerChangeMonitor </JavaName>
+	</DeploymentManagerSupportFactory>
+
+	<MemoryProjectCacheEnabled> false </MemoryProjectCacheEnabled>
+	<Name> SpursDManager </Name>
+	<Private> false </Private>
+
+	<RulesProjectInnovatorLoaderFactory>
+		<Id> Spurs1 </Id>
+
+		<InnovatorRepositoryAccessorFactory>
+			<JavaName> com.blazesoft.server.innovator.NdWorkspaceAccessor </JavaName>
+			<RepositoryAccessMode> 0 </RepositoryAccessMode>
+			<RepositoryConnectionMode> 0 </RepositoryConnectionMode>
+
+			<RepositoryEncryptionManagerConfig>
+
+				<EncryptionCipherFactory>
+					<DotNETCipher> TripleDES </DotNETCipher>
+					<DotNETCipherParameterFactory> com.blazesoft.util.crypto.dotnet.NdDotNETTripleDESCipherParameterFactory </DotNETCipherParameterFactory>
+					<JavaCipher> TripleDES </JavaCipher>
+					<JavaCipherParameterFactory> com.blazesoft.util.crypto.java.NdJavaTripleDESKeySpecFactory </JavaCipherParameterFactory>
+				</EncryptionCipherFactory>
+
+
+				<RepositoryEncryptionManagerFactory>
+					<JavaName> com.blazesoft.repository.base.NdDefaultRepositoryEncryptionManager </JavaName>
+				</RepositoryEncryptionManagerFactory>
+
+			</RepositoryEncryptionManagerConfig>
+
+
+			<WorkspaceConnection>
+				<Factory> com.blazesoft.repository.file.NdFileRepositoryConnection </Factory>
+
+				<Credentials>
+					<Factory> com.blazesoft.repository.base.NdUserPasswordCredentials </Factory>
+					<Password> PMppIKtwRBU=:6/HQML+rSJM= </Password>
+					<User> admin </User>
+				</Credentials>
+
+
+				<CredentialsFactory>
+					<JavaName> com.blazesoft.repository.base.NdUserPasswordCredentials </JavaName>
+				</CredentialsFactory>
+
+				<Name> spurs_bvsAdmin </Name>
+				<RepositoryFolder> C:\FICO\GIT\Blaze\Projetos\Spurs\repositorio\bvs-admin </RepositoryFolder>
+				<RepositoryName> bvs-admin </RepositoryName>
+			</WorkspaceConnection>
+
+		</InnovatorRepositoryAccessorFactory>
+
+		<JavaName> com.blazesoft.server.rules.NdRulesProjectPromInnovatorLoader </JavaName>
+		<MapAllPropertiesEnabled> false </MapAllPropertiesEnabled>
+		<Project> /RuleService/Spurs </Project>
+	</RulesProjectInnovatorLoaderFactory>
+
+	<UseDeploymentClassLoadingContext> true </UseDeploymentClassLoadingContext>
+</DeploymentManagerConfig>

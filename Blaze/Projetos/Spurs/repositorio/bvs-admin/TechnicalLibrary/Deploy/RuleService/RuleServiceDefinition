@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<template xmlns='http://www.blazesoft.com/template' name='RuleServiceDefinition'>
+ <ide-name>RuleServiceDefinition</ide-name>
+ <instantiation xmlns='http://www.blazesoft.com/instantiation' template='18uqQPJXnTmKrAiLEOVcQMUAFmD' name='Entry' id='Entry'>
+  <instance ref='Source Reference'>
+   <instance ref='value'>
+    <instance ref='locationVH'>
+     <value></value>
+    </instance>
+    <instance ref='repositoryNameVH'>
+     <value></value>
+    </instance>
+    <instance ref='versionVH'>
+     <value></value>
+    </instance>
+    <instance ref='filterVH'>
+     <value></value>
+    </instance>
+    <instance ref='releaseDateVH'>
+     <value></value>
+    </instance>
+    <instance ref='repositoryAccessVH'>
+     <value></value>
+    </instance>
+   </instance>
+  </instance>
+  <instance ref='Predictive Model Type'>
+   <instance ref='value'>
+    <value>NotApplicable</value>
+   </instance>
+  </instance>
+ </instantiation>
+ <family>Rule Service Definition Template</family>
+ <template:content xmlns:template='http://www.blazesoft.com/template' xmlns='' section='xml'>
+
+<RuleServiceDefinition>
+   <Description type='xsd:string'></Description>
+   <EntryPoint>
+    <Factory>com.blazesoft.server.deploy.rules.NdDeployRulesServiceEntryPointConfig</Factory>
+    <AlwaysMapObjectsForDefaultModeRuleSets>false</AlwaysMapObjectsForDefaultModeRuleSets>
+    <AlwaysMapPostedObjects>false</AlwaysMapPostedObjects>
+    <EntryPointId>calculaContrato</EntryPointId>
+    <SrlInvocationFunctional>
+     <SrlArgumentType>BlazePayload</SrlArgumentType>
+     <SrlName>calulaContrato</SrlName>
+     <SrlReturnType>BlazePayload</SrlReturnType>
+    </SrlInvocationFunctional>
+   </EntryPoint>
+   <Name>RuleServiceDefinition</Name>
+   <RuleServiceName>Spurs</RuleServiceName>
+   <ValueMapperOptions></ValueMapperOptions>
+  </RuleServiceDefinition>
+</template:content>
+</template>

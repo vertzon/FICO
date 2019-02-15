@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<DeployRulesServerConfig>
+	<AllowUnusedValues> false </AllowUnusedValues>
+
+	<DeployRulesServiceConfig>
+		<ClassLoadingContextUpdatePolicy> 0 </ClassLoadingContextUpdatePolicy>
+
+		<DeployRulesServiceClientContextFactory>
+
+			<DeployRulesServiceEntryPointConfig>
+				<AlwaysMapObjectsForDefaultModeRuleSets> false </AlwaysMapObjectsForDefaultModeRuleSets>
+				<AlwaysMapPostedObjects> false </AlwaysMapPostedObjects>
+				<EntryPointId> calculaContrato </EntryPointId>
+
+				<SrlInvocationFunctional>
+					<SrlArgumentType> BlazePayload </SrlArgumentType>
+					<SrlName> calulaContrato </SrlName>
+					<SrlReturnType> BlazePayload </SrlReturnType>
+				</SrlInvocationFunctional>
+
+			</DeployRulesServiceEntryPointConfig>
+
+			<JavaName> com.blazesoft.server.deploy.rules.NdDeployInvokerMapperRulesServiceClientContext </JavaName>
+			<MaxServiceInvocationCount> 1 </MaxServiceInvocationCount>
+		</DeployRulesServiceClientContextFactory>
+
+		<Name> Spurs </Name>
+		<NumAgents> 10 </NumAgents>
+		<RecyclePolicy> 0 </RecyclePolicy>
+		<RuleExceptionHandlingPolicy> 0 </RuleExceptionHandlingPolicy>
+
+		<RulesServiceAgentFactoryFactory>
+			<JavaName> com.blazesoft.server.rules.NdScriptRulesServiceAgentFactory </JavaName>
+
+			<SerializedRulesProjectLoaderFactory>
+
+				<DeploymentManagerServiceInfoFactory>
+					<JavaName> com.blazesoft.server.deploy.manager.NdDeploymentManagerServiceInfoImpl </JavaName>
+				</DeploymentManagerServiceInfoFactory>
+
+				<Id> Spurs1 </Id>
+				<JavaName> com.blazesoft.server.rules.NdSerializedRulesProjectFileLoader </JavaName>
+				<SerializationMode> 1 </SerializationMode>
+				<ServerManagerName> SpursServerManager0 </ServerManagerName>
+				<UseStream> false </UseStream>
+			</SerializedRulesProjectLoaderFactory>
+
+		</RulesServiceAgentFactoryFactory>
+
+
+		<ServiceAgentReloaderFactory>
+			<JavaName> com.blazesoft.server.local.NdLocalServiceAgentDispenserReloaderThread </JavaName>
+		</ServiceAgentReloaderFactory>
+
+
+		<ServiceAgentResetterFactory>
+			<JavaName> com.blazesoft.server.local.NdLocalServiceAgentDispenserResetterThread </JavaName>
+		</ServiceAgentResetterFactory>
+
+
+		<ServiceAgentValueMapperFactory>
+
+			<DeploymentValueMapperConfig>
+				<UseNativeTypesForArrayAndAssociation> true </UseNativeTypesForArrayAndAssociation>
+				<UseNativeTypesForCalendarValues> true </UseNativeTypesForCalendarValues>
+				<UseNativeTypesForMoneyValues> true </UseNativeTypesForMoneyValues>
+				<UseNativeTypesForPrimitiveValues> true </UseNativeTypesForPrimitiveValues>
+			</DeploymentValueMapperConfig>
+
+			<JavaName> com.blazesoft.server.deploy.webservice.java.NdRulesJavaWebServiceValueMapper </JavaName>
+		</ServiceAgentValueMapperFactory>
+
+		<ServiceInvocationsDuringResetPolicy> 0 </ServiceInvocationsDuringResetPolicy>
+		<ServiceMonitorThreadGroupMaxPriority> 10 </ServiceMonitorThreadGroupMaxPriority>
+		<ServiceResetExceptionPolicy> 0 </ServiceResetExceptionPolicy>
+		<ServiceResetTimeout> 0 </ServiceResetTimeout>
+
+		<ServiceRuntimeExceptionMulticasterFactory>
+			<JavaName> com.blazesoft.server.local.NdServiceExceptionMulticaster </JavaName>
+		</ServiceRuntimeExceptionMulticasterFactory>
+
+		<ServiceSessionTimeout> 0 </ServiceSessionTimeout>
+		<ServiceThreadGroupMaxPriority> 10 </ServiceThreadGroupMaxPriority>
+
+		<ServiceThreadGroupsExceptionMulticasterFactory>
+			<JavaName> com.blazesoft.server.local.NdServiceThreadGroupsExceptionMulticaster </JavaName>
+		</ServiceThreadGroupsExceptionMulticasterFactory>
+
+		<UseDeploymentClassLoadingContext> true </UseDeploymentClassLoadingContext>
+	</DeployRulesServiceConfig>
+
+	<DeploymentEnvironment> Java </DeploymentEnvironment>
+
+	<DeploymentManagerServerManagerFactory>
+		<ConnectionHost> localhost </ConnectionHost>
+		<ConnectionPort> 1099 </ConnectionPort>
+		<ConnectionProtocol> rmi </ConnectionProtocol>
+		<HeartBeat> 5000 </HeartBeat>
+		<JavaName> com.blazesoft.server.deploy.manager.rmi.NdDeploymentManagerRmiServerManagerAdapter </JavaName>
+		<ServerManagerName> SpursServerManager0 </ServerManagerName>
+	</DeploymentManagerServerManagerFactory>
+
+	<Name> Spurs </Name>
+
+	<ServerAsyncExceptionMulticasterFactory>
+		<JavaName> com.blazesoft.system.NdAsyncExceptionMulticaster </JavaName>
+	</ServerAsyncExceptionMulticasterFactory>
+
+
+	<ServerFactory>
+		<JavaName> com.blazesoft.server.deploy.NdStatelessServer </JavaName>
+	</ServerFactory>
+
+	<ServerMonitorThreadGroupMaxPriority> 10 </ServerMonitorThreadGroupMaxPriority>
+	<ServerThreadGroupMaxPriority> 10 </ServerThreadGroupMaxPriority>
+
+	<ServiceManagerFactory>
+		<JavaName> com.blazesoft.server.local.NdLocalServiceManager </JavaName>
+	</ServiceManagerFactory>
+
+	<ShutdownOnZeroRefCount> false </ShutdownOnZeroRefCount>
+	<UseCallingContext> false </UseCallingContext>
+</DeployRulesServerConfig>
+
+
+<!--QDI
+<?xml version="1.0" encoding="UTF-8" ?>
+<WebQDeployerSubConfig>
+	<ClientType> Java </ClientType>
+	<Directory> C:\FICO\GIT\Blaze\Projetos\Spurs\Deploy\RuleService\Soap\V1 </Directory>
+	<DynamicConfig>
+		<Factory> com.blazesoft.server.deploygen.definitions.NdEditableDynamicConfig </Factory>
+		<Name> Host </Name>
+		<TargetLanguage> Java </TargetLanguage>
+		<Value> localhost </Value>
+	</DynamicConfig>
+	<DynamicConfig>
+		<Factory> com.blazesoft.server.deploygen.definitions.NdEditableDynamicConfig </Factory>
+		<Name> Port </Name>
+		<TargetLanguage> Java </TargetLanguage>
+		<Value> 8080 </Value>
+	</DynamicConfig>
+	<DynamicConfig>
+		<Factory> com.blazesoft.server.deploygen.definitions.NdEditableDynamicConfig </Factory>
+		<Name> WebServiceNamespace </Name>
+		<TargetLanguage> Java </TargetLanguage>
+		<Value> http://package.name.in.reverse.order </Value>
+	</DynamicConfig>
+	<GeneratingWebService> false </GeneratingWebService>
+	<Package> qdspurs </Package>
+	<Prefix></Prefix>
+	<ServerClassName> com.blazesoft.server.deploy.NdStatelessServer </ServerClassName>
+	<TargetLanguage> Java </TargetLanguage>
+	<UseAbsolute> true </UseAbsolute>
+	<UseDebugLogger> false </UseDebugLogger>
+	<UseInCodeConfig> false </UseInCodeConfig>
+	<UseInitializer> false </UseInitializer>
+</WebQDeployerSubConfig>
+-->

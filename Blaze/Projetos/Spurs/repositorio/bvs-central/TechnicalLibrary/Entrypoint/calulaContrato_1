@@ -60,6 +60,14 @@
  </instance>
  <instance ref='FunctionParametersVH'>
   <instance-list ref='ParametersVH'>
+   <item template='DRNZKQyw5rcjBd4Yxo6FN649lWN.template1' id='6sz8TE'>
+    <instance ref='ParameterNameVH'>
+     <value>parameter1</value>
+    </instance>
+    <instance ref='ParameterTypeVH'>
+     <value>BlazeResponse</value>
+    </instance>
+   </item>
    <item template='DRNZKQyw5rcjBd4Yxo6FN649lWN.template1' id='VAOR3c'>
     <instance ref='ParameterNameVH'>
      <value>input</value>

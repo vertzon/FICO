@@ -1,4 +1,4 @@
-#Extended attributes for Innovator file-based repository (directory: 'calulaContrato')
+#Extended attributes for Innovator file-based repository (directory: 'calulaContrato_2')
 #Fri Feb 15 11:15:54 BRST 2019
 contentType=Instance
 entryLastCheckInTime=15/02/19 11\:15
@@ -8,6 +8,7 @@ innovatorDisplayName=calulaContrato
 innovatorItemCreationId=admin
 innovatorItemVersionId=2
 innovatorLastModifiedUser=admin
+innovatorName=calulaContrato_2
 innovatorTemplateRef=Q8jH6kHdOYIZ1uG0WKXqvvejqv0
 managementProperty.Predictive\ Model\ Type=NotApplicable
 managementProperty.Source\ Reference.filterVH=

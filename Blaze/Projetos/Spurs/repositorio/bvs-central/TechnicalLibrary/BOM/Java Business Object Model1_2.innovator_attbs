@@ -1,14 +1,14 @@
-#Extended attributes for Innovator file-based repository (directory: 'calulaContrato')
-#Fri Feb 15 11:15:54 BRST 2019
-contentType=Instance
-entryLastCheckInTime=15/02/19 11\:15
+#Extended attributes for Innovator file-based repository (directory: 'Java Business Object Model1_2')
+#Fri Feb 15 10:59:21 BRST 2019
+contentType=Fixed
+entryLastCheckInTime=15/02/19 10\:59
 entryLastCheckInUser=admin
-guid=RYhu5KWM6lHZ8VOVVoPIJr3Gtfc
-innovatorDisplayName=calulaContrato
+guid=Jb3817wpZ6QYtzuhNT3gJt1nhRc
+innovatorDisplayName=BOM
 innovatorItemCreationId=admin
 innovatorItemVersionId=2
 innovatorLastModifiedUser=admin
-innovatorTemplateRef=Q8jH6kHdOYIZ1uG0WKXqvvejqv0
+innovatorName=Java Business Object Model1_2
 managementProperty.Predictive\ Model\ Type=NotApplicable
 managementProperty.Source\ Reference.filterVH=
 managementProperty.Source\ Reference.locationVH=
@@ -16,8 +16,6 @@ managementProperty.Source\ Reference.releaseDateVH=
 managementProperty.Source\ Reference.repositoryAccessVH=
 managementProperty.Source\ Reference.repositoryNameVH=
 managementProperty.Source\ Reference.versionVH=
-managementProperty.Test\ Case=
-managementProperty.Test\ Role=None
-subType=None
+subType=Java BOM
 target=SRL
-type=SRL Function
+type=Business Object Model
