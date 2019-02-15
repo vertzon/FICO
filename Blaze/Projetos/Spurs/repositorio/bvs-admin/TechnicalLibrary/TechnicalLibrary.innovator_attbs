@@ -1,0 +1,21 @@
+#Extended attributes for Eclipse file-based repository (directory: 'TechnicalLibrary')
+#Thu Feb 14 18:20:25 BRST 2019
+contentType=Fixed
+entryLastCheckInTime=14/02/19 18\:20
+entryLastCheckInUser=admin
+guid=ECRrXnoS76gjvDWPovU7sS5re4n
+innovatorDisplayName=TechnicalLibrary
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorTemplateRef=ProjectEntityTemplate
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=Repository
+type=Project

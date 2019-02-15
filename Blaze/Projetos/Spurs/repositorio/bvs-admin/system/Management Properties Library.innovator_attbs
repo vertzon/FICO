@@ -1,0 +1,18 @@
+#Extended attributes for Innovator file-based repository (directory: 'Management Properties Library')
+#Thu Feb 14 17:45:08 BRST 2019
+contentType=Fixed
+entryLastCheckInTime=14/02/19 17\:44
+entryLastCheckInUser=admin
+guid=1bxrltkdfYPx3ZA5vUaPgA3XizN
+innovatorDisplayName=Management Properties Library
+innovatorItemCreationId=admin
+innovatorItemType=Innovator instance
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=Management Properties Library
+innovatorShortDesc=
+innovatorTemplateRef=ProjectEntityTemplate
+isSystemTemplate=true
+subType=None
+target=Repository
+type=Project

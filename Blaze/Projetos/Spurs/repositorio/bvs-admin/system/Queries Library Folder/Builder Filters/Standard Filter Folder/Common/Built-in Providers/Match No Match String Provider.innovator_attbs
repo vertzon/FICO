@@ -1,0 +1,21 @@
+#Extended attributes for Innovator file-based repository (directory: 'Match No Match String Provider')
+#Thu Feb 14 17:45:11 BRST 2019
+contentType=Provider
+entryLastCheckInTime=14/02/19 17\:44
+entryLastCheckInUser=admin
+guid=VIgvdFiJTqqjZaxj68xs1Gcq4EV
+innovatorDisplayName=Match No Match String Provider
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=Match No Match String Provider
+isSystemTemplate=true
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=Repository
+type=Value List

@@ -1,0 +1,21 @@
+#Extended attributes for Innovator file-based repository (directory: 'calulaContrato')
+#Thu Feb 14 18:43:07 BRST 2019
+com.blazesoft.repository.local.locallycreated=true
+contentType=Instance
+guid=RYhu5KWM6lHZ8VOVVoPIJr3Gtfc
+innovatorDisplayName=calulaContrato
+innovatorItemCreationId=admin
+innovatorLastModifiedUser=admin
+innovatorTemplateRef=Q8jH6kHdOYIZ1uG0WKXqvvejqv0
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+managementProperty.Test\ Case=
+managementProperty.Test\ Role=None
+subType=None
+target=SRL
+type=SRL Function

@@ -1,0 +1,21 @@
+#Extended attributes for Eclipse file-based repository (directory: 'Java Business Object Model1')
+#Fri Feb 15 10:51:46 BRST 2019
+com.blazesoft.repository.local.checkedOut=admin
+contentType=Fixed
+entryLastCheckInTime=14/02/19 18\:20
+entryLastCheckInUser=admin
+guid=Jb3817wpZ6QYtzuhNT3gJt1nhRc
+innovatorDisplayName=BOM
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=Java BOM
+target=SRL
+type=Business Object Model

@@ -1,0 +1,22 @@
+#Extended attributes for Innovator file-based repository (directory: 'SpursTesting_1')
+#Thu Feb 14 18:20:25 BRST 2019
+contentType=Fixed
+entryLastCheckInTime=14/02/19 18\:20
+entryLastCheckInUser=admin
+guid=TH5C18MXE20nyucxGD5dLJ4ynTt
+innovatorDisplayName=SpursTesting
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=SpursTesting_1
+innovatorTemplateRef=ProjectEntityTemplate
+managementProperty.Predictive\ Model\ Type=NotApplicable
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=Repository
+type=Project

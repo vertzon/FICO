@@ -1,0 +1,12 @@
+#Extended attributes for Innovator file-based repository (directory: 'Srl Entities')
+#Thu Feb 14 17:45:10 BRST 2019
+entryLastCheckInTime=14/02/19 17\:44
+entryLastCheckInUser=admin
+guid=1tAbcPksfJuw62XuArifCQdfpQM
+innovatorDisplayName=SrlEntitiesFolder
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorName=Srl Entities
+isNameLocalized=true
+isSystemDirectory=true
+resourceBundle=com.blazesoft.template.repository.properties.strings

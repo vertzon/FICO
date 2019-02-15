@@ -1,0 +1,22 @@
+#Extended attributes for Innovator file-based repository (directory: 'Historical Information Filter')
+#Thu Feb 14 17:45:14 BRST 2019
+contentType=Template
+entryLastCheckInTime=14/02/19 17\:44
+entryLastCheckInUser=admin
+guid=OOn55CCIGl89X8CBKyJfRFaSfjl
+innovatorDisplayName=HistoricalInformationFilter
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=Historical Information Filter
+isSystemTemplate=true
+managementProperty.Source\ Reference=
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=SRL
+type=SRL Code

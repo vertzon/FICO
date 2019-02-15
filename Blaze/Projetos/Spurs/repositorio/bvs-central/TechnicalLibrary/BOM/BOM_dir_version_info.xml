@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<VersionInfoTable>
+	<ItemName>BOM</ItemName>
+	<IsDirectory>true</IsDirectory>
+	<IsEntryDeleted>false</IsEntryDeleted>
+	<VersionElement VersionId="1">
+		<User>admin</User>
+		<Comment></Comment>
+		<Timestamp>14 Feb 2019 20:20:25 GMT</Timestamp>
+		<EntryAttribute>
+			<AttributeKey>entryLastCheckInTime</AttributeKey>
+			<AttributeValue>14/02/19 18:20</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>entryLastCheckInUser</AttributeKey>
+			<AttributeValue>admin</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>guid</AttributeKey>
+			<AttributeValue>GiPSR45KTXwvVpbFpmEN6vgifdq</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>innovatorDisplayName</AttributeKey>
+			<AttributeValue>BOM</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>innovatorItemCreationId</AttributeKey>
+			<AttributeValue>admin</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>innovatorItemVersionId</AttributeKey>
+			<AttributeValue>1</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>innovatorName</AttributeKey>
+			<AttributeValue>BOM</AttributeValue>
+		</EntryAttribute>
+	</VersionElement>
+</VersionInfoTable>

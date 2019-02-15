@@ -1,0 +1,20 @@
+#Extended attributes for Innovator file-based repository (directory: 'DateLiteralTemplate_1')
+#Thu Feb 14 17:45:02 BRST 2019
+contentType=Template
+entryLastCheckInTime=14/02/19 17\:44
+entryLastCheckInUser=admin
+guid=Y45gkvYBvuYk0YPNDBT9VDwHq3u
+innovatorDisplayName=DateLiteralTemplate
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=DateLiteralTemplate_1
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=SRL
+type=SRL Code

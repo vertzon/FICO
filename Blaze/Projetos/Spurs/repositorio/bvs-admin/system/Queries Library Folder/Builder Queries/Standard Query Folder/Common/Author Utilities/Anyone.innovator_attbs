@@ -1,0 +1,21 @@
+#Extended attributes for Innovator file-based repository (directory: 'Anyone')
+#Thu Feb 14 17:45:13 BRST 2019
+contentType=Template
+entryLastCheckInTime=14/02/19 17\:44
+entryLastCheckInUser=admin
+guid=IeQPBhUGKf25cIVwWF06hyIHHHV
+innovatorDisplayName=Anyone
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=Anyone
+isSystemTemplate=true
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=SRL
+type=SRL Code

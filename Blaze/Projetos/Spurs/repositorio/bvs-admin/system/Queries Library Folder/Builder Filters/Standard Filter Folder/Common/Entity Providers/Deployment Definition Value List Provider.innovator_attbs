@@ -1,0 +1,21 @@
+#Extended attributes for Innovator file-based repository (directory: 'Deployment Definition Value List Provider')
+#Thu Feb 14 17:45:12 BRST 2019
+contentType=Provider
+entryLastCheckInTime=14/02/19 17\:44
+entryLastCheckInUser=admin
+guid=OM6sIGEIg1w52Teu2w2NGdvRH0O
+innovatorDisplayName=Deployment Definition Value List Provider
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=Deployment Definition Value List Provider
+managementProperty.Simulation\ Role=<None>
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=Repository
+type=Value List

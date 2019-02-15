@@ -1,0 +1,15 @@
+#Extended attributes for Innovator file-based repository (directory: 'Repository Target')
+#Thu Feb 14 17:45:11 BRST 2019
+contentType=Provider
+entryLastCheckInTime=14/02/19 17\:44
+entryLastCheckInUser=admin
+guid=1jJLC5awkpUktiyGzomBZwenJcy
+innovatorDisplayName=repository target
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=Repository Target
+isSystemTemplate=true
+subType=None
+target=Repository
+type=Generic

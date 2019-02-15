@@ -1,0 +1,22 @@
+#Extended attributes for Innovator file-based repository (directory: 'JavaSrlContentFilter_1')
+#Thu Feb 14 17:44:57 BRST 2019
+contentType=Template
+entryLastCheckInTime=14/02/19 17\:44
+entryLastCheckInUser=admin
+guid=JMOmDyXhUR1xC63CAdRhf6wZ8IA
+innovatorDisplayName=TextContent
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=JavaSrlContentFilter_1
+isSystemTemplate=true
+managementProperty.Source\ Reference=
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=Repository
+type=XML

@@ -1,0 +1,20 @@
+#Extended attributes for Innovator file-based repository (directory: 'Entry Versions Provider')
+#Thu Feb 14 17:45:15 BRST 2019
+contentType=Provider
+entryLastCheckInTime=14/02/19 17\:44
+entryLastCheckInUser=admin
+guid=CDEo9QeGDyzvwSRXkLIJWeQg8cd
+innovatorDisplayName=Entry Versions Provider
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=Entry Versions Provider
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=Repository
+type=Intersection

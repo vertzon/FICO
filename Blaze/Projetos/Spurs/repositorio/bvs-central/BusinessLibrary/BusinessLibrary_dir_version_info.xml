@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<VersionInfoTable>
+	<ItemName>BusinessLibrary</ItemName>
+	<IsDirectory>true</IsDirectory>
+	<IsEntryDeleted>false</IsEntryDeleted>
+	<VersionElement VersionId="1">
+		<User>admin</User>
+		<Comment></Comment>
+		<Timestamp>14 Feb 2019 20:20:24 GMT</Timestamp>
+		<EntryAttribute>
+			<AttributeKey>entryLastCheckInTime</AttributeKey>
+			<AttributeValue>14/02/19 18:20</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>entryLastCheckInUser</AttributeKey>
+			<AttributeValue>admin</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>guid</AttributeKey>
+			<AttributeValue>SUmpiHH2K5uBBXtftYiQ9L9YKx7</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>innovatorDisplayName</AttributeKey>
+			<AttributeValue>BusinessLibrary</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>innovatorItemCreationId</AttributeKey>
+			<AttributeValue>admin</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>innovatorItemVersionId</AttributeKey>
+			<AttributeValue>1</AttributeValue>
+		</EntryAttribute>
+		<EntryAttribute>
+			<AttributeKey>innovatorName</AttributeKey>
+			<AttributeValue>BusinessLibrary</AttributeValue>
+		</EntryAttribute>
+	</VersionElement>
+</VersionInfoTable>

@@ -1,0 +1,20 @@
+#Extended attributes for Innovator file-based repository (directory: 'RangeExpressionProvider_1')
+#Thu Feb 14 17:45:01 BRST 2019
+contentType=Provider
+entryLastCheckInTime=14/02/19 17\:44
+entryLastCheckInUser=admin
+guid=H2NRwKlV1id3pFI4vBT1NmLVSAL
+innovatorDisplayName=RangeExpressionProvider
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=RangeExpressionProvider_1
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=Repository
+type=Template List

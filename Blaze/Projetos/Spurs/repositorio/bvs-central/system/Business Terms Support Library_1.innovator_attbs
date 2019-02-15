@@ -1,0 +1,18 @@
+#Extended attributes for Innovator file-based repository (directory: 'Business Terms Support Library_1')
+#Thu Feb 14 17:44:54 BRST 2019
+contentType=Fixed
+entryLastCheckInTime=14/02/19 17\:44
+entryLastCheckInUser=admin
+guid=1yhJlBfyePIgPklPozM2zwKngIj
+innovatorDisplayName=Business Terms Support Library
+innovatorItemCreationId=admin
+innovatorItemType=Innovator instance
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=Business Terms Support Library_1
+innovatorShortDesc=
+innovatorTemplateRef=ProjectEntityTemplate
+isSystemTemplate=true
+subType=None
+target=Repository
+type=Project

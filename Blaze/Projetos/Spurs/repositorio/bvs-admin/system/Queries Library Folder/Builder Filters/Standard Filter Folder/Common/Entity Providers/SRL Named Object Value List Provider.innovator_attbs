@@ -1,0 +1,21 @@
+#Extended attributes for Innovator file-based repository (directory: 'SRL Named Object Value List Provider')
+#Thu Feb 14 17:45:11 BRST 2019
+contentType=Provider
+entryLastCheckInTime=14/02/19 17\:44
+entryLastCheckInUser=admin
+guid=aKKLG8KuASGOgutID0nqLCgavUo
+innovatorDisplayName=SRL Named Object Value List Provider
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=SRL Named Object Value List Provider
+isSystemTemplate=true
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=Repository
+type=Value List

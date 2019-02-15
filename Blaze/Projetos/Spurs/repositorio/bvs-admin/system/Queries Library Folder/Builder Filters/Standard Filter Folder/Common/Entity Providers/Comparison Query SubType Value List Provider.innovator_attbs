@@ -1,0 +1,20 @@
+#Extended attributes for Innovator file-based repository (directory: 'Comparison Query SubType Value List Provider')
+#Thu Feb 14 17:45:12 BRST 2019
+contentType=Provider
+entryLastCheckInTime=14/02/19 17\:44
+entryLastCheckInUser=admin
+guid=OvFHZQ5x5AWPo9qNB1jOy9b3fqX
+innovatorDisplayName=Comparison Query SubType Value List Provider
+innovatorItemCreationId=admin
+innovatorItemVersionId=1
+innovatorLastModifiedUser=admin
+innovatorName=Comparison Query SubType Value List Provider
+managementProperty.Source\ Reference.filterVH=
+managementProperty.Source\ Reference.locationVH=
+managementProperty.Source\ Reference.releaseDateVH=
+managementProperty.Source\ Reference.repositoryAccessVH=
+managementProperty.Source\ Reference.repositoryNameVH=
+managementProperty.Source\ Reference.versionVH=
+subType=None
+target=Repository
+type=Value List
